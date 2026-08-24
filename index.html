@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>GeoEDL Uberlândia</title>
+
+    <!-- Leaflet -->
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <!-- CSS do Projeto -->
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+<input
+    type="file"
+    id="inputGeoJSON"
+    accept=".geojson,.json"
+    style="display:none">
+
+<body>
+
+    <!-- ===================================== -->
+    <!-- MAPA -->
+    <!-- ===================================== -->
+
+    <div id="map"></div>
+
+    <!-- ===================================== -->
+    <!-- TOOLBAR -->
+    <!-- ===================================== -->
+
+    <div id="toolbar">
+
+        <button id="btnCamadas"
+                title="Camadas">
+            📂
+        </button>
+
+        <button id="btnMedir"
+                title="Medição">
+            📏
+        </button>
+
+        <button id="btnBuscar"
+                title="Pesquisar">
+            🔍
+        </button>
+
+        <button id="btnAtualizar"
+        title="Atualizar EDLs">
+    🔄
+        </button>
+
+        <button id="btnImprimir"
+                title="Exportar">
+            🖨
+        </button>
+
+        <button id="btnConfig"
+                title="Configurações">
+            ⚙
+        </button>
+
+    </div>
+
+    <!-- ===================================== -->
+    <!-- PAINEL CAMADAS -->
+    <!-- ===================================== -->
+
+    <div id="painelLateral"
+         class="painel-fechado">
+
+        <div class="painel-titulo">
+
+            <h2>GeoEDL Uberlândia</h2>
+
+        </div>
+
+        <div class="painel-conteudo">
+
+    <h3>Camadas</h3>
+
+    <label>
+        <input type="checkbox" id="chkLimite" checked>
+        Limite Municipal
+    </label>
+
+    <label>
+        <input type="checkbox" id="chkBairros" checked>
+        Bairros
+    </label>
+
+    <label>
+        <input type="checkbox" id="chkAreas" checked>
+        Áreas Implantadas
+    </label>
+
+    <label>
+        <input type="checkbox" id="chkEDLs" checked>
+        EDLs
+    </label>
+
+</div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- PAINEL BUSCA -->
+    <!-- ===================================== -->
+
+    <div id="painelBusca"
+         class="painel-fechado">
+
+        <div class="painel-titulo">
+
+            <h2>Pesquisar</h2>
+
+        </div>
+
+        <div class="painel-conteudo">
+
+    <h3>Pesquisar por</h3>
+
+    <label>
+        <input type="radio" name="tipoBusca" value="codigo" checked>
+        Código EDL
+    </label>
+
+    <label>
+        <input type="radio" name="tipoBusca" value="endereco">
+        Endereço
+    </label>
+
+        <label>
+        <input type="radio" name="tipoBusca" value="qt">
+        QT
+    </label>
+
+     <hr>
+
+    <input
+        id="txtBuscaEDL"
+        type="text"
+        placeholder="Digite sua pesquisa">
+
+    <button id="btnBuscarEDL">
+        Localizar
+    </button>
+
+    <p id="contadorResultados"
+   style="margin-top:10px;
+          color:#0b5394;
+          font-weight:600;
+          display:none;">
+</p>
+
+    <hr>
+
+    <h3>Informações da EDL</h3>
+
+<p>
+    <strong>Código</strong><br>
+    <span id="infoCodigo">-</span>
+</p>
+
+<p>
+    <strong>QT</strong><br>
+    <span id="infoQT">-</span>
+</p>
+
+<p>
+    <strong>Imóvel</strong><br>
+    <span id="infoImovel">-</span>
+</p>
+
+<p>
+    <strong>Endereço</strong><br>
+    <span id="infoEndereco">-</span>
+</p>
+
+<p>
+    <strong>Latitude</strong><br>
+    <span id="infoLatitude">-</span>
+</p>
+
+<p>
+    <strong>Longitude</strong><br>
+    <span id="infoLongitude">-</span>
+</p>
+
+<p>
+    <strong>Sistema</strong><br>
+    EPSG:4326
+</p>
+
+    </div>
+
+    <!-- ===================================== -->
+    <!-- LEAFLET -->
+    <!-- ===================================== -->
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- ===================================== -->
+    <!-- MÓDULOS -->
+    <!-- ===================================== -->
+
+    <script src="js/mapa.js"></script>
+    <script src="js/painel.js"></script>
+    <script src="js/busca.js"></script>
+    <script src="js/regua.js"></script>
+    <script src="js/atualizar.js"></script>
+
+</body>
+
+</html>
