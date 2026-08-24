@@ -41,35 +41,35 @@ function carregarNovoGeoJSON(e){
 
     reader.onload = function(event){
 
-    try{
+        try{
 
-        const geojson = JSON.parse(event.target.result);
+            const geojson = JSON.parse(event.target.result);
 
-        // Remove a camada antiga
-        if(camadaEDLs){
+            // Remove a camada antiga
+            if(camadaEDLs){
 
-            map.removeLayer(camadaEDLs);
+                map.removeLayer(camadaEDLs);
+
+            }
+
+            // Cria novamente a camada
+            criarCamadaEDLs(geojson);
+
+            alert("EDLs atualizadas com sucesso!");
+
+            // Permite selecionar novamente o mesmo arquivo
+            inputGeoJSON.value = "";
+
+        }catch(err){
+
+            alert("Arquivo GeoJSON inválido.");
+
+            console.error(err);
 
         }
 
-        // Cria a nova camada
-        criarCamadaEDLs(geojson);
-
-        alert("EDLs atualizadas com sucesso!");
-
-        // limpa o campo para permitir carregar
-        // novamente o mesmo arquivo
-        inputGeoJSON.value = "";
-
-    }catch(err){
-
-        alert("Arquivo GeoJSON inválido.");
-
-        console.error(err);
-
-    }
-
-};
+    };
 
     reader.readAsText(arquivo);
 
+}
