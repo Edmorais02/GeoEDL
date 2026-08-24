@@ -367,3 +367,77 @@ document.getElementById("chkEDLs").addEventListener("change", function(){
     }
 
 });
+
+// =======================================================
+// ATUALIZA O PAINEL DA EDL
+// =======================================================
+
+function atualizarPainelEDL(layer){
+
+    const props = layer.feature.properties;
+    const latlng = layer.getLatLng();
+
+    document.getElementById("infoCodigo").textContent =
+        props["Cód."] || "";
+
+    document.getElementById("infoQT").textContent =
+        props["QT"] || "";
+
+    document.getElementById("infoImovel").textContent =
+        props["Imóvel"] || "";
+
+    document.getElementById("infoEndereco").textContent =
+        props["Endereço completo"] || "";
+
+    document.getElementById("infoLatitude").textContent =
+        latlng.lat.toFixed(6);
+
+    document.getElementById("infoLongitude").textContent =
+        latlng.lng.toFixed(6);
+
+}
+
+// =======================================================
+// DESTACA UMA EDL
+// =======================================================
+
+function destacarEDL(layer){
+
+    map.flyTo(layer.getLatLng(),18,{
+
+        animate:true,
+        duration:1.5
+
+    });
+
+    atualizarPainelEDL(layer);
+
+    layer.openPopup();
+
+    const estiloOriginal={
+
+        radius:6,
+        color:"#c58f00",
+        weight:2,
+        fillColor:"#ffd000",
+        fillOpacity:1
+
+    };
+
+    layer.setStyle({
+
+        radius:12,
+        color:"#ff0000",
+        weight:4,
+        fillColor:"#ffff00",
+        fillOpacity:1
+
+    });
+
+    setTimeout(function(){
+
+        layer.setStyle(estiloOriginal);
+
+    },2500);
+
+}
