@@ -219,91 +219,20 @@ function criarCamadaEDLs(data){
 // EDLs
 // =======================================================
 
+// =======================================================
+// EDLs
+// =======================================================
+
 fetch("data/EDLs.geojson")
-.then(r => r.json())
-.then(data => {
+    .then(r => r.json())
+    .then(data => {
 
-    camadaEDLs = L.geoJSON(data,{
+        criarCamadaEDLs(data);
 
-        pointToLayer: function(feature, latlng){
+        criarControleCamadas();
 
-            return L.circleMarker(latlng,{
-
-                radius:6,
-                color:"#c58f00",
-                weight:2,
-                fillColor:"#ffd000",
-                fillOpacity:1
-
-            });
-
-        },
-
-        onEachFeature: function(feature, layer){
-
-            layer.on({
-
-    mouseover:function(e){
-
-        e.target.setStyle({
-
-            radius:9,
-            color:"#ff0000",
-            weight:3
-
-        });
-
-    },
-
-    mouseout:function(e){
-
-        e.target.setStyle({
-
-            radius:6,
-            color:"#c58f00",
-            weight:2
-
-        });
-
-    },
-
-    click:function(e){
-
-        destacarEDL(e.target);
-
-    }
-
-});
-
-            const codigo = feature.properties["Cód."] || "";
-            const qt = feature.properties["QT"] || "";
-            const imovel = feature.properties["Imóvel"] || "";
-            const endereco = feature.properties["Endereço completo"] || "";
-
-            layer.bindPopup(`
-                <div style="min-width:230px">
-                    <h3 style="margin:0;color:#0b5394;">
-                        ${codigo}
-                    </h3>
-                    <hr>
-                    <b>QT:</b> ${qt}<br>
-                    <b>Imóvel:</b> ${imovel}<br><br>
-                    <b>Endereço:</b><br>
-                    ${endereco}
-                </div>
-            `);
-
-        }
-
-    }).addTo(map);
-
-    console.log("EDLs carregadas");
-
-    criarControleCamadas();
-
-})
-.catch(console.error);
-
+    })
+    .catch(console.error);
 // ======================================
 // CHECKBOX - LIMITE MUNICIPAL
 // ======================================
