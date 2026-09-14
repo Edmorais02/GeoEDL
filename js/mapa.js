@@ -1,372 +1,127 @@
 // =======================================================
-// GeoEDL Uberlândia
-// Versão 1.0
+// GeoEDL Uberlândia — Mapa
 // =======================================================
 
-// ---------------- MAPA ----------------
+const map = L.map("map", { zoomControl: true }).setView([-18.9186, -48.2772], 12);
 
-const map = L.map("map", {
-    zoomControl: true
-}).setView([-18.9186, -48.2772], 12);
+let camadaLimite = null;
+let camadaBairros = null;
+let camadaAreas = null;
+let camadaEDLs = null;
 
-// ---------------- CAMADAS ----------------
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "&copy; OpenStreetMap contributors"
+}).addTo(map);
 
-let camadaLimite;
-let camadaBairros;
-let camadaAreas;
-let camadaEDLs;
-
-let controleCamadasCriado = false;
-
-// ---------------- MAPA BASE ----------------
-
-L.tileLayer(
-    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    {
-        attribution: "&copy; OpenStreetMap contributors"
-    }
-).addTo(map);
-
-console.log("Mapa iniciado");
-
-// =======================================================
-// Cria o painel de camadas somente quando todas existirem
-// =======================================================
-
-function criarControleCamadas(){
-
-    if(
-        !camadaLimite ||
-        !camadaBairros ||
-        !camadaAreas ||
-        !camadaEDLs
-    ){
-        return;
-    }
-
-    console.log("Todas as camadas carregadas.");
-
+function alternarCamada(camada, visivel) {
+    if (!camada) return;
+    if (visivel) map.addLayer(camada);
+    else map.removeLayer(camada);
 }
 
-// =======================================================
-// LIMITE MUNICIPAL
-// =======================================================
-
-fetch("data/Uberlandia.geojson")
-.then(r => r.json())
-.then(data => {
-
-    camadaLimite = L.geoJSON(data,{
-        style:{
-            color:"#ff0000",
-            weight:3,
-            fillOpacity:0
+function valorPropriedade(props, nomes) {
+    for (const nome of nomes) {
+        if (props && props[nome] !== undefined && props[nome] !== null && props[nome] !== "") {
+            return props[nome];
         }
-    }).addTo(map);
-
-    console.log("Limite carregado");
-
-    criarControleCamadas();
-
-})
-.catch(console.error);
-
-// =======================================================
-// BAIRROS
-// =======================================================
-
-fetch("data/Novos_bairros.geojson")
-.then(r => r.json())
-.then(data => {
-
-    camadaBairros = L.geoJSON(data,{
-
-        style:{
-            color:"#1b8a2f",
-            weight:2,
-            fillColor:"#3cb44b",
-            fillOpacity:0.35
-        }
-
-    }).addTo(map);
-
-    map.fitBounds(camadaBairros.getBounds());
-
-    console.log("Bairros carregados");
-
-    criarControleCamadas();
-
-})
-.catch(console.error);
-
-// =======================================================
-// ÁREAS IMPLANTADAS
-// =======================================================
-
-fetch("data/Areas_implantadas.geojson")
-.then(r => r.json())
-.then(data => {
-
-    camadaAreas = L.geoJSON(data,{
-
-        style:{
-            color:"#005eff",
-            weight:2,
-            fillColor:"#4da3ff",
-            fillOpacity:0.35
-        }
-
-    }).addTo(map);
-
-    console.log("Áreas implantadas carregadas");
-
-    criarControleCamadas();
-
-})
-.catch(console.error);
-
-// =======================================================
-// CRIA A CAMADA DAS EDLs
-// =======================================================
-
-function criarCamadaEDLs(data){
-
-    if(camadaEDLs){
-
-        map.removeLayer(camadaEDLs);
-
     }
+    return "";
+}
 
-    camadaEDLs = L.geoJSON(data,{
+function escaparHTML(valor) {
+    return String(valor ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
 
-        pointToLayer: function(feature, latlng){
+function popupEDL(feature) {
+    const props = feature.properties || {};
+    const codigo = valorPropriedade(props, ["codigo", "Cód.", "Cod", "Codigo"]);
+    const endereco = valorPropriedade(props, ["endereco", "Endereço", "Endereço completo"]);
+    const qt = valorPropriedade(props, ["qtld", "QTLD", "QT"]);
+    const imovel = valorPropriedade(props, ["imovel", "Imóvel"]);
 
-            return L.circleMarker(latlng,{
+    return `<div style="min-width:230px">
+        <h3 style="margin:0;color:#0b5394">${escaparHTML(codigo)}</h3>
+        <hr>
+        <b>QTLD:</b> ${escaparHTML(qt)}<br>
+        <b>Imóvel:</b> ${escaparHTML(imovel)}<br><br>
+        <b>Endereço:</b><br>${escaparHTML(endereco)}
+    </div>`;
+}
 
-                radius:6,
-                color:"#c58f00",
-                weight:2,
-                fillColor:"#ffd000",
-                fillOpacity:1
+function criarCamadaEDLs(data) {
+    if (camadaEDLs) map.removeLayer(camadaEDLs);
 
-            });
-
-        },
-
-        onEachFeature: function(feature, layer){
-
+    camadaEDLs = L.geoJSON(data, {
+        pointToLayer: (_, latlng) => L.circleMarker(latlng, {
+            radius: 6, color: "#c58f00", weight: 2,
+            fillColor: "#ffd000", fillOpacity: 1
+        }),
+        onEachFeature: (feature, layer) => {
             layer.on({
-
-                mouseover:function(e){
-
-                    e.target.setStyle({
-
-                        radius:9,
-                        color:"#ff0000",
-                        weight:3
-
-                    });
-
-                },
-
-                mouseout:function(e){
-
-                    e.target.setStyle({
-
-                        radius:6,
-                        color:"#c58f00",
-                        weight:2
-
-                    });
-
-                },
-
-                click:function(e){
-
-                    destacarEDL(e.target);
-
-                }
-
+                mouseover: e => e.target.setStyle({ radius: 9, color: "#ff0000", weight: 3 }),
+                mouseout: e => e.target.setStyle({ radius: 6, color: "#c58f00", weight: 2 }),
+                click: e => destacarEDL(e.target)
             });
-
-            const codigo = feature.properties["Cód."] || "";
-            const qt = feature.properties["QT"] || "";
-            const imovel = feature.properties["Imóvel"] || "";
-            const endereco = feature.properties["Endereço completo"] || "";
-
-            layer.bindPopup(`
-                <div style="min-width:230px">
-                    <h3 style="margin:0;color:#0b5394;">
-                        ${codigo}
-                    </h3>
-                    <hr>
-                    <b>QT:</b> ${qt}<br>
-                    <b>Imóvel:</b> ${imovel}<br><br>
-                    <b>Endereço:</b><br>
-                    ${endereco}
-                </div>
-            `);
-
+            layer.bindPopup(popupEDL(feature));
         }
-
     }).addTo(map);
 
-    console.log("EDLs carregadas.");
-
+    console.log(`EDLs carregadas: ${data.features ? data.features.length : 0}`);
 }
 
-// =======================================================
-// EDLs
-// =======================================================
+function carregarGeoJSON(url, opcoes, adicionar = true) {
+    return fetch(url)
+        .then(resposta => {
+            if (!resposta.ok) throw new Error(`Falha ao carregar ${url}: ${resposta.status}`);
+            return resposta.json();
+        })
+        .then(data => {
+            const camada = L.geoJSON(data, opcoes);
+            if (adicionar) camada.addTo(map);
+            return camada;
+        });
+}
 
-// =======================================================
-// EDLs
-// =======================================================
+carregarGeoJSON("data/Uberlandia.geojson", {
+    style: { color: "#ff0000", weight: 3, fillOpacity: 0 }
+}).then(camada => { camadaLimite = camada; console.log("Limite carregado"); })
+  .catch(console.error);
+
+carregarGeoJSON("data/Novos_bairros.geojson", {
+    style: { color: "#1b8a2f", weight: 2, fillColor: "#3cb44b", fillOpacity: 0.35 }
+}).then(camada => {
+    camadaBairros = camada;
+    if (camada.getBounds().isValid()) map.fitBounds(camada.getBounds());
+    console.log("Bairros carregados");
+}).catch(console.error);
+
+carregarGeoJSON("data/Areas_implantadas.geojson", {
+    style: { color: "#005eff", weight: 2, fillColor: "#4da3ff", fillOpacity: 0.35 }
+}).then(camada => { camadaAreas = camada; console.log("Áreas implantadas carregadas"); })
+  .catch(console.error);
 
 fetch("data/EDLs.geojson")
-    .then(r => r.json())
-    .then(data => {
-
-        criarCamadaEDLs(data);
-
-        criarControleCamadas();
-
+    .then(resposta => {
+        if (!resposta.ok) throw new Error(`Falha ao carregar EDLs: ${resposta.status}`);
+        return resposta.json();
     })
+    .then(criarCamadaEDLs)
     .catch(console.error);
-// ======================================
-// CHECKBOX - LIMITE MUNICIPAL
-// ======================================
 
-document
-.getElementById("chkLimite")
-.addEventListener("change", function () {
-
-    if (this.checked) {
-
-        map.addLayer(camadaLimite);
-
-    } else {
-
-        map.removeLayer(camadaLimite);
-
-    }
-
+[
+    ["chkLimite", () => camadaLimite],
+    ["chkBairros", () => camadaBairros],
+    ["chkAreas", () => camadaAreas],
+    ["chkEDLs", () => camadaEDLs]
+].forEach(([id, obterCamada]) => {
+    const controle = document.getElementById(id);
+    if (!controle) return;
+    controle.addEventListener("change", () => alternarCamada(obterCamada(), controle.checked));
 });
 
-// ======================================
-// CHECKBOXES DO PAINEL
-// ======================================
-
-document.getElementById("chkLimite").addEventListener("change", function(){
-
-    if(this.checked){
-        map.addLayer(camadaLimite);
-    }else{
-        map.removeLayer(camadaLimite);
-    }
-
-});
-
-document.getElementById("chkBairros").addEventListener("change", function(){
-
-    if(this.checked){
-        map.addLayer(camadaBairros);
-    }else{
-        map.removeLayer(camadaBairros);
-    }
-
-});
-
-document.getElementById("chkAreas").addEventListener("change", function(){
-
-    if(this.checked){
-        map.addLayer(camadaAreas);
-    }else{
-        map.removeLayer(camadaAreas);
-    }
-
-});
-
-document.getElementById("chkEDLs").addEventListener("change", function(){
-
-    if(this.checked){
-        map.addLayer(camadaEDLs);
-    }else{
-        map.removeLayer(camadaEDLs);
-    }
-
-});
-
-// =======================================================
-// ATUALIZA O PAINEL DA EDL
-// =======================================================
-
-function atualizarPainelEDL(layer){
-
-    const props = layer.feature.properties;
-    const latlng = layer.getLatLng();
-
-    document.getElementById("infoCodigo").textContent =
-        props["Cód."] || "";
-
-    document.getElementById("infoQT").textContent =
-        props["QT"] || "";
-
-    document.getElementById("infoImovel").textContent =
-        props["Imóvel"] || "";
-
-    document.getElementById("infoEndereco").textContent =
-        props["Endereço completo"] || "";
-
-    document.getElementById("infoLatitude").textContent =
-        latlng.lat.toFixed(6);
-
-    document.getElementById("infoLongitude").textContent =
-        latlng.lng.toFixed(6);
-
-}
-
-// =======================================================
-// DESTACA UMA EDL
-// =======================================================
-
-function destacarEDL(layer){
-
-    map.flyTo(layer.getLatLng(),18,{
-
-        animate:true,
-        duration:1.5
-
-    });
-
-    atualizarPainelEDL(layer);
-
-    layer.openPopup();
-
-    const estiloOriginal={
-
-        radius:6,
-        color:"#c58f00",
-        weight:2,
-        fillColor:"#ffd000",
-        fillOpacity:1
-
-    };
-
-    layer.setStyle({
-
-        radius:12,
-        color:"#ff0000",
-        weight:4,
-        fillColor:"#ffff00",
-        fillOpacity:1
-
-    });
-
-    setTimeout(function(){
-
-        layer.setStyle(estiloOriginal);
-
-    },2500);
-
-}
+console.log("Mapa GeoEDL iniciado");
