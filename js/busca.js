@@ -213,10 +213,10 @@ function pesquisar(){
              .toUpperCase();
 
         const endereco =
-    normalizarTexto(props["Endereço completo"]);
+    normalizarTexto((props["endereco"] || props["Endereço completo"]));
 
         const qt =
-    normalizarTexto(props["QT"]);
+    normalizarTexto((props["qtld"] || props["QT"]));
 
         let encontrou = false;
 
@@ -336,16 +336,16 @@ function atualizarPainelEDL(layer){
     const latlng = layer.getLatLng();
 
     document.getElementById("infoCodigo").textContent =
-        props["Cód."] || "";
+        (props["codigo"] || props["Cód."] || "");
 
     document.getElementById("infoQT").textContent =
-        props["QT"] || "";
+        (props["qtld"] || props["QT"]) || "";
 
     document.getElementById("infoImovel").textContent =
-        props["Imóvel"] || "";
+        (props["imovel"] || props["Imóvel"]) || "";
 
     document.getElementById("infoEndereco").textContent =
-        props["Endereço completo"] || "";
+        (props["endereco"] || props["Endereço completo"]) || "";
 
     document.getElementById("infoLatitude").textContent =
         latlng.lat.toFixed(6);
