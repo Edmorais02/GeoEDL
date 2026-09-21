@@ -105,7 +105,7 @@ carregarGeoJSON("data/Areas_implantadas.geojson", {
 }).then(camada => { camadaAreas = camada; console.log("Áreas implantadas carregadas"); })
   .catch(console.error);
 
-fetch("data/EDLs.geojson")
+fetch("EDLs.geojson")
     .then(resposta => {
         if (!resposta.ok) throw new Error(`Falha ao carregar EDLs: ${resposta.status}`);
         return resposta.json();
