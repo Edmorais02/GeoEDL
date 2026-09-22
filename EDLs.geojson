@@ -6,22 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.291262,
-          -18.884708
-        ]
-      },
-      "properties": {
-        "codigo": "EC 176",
-        "endereco": "Pacaembu, Uberlândia - MG, Brasil",
-        "qtld": "60A 1065",
-        "imovel": "Res."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.2922683,
           -18.910218
         ]
@@ -30,6 +14,70 @@
         "codigo": "EC001",
         "endereco": "Rua Padre Pio, 1193, Osvaldo Rezende, Uberlândia - MG, Brasil",
         "qtld": "147C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2920327,
+          -18.9100511
+        ]
+      },
+      "properties": {
+        "codigo": "EC002",
+        "endereco": "Rua Padre Pio, 1208, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "150B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.29289370000001,
+          -18.9083065
+        ]
+      },
+      "properties": {
+        "codigo": "EC004",
+        "endereco": "Rua Padre Pio, 1375, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "166C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.29261169999999,
+          -18.9091866
+        ]
+      },
+      "properties": {
+        "codigo": "EC005",
+        "endereco": "Rua Padre Pio, 1313, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "165B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.286774,
+          -18.9080766
+        ]
+      },
+      "properties": {
+        "codigo": "EC006",
+        "endereco": "Travessa Miguel Bernardes, 1226, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "164C",
         "imovel": "Res."
       }
     },
@@ -54,6 +102,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2914237,
+          -18.9088644
+        ]
+      },
+      "properties": {
+        "codigo": "EC009",
+        "endereco": "Rua Rafael Rinaldi, 1387, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "164 A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2907546,
           -18.9102869
         ]
@@ -63,6 +127,22 @@
         "endereco": "Av Sacramento, 553, Osvaldo Rezende, Uberlândia - MG, Brasil",
         "qtld": "151 D",
         "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2911009,
+          -18.9088485
+        ]
+      },
+      "properties": {
+        "codigo": "EC011",
+        "endereco": "Rua Rafael Rinaldi, 1386, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "161D",
+        "imovel": "Res."
       }
     },
     {
@@ -143,6 +223,38 @@
         "endereco": "Rua Itanhandu, 334, Osvaldo Rezende, Uberlândia - MG, Brasil",
         "qtld": "200C",
         "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2921233,
+          -18.9067001
+        ]
+      },
+      "properties": {
+        "codigo": "EC017",
+        "endereco": "Rua Rafael Rinaldi 1571, 1571, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "204A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2924783,
+          -18.9058122
+        ]
+      },
+      "properties": {
+        "codigo": "EC018",
+        "endereco": "Rua Rafael Rinaldi, 1671, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "205D",
+        "imovel": "Res."
       }
     },
     {
@@ -278,6 +390,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.294408,
+          -18.9162454
+        ]
+      },
+      "properties": {
+        "codigo": "EC027",
+        "endereco": "Rua Poços de Caldas, 755, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "90C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2937292,
           -18.9155419
         ]
@@ -326,6 +454,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2934051,
+          -18.9149735
+        ]
+      },
+      "properties": {
+        "codigo": "EC031",
+        "endereco": "Rua Vitor melazo, 176, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "94A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2934929,
+          -18.9156484
+        ]
+      },
+      "properties": {
+        "codigo": "EC032",
+        "endereco": "Vitor melazo, 55, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "91D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2941727,
           -18.9159922
         ]
@@ -334,6 +494,22 @@
         "codigo": "EC033",
         "endereco": "Av Belo Horizonte, 1652, Osvaldo Rezende, Uberlândia - MG, Brasil",
         "qtld": "90 D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2945517,
+          -18.915642
+        ]
+      },
+      "properties": {
+        "codigo": "EC034",
+        "endereco": "Rua Poços de caldas, 841, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "87C",
         "imovel": "Res."
       }
     },
@@ -406,6 +582,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2827841,
+          -18.9281901
+        ]
+      },
+      "properties": {
+        "codigo": "EC039",
+        "endereco": "Rua Vigário Dantas, 711, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "14C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2824369,
           -18.9268842
         ]
@@ -414,6 +606,38 @@
         "codigo": "EC040",
         "endereco": "Rua Lucia Matos, 177, Fundinho, Uberlândia - MG, Brasil",
         "qtld": "15D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2830952,
+          -18.9267353
+        ]
+      },
+      "properties": {
+        "codigo": "EC041",
+        "endereco": "Rua Vigário Dantas, 560, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "29C",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2830273,
+          -18.9280403
+        ]
+      },
+      "properties": {
+        "codigo": "EC042",
+        "endereco": "Rua Vigário Dantas, 700, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "30B",
         "imovel": "Res."
       }
     },
@@ -518,6 +742,294 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2824847,
+          -18.9249027
+        ]
+      },
+      "properties": {
+        "codigo": "EC049",
+        "endereco": "Rua Marechal Deodoro, 11, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "17B",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2829296,
+          -18.9253245
+        ]
+      },
+      "properties": {
+        "codigo": "EC050",
+        "endereco": "Rua Vigário Dantas, 405, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "17D",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28311619999999,
+          -18.9250249
+        ]
+      },
+      "properties": {
+        "codigo": "EC051",
+        "endereco": "Rua Vigário Dantas, 370, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "28A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28349410000001,
+          -18.924685
+        ]
+      },
+      "properties": {
+        "codigo": "EC052",
+        "endereco": "Rua Marechal Deodoro, 104, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "27A",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28310450000001,
+          -18.9241085
+        ]
+      },
+      "properties": {
+        "codigo": "EC053",
+        "endereco": "Rua Vigário Dantas, 272, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "26A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.282977,
+          -18.9237211
+        ]
+      },
+      "properties": {
+        "codigo": "EC054",
+        "endereco": "Rua Tiradentes, 77, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "19A",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2828594,
+          -18.9247245
+        ]
+      },
+      "properties": {
+        "codigo": "EC055",
+        "endereco": "Rua Marechal Deodoro, 52, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "18D",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.29202830000001,
+          -18.9071536
+        ]
+      },
+      "properties": {
+        "codigo": "EC056",
+        "endereco": "Rafael Rinaldi, 1555, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "203A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.29202830000001,
+          -18.9071536
+        ]
+      },
+      "properties": {
+        "codigo": "EC057",
+        "endereco": "Rafael Rinaldi, 1555, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "209E",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2907216,
+          -18.9077088
+        ]
+      },
+      "properties": {
+        "codigo": "EC058",
+        "endereco": "Rua Bueno Brandão, 1489, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "162C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2909281,
+          -18.9069324
+        ]
+      },
+      "properties": {
+        "codigo": "EC060",
+        "endereco": "Bueno Brandão, 1565, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "209C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2906981,
+          -18.9069055
+        ]
+      },
+      "properties": {
+        "codigo": "EC061",
+        "endereco": "Bueno Brandão, 1564, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "210C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2912964,
+          -18.9059258
+        ]
+      },
+      "properties": {
+        "codigo": "EC062",
+        "endereco": "Rua Bueno Brandão, 1667, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "207D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2910224,
+          -18.9055433
+        ]
+      },
+      "properties": {
+        "codigo": "EC063",
+        "endereco": "Rua Dr. Jair Mota, 80, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "211C",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.287774,
+          -18.9205274
+        ]
+      },
+      "properties": {
+        "codigo": "EC065",
+        "endereco": "Rafael Rinaldi, 65, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "9A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28894529999999,
+          -18.9198398
+        ]
+      },
+      "properties": {
+        "codigo": "EC066",
+        "endereco": "Rua Padre Pio, 224, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "8B",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2881783,
+          -18.9195198
+        ]
+      },
+      "properties": {
+        "codigo": "EC067",
+        "endereco": "Rua Rafael Rinaldi, 191, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "8D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2883964,
+          -18.9214331
+        ]
+      },
+      "properties": {
+        "codigo": "EC068",
+        "endereco": "Padre Pio, 48, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "10D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2881452,
           -18.9215492
         ]
@@ -526,6 +1038,38 @@
         "codigo": "EC069",
         "endereco": "Av Getúlio Vargas, 1166, Osvaldo Rezende, Uberlândia - MG, Brasil",
         "qtld": "10C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28743770000001,
+          -18.9203139
+        ]
+      },
+      "properties": {
+        "codigo": "EC070",
+        "endereco": "Rafael Rinaldi, 66, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "6D",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28913319999999,
+          -18.9199897
+        ]
+      },
+      "properties": {
+        "codigo": "EC071",
+        "endereco": "Rua Padre Pio, 213, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "13C",
         "imovel": "Res."
       }
     },
@@ -543,6 +1087,38 @@
         "endereco": "Av Getulio Vargas, 1316, Osvaldo Rezende, Uberlândia - MG, Brasil",
         "qtld": "17B",
         "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2891551,
+          -18.9205875
+        ]
+      },
+      "properties": {
+        "codigo": "EC073",
+        "endereco": "Rua Marcos povoa, 565, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "12A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2877067,
+          -18.9197106
+        ]
+      },
+      "properties": {
+        "codigo": "EC074",
+        "endereco": "Rafael Rinaldi, 156, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "7A",
+        "imovel": "Res."
       }
     },
     {
@@ -726,6 +1302,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.28601159999999,
+          -18.9303891
+        ]
+      },
+      "properties": {
+        "codigo": "EC108",
+        "endereco": "Rua Virgílio Melo Franco, 555, Tabajaras, Uberlândia - MG, Brasil",
+        "qtld": "30C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.265166,
           -18.9157451
         ]
@@ -774,13 +1366,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.26484629999999,
+          -18.9152071
+        ]
+      },
+      "properties": {
+        "codigo": "EC112",
+        "endereco": "Rua Pedro Crosara Cherulli, 78, Cazeca, Uberlândia - MG, Brasil",
+        "qtld": "20B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2649971,
           -18.9147297
         ]
       },
       "properties": {
         "codigo": "EC113",
-        "endereco": "Rua José decmoraes, 127, Cazeca, Uberlândia - MG, Brasil",
+        "endereco": "Ra Jose de Moraes, 127, Cazeca, Uberlândia - MG, Brasil",
         "qtld": "30C",
         "imovel": "Res."
       }
@@ -966,6 +1574,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.297102,
+          -18.9114624
+        ]
+      },
+      "properties": {
+        "codigo": "EC125",
+        "endereco": "Rua Osvaldo Resende, 221, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "137B",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2970297,
           -18.9125632
         ]
@@ -1030,6 +1654,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2632567,
+          -18.9105438
+        ]
+      },
+      "properties": {
+        "codigo": "EC130",
+        "endereco": "Rua Oswaldo Rezend3, 58, Osvaldo Rezende, Uberlândia - MG, Brasil",
+        "qtld": "141C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2987928,
           -18.9123185
         ]
@@ -1062,6 +1702,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2851344,
+          -18.9221655
+        ]
+      },
+      "properties": {
+        "codigo": "EC133",
+        "endereco": "Rua Silva Jardim, 197, Fundinho, Uberlândia - MG, Brasil",
+        "qtld": "43C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2858486,
           -18.9226525
         ]
@@ -1078,6 +1734,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.28523389999999,
+          -18.9216343
+        ]
+      },
+      "properties": {
+        "codigo": "EC135",
+        "endereco": "Rua Silva Jardim, 134, Tabajaras, Uberlândia - MG, Brasil",
+        "qtld": "43C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2857098,
           -18.9216902
         ]
@@ -1087,6 +1759,22 @@
         "endereco": "Av Princesa Isabel, 625, Tabajaras, Uberlândia - MG, Brasil",
         "qtld": "43A",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.285459,
+          -18.9206636
+        ]
+      },
+      "properties": {
+        "codigo": "EC137",
+        "endereco": "Rua Silva Jardim, 30, Tabajaras, Uberlândia - MG, Brasil",
+        "qtld": "45D",
+        "imovel": "Com."
       }
     },
     {
@@ -1134,6 +1822,22 @@
         "codigo": "EC140",
         "endereco": "Avenida Princesa Isabel, 498, Tabajaras, Uberlândia - MG, Brasil",
         "qtld": "44E 498/1",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2853232,
+          -18.923241
+        ]
+      },
+      "properties": {
+        "codigo": "EC141",
+        "endereco": "Rua Silva Jardim, 308, Tabajaras, Uberlândia - MG, Brasil",
+        "qtld": "42B 308",
         "imovel": "Com."
       }
     },
@@ -1974,6 +2678,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2512305,
+          -18.9124259
+        ]
+      },
+      "properties": {
+        "codigo": "EL065",
+        "endereco": "Rua Maria das Dores Dias, 250, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "29A",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2360957,
           -18.9200794
         ]
@@ -2262,6 +2982,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.24017019999999,
+          -18.9137909
+        ]
+      },
+      "properties": {
+        "codigo": "EL094",
+        "endereco": "Av. Ubiratan Honorio De Castro, 868, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "101C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2448928,
+          -18.9158667
+        ]
+      },
+      "properties": {
+        "codigo": "EL095",
+        "endereco": "Av Ortizio Borges, 1412, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "75B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2381128,
+          -18.914522
+        ]
+      },
+      "properties": {
+        "codigo": "EL096",
+        "endereco": "Av. Ubiratan Honorio De Castro, 1101, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "109B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2350156,
+          -18.9159532
+        ]
+      },
+      "properties": {
+        "codigo": "EL098",
+        "endereco": "Ubiratan Honório de Castro, 1517, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "137B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2337064,
           -18.9157543
         ]
@@ -2270,6 +3054,22 @@
         "codigo": "EL099",
         "endereco": "Rua Licidio Paes, 69, Santa Mônica, Uberlândia - MG, Brasil",
         "qtld": "147B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2304751,
+          -18.9150731
+        ]
+      },
+      "properties": {
+        "codigo": "EL101",
+        "endereco": "Rua Maria Alves Castilho, 17, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "168D",
         "imovel": "Res."
       }
     },
@@ -2431,6 +3231,22 @@
         "endereco": "Av. Ana Godoy De Sousa, 2184, Santa Mônica, Uberlândia - MG, Brasil",
         "qtld": "183A",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2402186,
+          -18.9223357
+        ]
+      },
+      "properties": {
+        "codigo": "EL116",
+        "endereco": "Rua Orozimbo Ribeiro, 866, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "240C",
+        "imovel": "Com."
       }
     },
     {
@@ -3030,6 +3846,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2362545,
+          -18.9183165
+        ]
+      },
+      "properties": {
+        "codigo": "EL163",
+        "endereco": "Rua Sebastião Rangel, 350, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "134C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2375063,
           -18.9179693
         ]
@@ -3126,6 +3958,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2573394,
+          -18.9135796
+        ]
+      },
+      "properties": {
+        "codigo": "EL172",
+        "endereco": "Rua Miguel Rocha dos Santos, 505, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "3D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2574013,
+          -18.9142833
+        ]
+      },
+      "properties": {
+        "codigo": "EL175",
+        "endereco": "Rua Miguel Rochas dos Santos, 516, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "5A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.256989,
           -18.9148685
         ]
@@ -3134,6 +3998,22 @@
         "codigo": "EL176",
         "endereco": "Rua Izaura Augusta Pereira, 325, Santa Mônica, Uberlândia - MG, Brasil",
         "qtld": "4B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.25776070000001,
+          -18.9156834
+        ]
+      },
+      "properties": {
+        "codigo": "EL177",
+        "endereco": "Rua Miguel Rocha Santos, 256, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "4D",
         "imovel": "Res."
       }
     },
@@ -3215,6 +4095,22 @@
         "endereco": "Av Ubiratan Honório de Souza, 842, Santa Mônica, Uberlândia - MG, Brasil",
         "qtld": "2A",
         "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.25840909999999,
+          -18.9153465
+        ]
+      },
+      "properties": {
+        "codigo": "EL193",
+        "endereco": "Rua Mateus Lucas Martins, 81, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "399C",
+        "imovel": "Res."
       }
     },
     {
@@ -3414,6 +4310,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2261467,
+          -18.9256566
+        ]
+      },
+      "properties": {
+        "codigo": "EL208",
+        "endereco": "Rua Ophir Lopes de Cândido, 120, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "71B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2266364,
+          -18.9274044
+        ]
+      },
+      "properties": {
+        "codigo": "EL209",
+        "endereco": "Rua Ophir Lopes de Candido, 312, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "91C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2262632,
+          -18.9270479
+        ]
+      },
+      "properties": {
+        "codigo": "EL210",
+        "endereco": "Rua Ophir Lopes de Candido, 261, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "92B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2253781,
           -18.926056
         ]
@@ -3455,6 +4399,22 @@
         "endereco": "Av Belarmino Cota Pacheco, 3670, Segismundo Pereira, Uberlândia - MG, Brasil",
         "qtld": "59B",
         "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2250611,
+          -18.9239872
+        ]
+      },
+      "properties": {
+        "codigo": "EL214",
+        "endereco": "Rua Matilde Sales Guimarães Andrade, 401, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "60B",
+        "imovel": "Res."
       }
     },
     {
@@ -3590,6 +4550,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2260156,
+          -18.9214273
+        ]
+      },
+      "properties": {
+        "codigo": "EL244",
+        "endereco": "Rua Sebastião José Sobrinho, 490, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "42B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.225995,
+          -18.9225439
+        ]
+      },
+      "properties": {
+        "codigo": "EL245",
+        "endereco": "Rua Sebastião José Sobrinho, 563, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "41C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.22654319999999,
+          -18.922751
+        ]
+      },
+      "properties": {
+        "codigo": "EL246",
+        "endereco": "Rua Sebastião José Sobrinho, 646, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "57C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2265709,
+          -18.9237865
+        ]
+      },
+      "properties": {
+        "codigo": "EL247",
+        "endereco": "Rua Sebastião José Sobrinho, 745, Segismundo Pereira, Uberlândia - MG, Brasil",
+        "qtld": "58B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2246627,
           -18.9197891
         ]
@@ -3622,6 +4646,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2429269,
+          -18.9176969
+        ]
+      },
+      "properties": {
+        "codigo": "EL250",
+        "endereco": "Rua Patrulheiro Osmar Tavares, 615, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "95B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2250511,
           -18.9215575
         ]
@@ -3646,6 +4686,22 @@
         "codigo": "EL252",
         "endereco": "Rua Francisco José Custódio, 380, Segismundo Pereira, Uberlândia - MG, Brasil",
         "qtld": "41A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2430342,
+          -18.9167522
+        ]
+      },
+      "properties": {
+        "codigo": "EL253",
+        "endereco": "Rua Patrulheiro Osmar Tavares, 520, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "89C",
         "imovel": "Res."
       }
     },
@@ -3726,6 +4782,38 @@
         "codigo": "EL261",
         "endereco": "Rua Jorge Martins Pinto, 870, Santa Mônica, Uberlândia - MG, Brasil",
         "qtld": "272D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2440741,
+          -18.9202952
+        ]
+      },
+      "properties": {
+        "codigo": "EL262",
+        "endereco": "Rua Patrulheiro Osmar Tavares, 930, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "271C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2440512,
+          -18.9213461
+        ]
+      },
+      "properties": {
+        "codigo": "EL263",
+        "endereco": "Rua Patrulheiro Osmar Tavares, 1025, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "262B",
         "imovel": "Res."
       }
     },
@@ -3990,6 +5078,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2457466,
+          -18.9013614
+        ]
+      },
+      "properties": {
+        "codigo": "EL294",
+        "endereco": "Rua Viena, 1104, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "66D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2445396,
+          -18.900115
+        ]
+      },
+      "properties": {
+        "codigo": "EL295",
+        "endereco": "Rua Viena, 1283, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "62A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2437029,
           -18.9008809
         ]
@@ -4022,6 +5142,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2441541,
+          -18.900364
+        ]
+      },
+      "properties": {
+        "codigo": "EL298",
+        "endereco": "Rua Viena, 1284, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "27A",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2446492,
           -18.9001764
         ]
@@ -4031,6 +5167,38 @@
         "endereco": "Avenida Inglaterra, 721, Tibery, Uberlândia - MG, Brasil",
         "qtld": "30A",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2427156,
+          -18.899183
+        ]
+      },
+      "properties": {
+        "codigo": "EL300",
+        "endereco": "Rua Viena, 2444, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "28C",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.24311410000001,
+          -18.8991327
+        ]
+      },
+      "properties": {
+        "codigo": "EL301",
+        "endereco": "Rua Viena, 2433, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "29B",
+        "imovel": "Com."
       }
     },
     {
@@ -4246,6 +5414,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2546548,
+          -18.9048893
+        ]
+      },
+      "properties": {
+        "codigo": "EL319",
+        "endereco": "Rua Roma, 332, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "164A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2539074,
+          -18.9041179
+        ]
+      },
+      "properties": {
+        "codigo": "EL320",
+        "endereco": "Rua Roma, 481, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "162D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2530478,
+          -18.9038729
+        ]
+      },
+      "properties": {
+        "codigo": "EL321",
+        "endereco": "Rua Roma, 526, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "163D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2529163,
+          -18.9032844
+        ]
+      },
+      "properties": {
+        "codigo": "EL322",
+        "endereco": "Rua Roma, 563, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "161A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2529195,
           -18.9045636
         ]
@@ -4302,6 +5534,38 @@
         "codigo": "EL326",
         "endereco": "Rua Bélgica, 628, Tibery, Uberlândia - MG, Brasil",
         "qtld": "165D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2514143,
+          -18.9023332
+        ]
+      },
+      "properties": {
+        "codigo": "EL327",
+        "endereco": "Rua Roma, 753, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "EL327",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2520295,
+          -18.9030646
+        ]
+      },
+      "properties": {
+        "codigo": "EL328",
+        "endereco": "Rua Roma, 640, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "118A",
         "imovel": "Res."
       }
     },
@@ -4838,6 +6102,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2705567,
+          -18.8774135
+        ]
+      },
+      "properties": {
+        "codigo": "EL382",
+        "endereco": "Rua Piaui, 1, UFU Umuarama, Uberlândia - MG, Brasil",
+        "qtld": "7-B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2574931,
           -18.8856766
         ]
@@ -4894,6 +6174,38 @@
         "codigo": "EL386",
         "endereco": "Avenida mato grosso, 3370, UFU Umuarama, Uberlândia - MG, Brasil",
         "qtld": "71-D",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2574431,
+          -18.8831861
+        ]
+      },
+      "properties": {
+        "codigo": "EL387",
+        "endereco": "Rua Prof. José Inácio de Souza, 3267, UFU Umuarama, Uberlândia - MG, Brasil",
+        "qtld": "2-L",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2713033,
+          -18.9023185
+        ]
+      },
+      "properties": {
+        "codigo": "EL388",
+        "endereco": "Rua Pro. José Inácio de Souza, 1, UFU Umuarama, Uberlândia - MG, Brasil",
+        "qtld": "8-C",
         "imovel": "Out."
       }
     },
@@ -5046,6 +6358,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2705567,
+          -18.8774135
+        ]
+      },
+      "properties": {
+        "codigo": "EL399",
+        "endereco": "Rua Piauí, 1, UFU Umuarama, Uberlândia - MG, Brasil",
+        "qtld": "4-A",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2705567,
+          -18.8774135
+        ]
+      },
+      "properties": {
+        "codigo": "EL400",
+        "endereco": "Rua Piauí, 1, UFU Umuarama, Uberlândia - MG, Brasil",
+        "qtld": "2-A",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2429862,
           -18.9080843
         ]
@@ -5174,6 +6518,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.23473,
+          -18.9150412
+        ]
+      },
+      "properties": {
+        "codigo": "EL413",
+        "endereco": "Av. José Roberto Migliorini, 1, Parque do Sabiá, Uberlândia - MG, Brasil",
+        "qtld": "1-B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23473,
+          -18.9150412
+        ]
+      },
+      "properties": {
+        "codigo": "EL414",
+        "endereco": "Av. José Roberto Migliorini, 1, Parque do Sabiá, Uberlândia - MG, Brasil",
+        "qtld": "1-B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23473,
+          -18.9150412
+        ]
+      },
+      "properties": {
+        "codigo": "EL415",
+        "endereco": "Av José Roberto Migliorini, 1, Parque do Sabiá, Uberlândia - MG, Brasil",
+        "qtld": "1-B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23473,
+          -18.9150412
+        ]
+      },
+      "properties": {
+        "codigo": "EL416",
+        "endereco": "Av. José Roberto Migliorini, 1, Parque do Sabiá, Uberlândia - MG, Brasil",
+        "qtld": "1-B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2429862,
           -18.9080843
         ]
@@ -5182,6 +6590,54 @@
         "codigo": "EL417",
         "endereco": "Rua Haia, 1, Parque do Sabiá, Uberlândia - MG, Brasil",
         "qtld": "QT1 Lado B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2745089,
+          -18.9167289
+        ]
+      },
+      "properties": {
+        "codigo": "EL418",
+        "endereco": "Av. João Naves de Ávila, 1, Parque do Sabiá, Uberlândia - MG, Brasil",
+        "qtld": "1-B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2412371,
+          -18.9009463
+        ]
+      },
+      "properties": {
+        "codigo": "EL419",
+        "endereco": "Av. África, 1540, Tibery, Uberlândia - MG, Brasil",
+        "qtld": "20-C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2410583,
+          -18.9083063
+        ]
+      },
+      "properties": {
+        "codigo": "EL420",
+        "endereco": "Av. Benjamin Magalhães, 1, Parque do Sabiá, Uberlândia - MG, Brasil",
+        "qtld": "1-A",
         "imovel": "Out."
       }
     },
@@ -5206,6 +6662,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2410583,
+          -18.9083063
+        ]
+      },
+      "properties": {
+        "codigo": "EL422",
+        "endereco": "Av. Benjamin Magalhães, 1, Parque do Sabiá, Uberlândia - MG, Brasil",
+        "qtld": "1-A",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2456598,
+          -18.9112257
+        ]
+      },
+      "properties": {
+        "codigo": "EL423",
+        "endereco": "Av Ubirtatan Honório de Castro, 291, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "65 lado C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2456598,
+          -18.9112257
+        ]
+      },
+      "properties": {
+        "codigo": "EL424",
+        "endereco": "Av Ubirtatan Honório de Castro, 291, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "QT65 Lado C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2456598,
+          -18.9112257
+        ]
+      },
+      "properties": {
+        "codigo": "EL426",
+        "endereco": "Av Ubirtatan Honório de Castro, 291, Santa Mônica, Uberlândia - MG, Brasil",
+        "qtld": "QT65 lado C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2347214,
           -18.9150224
         ]
@@ -5215,6 +6735,86 @@
         "endereco": "Rua José Roberto Migliorini, 3, Parque do Sabiá, Uberlândia - MG, Brasil",
         "qtld": "2-B",
         "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2347214,
+          -18.9150224
+        ]
+      },
+      "properties": {
+        "codigo": "EL429",
+        "endereco": "Av. José Roberto Migliorini, 3, Parque do Sabiá, Uberlândia - MG, Brasil",
+        "qtld": "2-B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.22093330000001,
+          -18.8861341
+        ]
+      },
+      "properties": {
+        "codigo": "EL430",
+        "endereco": "RUA Antônio Luiz de Mendonça, 235, Jardim Ipanema, Uberlândia - MG, Brasil",
+        "qtld": "91D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2189709,
+          -18.887018
+        ]
+      },
+      "properties": {
+        "codigo": "EL431",
+        "endereco": "Rua : Antônio Luiz de Mendonça, 848, Jardim Ipanema, Uberlândia - MG, Brasil",
+        "qtld": "94D",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.221506,
+          -18.8857017
+        ]
+      },
+      "properties": {
+        "codigo": "EL433",
+        "endereco": "Avenida Sideral, 905, Jardim Ipanema, Uberlândia - MG, Brasil",
+        "qtld": "92D",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2209979,
+          -18.8855956
+        ]
+      },
+      "properties": {
+        "codigo": "EL434",
+        "endereco": "Avenida Sideral, 946, Jardim Ipanema, Uberlândia - MG, Brasil",
+        "qtld": "91A",
+        "imovel": "Com."
       }
     },
     {
@@ -5302,6 +6902,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2717113,
+          -18.8790183
+        ]
+      },
+      "properties": {
+        "codigo": "EN 334",
+        "endereco": "TRAVESSA JOSE CAPARELLI, 46, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "6C 46",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2649647,
           -18.8652263
         ]
@@ -5342,6 +6958,22 @@
         "codigo": "EN004",
         "endereco": "Rua da Produção, 1798, MInas Gerais, Uberlândia - MG, Brasil",
         "qtld": "90b",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2640535,
+          -18.8640067
+        ]
+      },
+      "properties": {
+        "codigo": "EN005",
+        "endereco": "Rua Produção, 1901, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "104b",
         "imovel": "Res."
       }
     },
@@ -5438,6 +7070,22 @@
         "codigo": "EN011",
         "endereco": "Rua da Safra, 1832, MInas Gerais, Uberlândia - MG, Brasil",
         "qtld": "84a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2636881,
+          -18.8658215
+        ]
+      },
+      "properties": {
+        "codigo": "EN012",
+        "endereco": "Rua Silvio Romero, 955, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "83a",
         "imovel": "Res."
       }
     },
@@ -5638,6 +7286,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.28054909999999,
+          -18.870277
+        ]
+      },
+      "properties": {
+        "codigo": "EN028",
+        "endereco": "Avenida Clara Camarão, 64, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "108a 64",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2806737,
+          -18.8699438
+        ]
+      },
+      "properties": {
+        "codigo": "EN029",
+        "endereco": "Avenida Clara Camarão, 95, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "111a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2782218,
           -18.8714287
         ]
@@ -5654,6 +7334,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2782312,
+          -18.8718981
+        ]
+      },
+      "properties": {
+        "codigo": "EN035",
+        "endereco": "Avenida Bento Gonçalves, 455, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "82c 455",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2788181,
           -18.8707133
         ]
@@ -5663,6 +7359,86 @@
         "endereco": "Rua Acre, 317, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
         "qtld": "106a",
         "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2766628,
+          -18.8703636
+        ]
+      },
+      "properties": {
+        "codigo": "EN037",
+        "endereco": "Avenida Bento Gonçalves, 764, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "85c",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2764198,
+          -18.8699781
+        ]
+      },
+      "properties": {
+        "codigo": "EN039",
+        "endereco": "Avenida Bento Gonçalves, 824, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "88b",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.27602719999999,
+          -18.871611
+        ]
+      },
+      "properties": {
+        "codigo": "EN042",
+        "endereco": "Avenida André Reboucas, 532, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "60d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.27573890000001,
+          -18.870357
+        ]
+      },
+      "properties": {
+        "codigo": "EN043",
+        "endereco": "Avenida André Reboucas, 651, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "88d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2766367,
+          -18.8719756
+        ]
+      },
+      "properties": {
+        "codigo": "EN045",
+        "endereco": "Avenida André Reboucas, 442, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "63a",
+        "imovel": "Res."
       }
     },
     {
@@ -5710,6 +7486,22 @@
         "codigo": "EN056",
         "endereco": "Av Bento Gonçalves, 783, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
         "qtld": "86b",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2764624,
+          -18.8700316
+        ]
+      },
+      "properties": {
+        "codigo": "EN057",
+        "endereco": "Avenida Bento Gonçalves, 814, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "88b",
         "imovel": "Res."
       }
     },
@@ -5782,6 +7574,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2774163,
+          -18.8689626
+        ]
+      },
+      "properties": {
+        "codigo": "EN063",
+        "endereco": "Avenida Guia Lopes, 367, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "102d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2773567,
+          -18.8694453
+        ]
+      },
+      "properties": {
+        "codigo": "EN064",
+        "endereco": "Avenida Guia Lopes, 338, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "87a 338",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2779871,
           -18.8702123
         ]
@@ -5790,6 +7614,166 @@
         "codigo": "EN066",
         "endereco": "Avenida Guia Lopes, 220, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
         "qtld": "86d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.296919,
+          -18.8811989
+        ]
+      },
+      "properties": {
+        "codigo": "EN067",
+        "endereco": "Rua Do Marmelo, 222, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "76a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2976863,
+          -18.882669
+        ]
+      },
+      "properties": {
+        "codigo": "EN068",
+        "endereco": "Rua do Morango, 64, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "75c 64",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.296323,
+          -18.8815595
+        ]
+      },
+      "properties": {
+        "codigo": "EN070",
+        "endereco": "Rua do Morango, 246, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "74b",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2957666,
+          -18.8814262
+        ]
+      },
+      "properties": {
+        "codigo": "EN071",
+        "endereco": "Rua Da Ameixa, 303, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "74d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2956365,
+          -18.8817317
+        ]
+      },
+      "properties": {
+        "codigo": "EN072",
+        "endereco": "Rua Da Ameixa, 274, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "73a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2968029,
+          -18.8822598
+        ]
+      },
+      "properties": {
+        "codigo": "EN073",
+        "endereco": "Rua Da Ameixa, 161, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "75a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2983877,
+          -18.8829823
+        ]
+      },
+      "properties": {
+        "codigo": "EN074",
+        "endereco": "Avenida Simão Pedro, 1095, Maravilha, Uberlândia - MG, Brasil",
+        "qtld": "20b",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3032227,
+          -18.8848318
+        ]
+      },
+      "properties": {
+        "codigo": "EN075",
+        "endereco": "Rua Joaquim Clemente de Oliveira, 947, Maravilha, Uberlândia - MG, Brasil",
+        "qtld": "18b",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2981153,
+          -18.8835711
+        ]
+      },
+      "properties": {
+        "codigo": "EN076",
+        "endereco": "Rua Joaquim Clemente de Oliveira, 54, Maravilha, Uberlândia - MG, Brasil",
+        "qtld": "19d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2974521,
+          -18.883177
+        ]
+      },
+      "properties": {
+        "codigo": "EN077",
+        "endereco": "Rua Ameixa, 42, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "72d",
         "imovel": "Res."
       }
     },
@@ -6166,6 +8150,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.26775809999999,
+          -18.8754182
+        ]
+      },
+      "properties": {
+        "codigo": "EN158",
+        "endereco": "Rua República do piratini, 298, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "113b",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2692007,
           -18.8772445
         ]
@@ -6191,6 +8191,22 @@
         "endereco": "Rua acre, 234, Marta Helena, Uberlândia - MG, Brasil",
         "qtld": "90a",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2662458,
+          -18.8806298
+        ]
+      },
+      "properties": {
+        "codigo": "EN169",
+        "endereco": "Rua quilombo dos Palmares, 1619, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "75c",
+        "imovel": "Out."
       }
     },
     {
@@ -6238,6 +8254,22 @@
         "codigo": "EN176",
         "endereco": "Rua Manoel Bandeira, 791, MInas Gerais, Uberlândia - MG, Brasil",
         "qtld": "67d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2615816,
+          -18.8655889
+        ]
+      },
+      "properties": {
+        "codigo": "EN177",
+        "endereco": "Rua Paiol, 1451, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "67a",
         "imovel": "Res."
       }
     },
@@ -6390,6 +8422,118 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2738703,
+          -18.8756295
+        ]
+      },
+      "properties": {
+        "codigo": "EN188",
+        "endereco": "Rebelião Praeira, 632, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "28a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2733357,
+          -18.876098
+        ]
+      },
+      "properties": {
+        "codigo": "EN189",
+        "endereco": "Av Sabinadas, 615, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "28c",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2746825,
+          -18.8767911
+        ]
+      },
+      "properties": {
+        "codigo": "EN190",
+        "endereco": "Rua Rebelião Praeira, 472, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "33a",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2740997,
+          -18.877226
+        ]
+      },
+      "properties": {
+        "codigo": "EN191",
+        "endereco": "Av Sabinadas, 483, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "33c",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.274394,
+          -18.8764147
+        ]
+      },
+      "properties": {
+        "codigo": "EN192",
+        "endereco": "Avenida Rebelião praeira, 532, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "31d",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.275441,
+          -18.8728536
+        ]
+      },
+      "properties": {
+        "codigo": "EN193",
+        "endereco": "Av Sabinada, 513, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "31b",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2732237,
+          -18.877837
+        ]
+      },
+      "properties": {
+        "codigo": "EN194",
+        "endereco": "Av. Farroupilias, 437, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "32d",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2728931,
           -18.8772028
         ]
@@ -6398,6 +8542,310 @@
         "codigo": "EN195",
         "endereco": "Av farroupilias, 527, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
         "qtld": "30a",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.275441,
+          -18.8728536
+        ]
+      },
+      "properties": {
+        "codigo": "EN196",
+        "endereco": "Avenida Farroupilia, 599, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "29d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2731831,
+          -18.8923278
+        ]
+      },
+      "properties": {
+        "codigo": "EN198",
+        "endereco": "Avenida Arnaldo Contursi, 146, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "4a",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2722026,
+          -18.8935088
+        ]
+      },
+      "properties": {
+        "codigo": "EN199",
+        "endereco": "Rua Osório José da Cunha, 1668, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "3a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.27219239999999,
+          -18.8927802
+        ]
+      },
+      "properties": {
+        "codigo": "EN200",
+        "endereco": "Rua Natal de Oliveira Marquez, 186, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "3b 186",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2718625,
+          -18.8924861
+        ]
+      },
+      "properties": {
+        "codigo": "EN201",
+        "endereco": "Rua Natal de Oliveira Marquez, 230, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "20b",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2718856,
+          -18.8920834
+        ]
+      },
+      "properties": {
+        "codigo": "EN202",
+        "endereco": "Rua Natal de Oliveira Marquez, 245, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "19b",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2730152,
+          -18.8941079
+        ]
+      },
+      "properties": {
+        "codigo": "EN203",
+        "endereco": "Rua Curitiba, 1758, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "5c",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2730152,
+          -18.8941079
+        ]
+      },
+      "properties": {
+        "codigo": "EN204",
+        "endereco": "Rua Curitiba, 1758, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "5c",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.27203300000001,
+          -18.894224
+        ]
+      },
+      "properties": {
+        "codigo": "EN205",
+        "endereco": "Rua Teresina, 57, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "2a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2723917,
+          -18.8935759
+        ]
+      },
+      "properties": {
+        "codigo": "EN206",
+        "endereco": "Rua Osório José da cunha, 1643, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "2a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.27216139999999,
+          -18.8945596
+        ]
+      },
+      "properties": {
+        "codigo": "EN207",
+        "endereco": "Av Teresina, 10, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "1b",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.27249399999999,
+          -18.892196
+        ]
+      },
+      "properties": {
+        "codigo": "EN208",
+        "endereco": "Rua Rio Grande do Sul, 1662, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "19c",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2684618,
+          -18.8839181
+        ]
+      },
+      "properties": {
+        "codigo": "EN209",
+        "endereco": "Rua Padre Américo Cepp, 2038, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "58d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2684618,
+          -18.8839181
+        ]
+      },
+      "properties": {
+        "codigo": "EN210",
+        "endereco": "Rua Padre Américo cepp, 1884, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "55a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2672459,
+          -18.8845258
+        ]
+      },
+      "properties": {
+        "codigo": "EN211",
+        "endereco": "Avenida Arnaldo Contursi, 1170, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "54a",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2660069,
+          -18.8833507
+        ]
+      },
+      "properties": {
+        "codigo": "EN212",
+        "endereco": "Rua Paraiba, 2145, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "69d",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2667333,
+          -18.8828607
+        ]
+      },
+      "properties": {
+        "codigo": "EN213",
+        "endereco": "Rua Paraiba, 2065, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "66a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2680987,
+          -18.8820003
+        ]
+      },
+      "properties": {
+        "codigo": "EN214",
+        "endereco": "Avenida Comendador Alexandrino garcia, 1264, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "65a",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2979097,
+          -18.9084822
+        ]
+      },
+      "properties": {
+        "codigo": "EN215",
+        "endereco": "Avenida Antônio Tomás de Resende, 160, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "64c",
         "imovel": "Com."
       }
     },
@@ -6454,6 +8902,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.26107349999999,
+          -18.8676543
+        ]
+      },
+      "properties": {
+        "codigo": "EN219",
+        "endereco": "Rua Silvio Romero, 651, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "46c",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2611156,
           -18.8672212
         ]
@@ -6479,6 +8943,38 @@
         "endereco": "Rua da tulia, 3125, MInas Gerais, Uberlândia - MG, Brasil",
         "qtld": "45a",
         "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.26101389999999,
+          -18.8684762
+        ]
+      },
+      "properties": {
+        "codigo": "EN222",
+        "endereco": "Rua Monteiro Lobato, 510, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "46a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.26108079999999,
+          -18.8686618
+        ]
+      },
+      "properties": {
+        "codigo": "EN223",
+        "endereco": "Rua Monteiro Lobato, 531, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "47d",
+        "imovel": "Res."
       }
     },
     {
@@ -6534,6 +9030,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2598245,
+          -18.8681591
+        ]
+      },
+      "properties": {
+        "codigo": "EN227",
+        "endereco": "Rua Silvio Romero, 464, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "41c",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2612664,
           -18.8692711
         ]
@@ -6559,6 +9071,22 @@
         "endereco": "Avenida Quilombo dos Palmares, 1445, Marta Helena, Uberlândia - MG, Brasil",
         "qtld": "65c",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2664954,
+          -18.8832919
+        ]
+      },
+      "properties": {
+        "codigo": "EN231",
+        "endereco": "Rua Paraiba, 2116, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "68a",
+        "imovel": "Com."
       }
     },
     {
@@ -6598,6 +9126,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2660083,
+          -18.8685348
+        ]
+      },
+      "properties": {
+        "codigo": "EN234",
+        "endereco": "Rua Virgílio Carrijo, 299, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "77b",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.26399199999999,
+          -18.8702498
+        ]
+      },
+      "properties": {
+        "codigo": "EN235",
+        "endereco": "Rua Virgílio Carrijo, 60, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "54c",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2640822,
           -18.8708978
         ]
@@ -6630,6 +9190,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.26472589999999,
+          -18.8695462
+        ]
+      },
+      "properties": {
+        "codigo": "EN238",
+        "endereco": "Rua Virgílio Carrijo, 120, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "73b",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2656173,
           -18.8693603
         ]
@@ -6654,6 +9230,22 @@
         "codigo": "EN240",
         "endereco": "Rua gumercindo silva, 67, MInas Gerais, Uberlândia - MG, Brasil",
         "qtld": "75d",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2653463,
+          -18.8688387
+        ]
+      },
+      "properties": {
+        "codigo": "EN241",
+        "endereco": "Rua Virgílio Carrijo, 210, MInas Gerais, Uberlândia - MG, Brasil",
+        "qtld": "78c",
         "imovel": "Com."
       }
     },
@@ -6854,6 +9446,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.27088610000001,
+          -18.8800525
+        ]
+      },
+      "properties": {
+        "codigo": "EN256",
+        "endereco": "Rua Paraiba, 1619, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "7d",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2708703,
           -18.8805138
         ]
@@ -6894,6 +9502,22 @@
         "codigo": "EN259",
         "endereco": "Avenida Garcia Lorca, 184, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
         "qtld": "10a",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2715705,
+          -18.8786046
+        ]
+      },
+      "properties": {
+        "codigo": "EN260",
+        "endereco": "Rua Rio Grande do Norte, 1487, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "11a",
         "imovel": "Res."
       }
     },
@@ -6966,6 +9590,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2712211,
+          -18.8794596
+        ]
+      },
+      "properties": {
+        "codigo": "EN265",
+        "endereco": "Rua Sebastião Carrijo, 30, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "9c",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3711101,
           -18.7319223
         ]
@@ -7006,6 +9646,22 @@
         "codigo": "EN268",
         "endereco": "Joaquim Antônio de Freitas, 191, Distrito Cruzeiro dos Peixotos, Uberlândia - MG, Brasil",
         "qtld": "4A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3723185,
+          -18.7325259
+        ]
+      },
+      "properties": {
+        "codigo": "EN270",
+        "endereco": "Rua Nova República, 221, Distrito Cruzeiro dos Peixotos, Uberlândia - MG, Brasil",
+        "qtld": "4B",
         "imovel": "Res."
       }
     },
@@ -7150,6 +9806,22 @@
         "codigo": "EN279",
         "endereco": "Rua José Camin, 379, Distrito Cruzeiro dos Peixotos, Uberlândia - MG, Brasil",
         "qtld": "13B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3690644,
+          -18.7304666
+        ]
+      },
+      "properties": {
+        "codigo": "EN280",
+        "endereco": "Sol Nascente, 315, Distrito Cruzeiro dos Peixotos, Uberlândia - MG, Brasil",
+        "qtld": "14A",
         "imovel": "Res."
       }
     },
@@ -7419,10 +10091,42 @@
         ]
       },
       "properties": {
+        "codigo": "EN301",
+        "endereco": "RUA: MARIA QUITÉRIA, 65, Marta Helena, Uberlândia - MG, Brasil",
+        "qtld": "157B",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.26522,
+          -18.8736843
+        ]
+      },
+      "properties": {
         "codigo": "EN302",
         "endereco": "RUA : MARIA QUITÉRIA, 65, Marta Helena, Uberlândia - MG, Brasil",
         "qtld": "157B",
         "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.27176499999999,
+          -18.8784326
+        ]
+      },
+      "properties": {
+        "codigo": "EN338",
+        "endereco": "RUA: RIO GRANDE DO NORTE, 1457, Nossa Senhora das Graças, Uberlândia - MG, Brasil",
+        "qtld": "11A",
+        "imovel": "Res."
       }
     },
     {
@@ -7494,6 +10198,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2954866,
+          -18.8786272
+        ]
+      },
+      "properties": {
+        "codigo": "EN347",
+        "endereco": "Rua São João, 1359, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "67 B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2949934,
+          -18.8786356
+        ]
+      },
+      "properties": {
+        "codigo": "EN348",
+        "endereco": "Rua São João, 1314, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "64B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.294833,
+          -18.8792963
+        ]
+      },
+      "properties": {
+        "codigo": "EN349",
+        "endereco": "Rua São João, 1267, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "67B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2949508,
+          -18.8796451
+        ]
+      },
+      "properties": {
+        "codigo": "EN350",
+        "endereco": "Rua Vinte e cinco de Dezembro, 196, Pacaembu, Uberlândia - MG, Brasil",
+        "qtld": "67 C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2950055,
           -18.8794878
         ]
@@ -7518,6 +10286,38 @@
         "codigo": "EO001",
         "endereco": "Rua José R. Duarte, 190, Monte Hebron, Uberlândia - MG, Brasil",
         "qtld": "40C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3435988,
+          -18.9772165
+        ]
+      },
+      "properties": {
+        "codigo": "EO002",
+        "endereco": "Rua Mário José Pinto, 131, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "40B 131",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3440864,
+          -18.9767703
+        ]
+      },
+      "properties": {
+        "codigo": "EO003",
+        "endereco": "Rua Mario José Pinto, 71, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "39B",
         "imovel": "Res."
       }
     },
@@ -7574,6 +10374,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.34456040000001,
+          -18.9767618
+        ]
+      },
+      "properties": {
+        "codigo": "EO007",
+        "endereco": "Rua Mário José Pinto, 46, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "52D 46",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3407714,
+          -18.9789135
+        ]
+      },
+      "properties": {
+        "codigo": "EO008",
+        "endereco": "Rua Mário José Pinto, 126, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "52D 126",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3416534,
+          -18.9756299
+        ]
+      },
+      "properties": {
+        "codigo": "EO010",
+        "endereco": "Rua Maria José Vieira Lucas, 801, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "42A 801",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3426974,
           -18.9770172
         ]
@@ -7582,6 +10430,38 @@
         "codigo": "EO011",
         "endereco": "Rua José Lahor Hortência, 110, Monte Hebron, Uberlândia - MG, Brasil",
         "qtld": "41C 110",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3438837,
+          -18.9737401
+        ]
+      },
+      "properties": {
+        "codigo": "EO013",
+        "endereco": "Rua Maria José Vieira Lucas, 451, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "28D 451",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3449773,
+          -18.9727955
+        ]
+      },
+      "properties": {
+        "codigo": "EO014",
+        "endereco": "Rua Maria José Vieira Lucas, 261, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "28D 261",
         "imovel": "Res."
       }
     },
@@ -7654,6 +10534,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.344525,
+          -18.9739256
+        ]
+      },
+      "properties": {
+        "codigo": "EO020",
+        "endereco": "Rua Maria Gadia Sampaio, 425, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "33D 425",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3458681,
           -18.9734539
         ]
@@ -7702,6 +10598,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3539918,
+          -18.9758873
+        ]
+      },
+      "properties": {
+        "codigo": "EO026",
+        "endereco": "Rua Maura Pereira Rodrigues, 106, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "59D 106",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3539501,
+          -18.976295
+        ]
+      },
+      "properties": {
+        "codigo": "EO027",
+        "endereco": "Rua Maura Pereira Rodrigues, 166, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "59D 166",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3541862,
           -18.9755672
         ]
@@ -7718,6 +10646,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3535907,
+          -18.9754438
+        ]
+      },
+      "properties": {
+        "codigo": "EO029",
+        "endereco": "Rua Maura Pereira Rodrigues, 41, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "64B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3527769,
           -18.9750926
         ]
@@ -7726,6 +10670,22 @@
         "codigo": "EO030",
         "endereco": "Rua Irene Maria de Oliveira, 170, Monte Hebron, Uberlândia - MG, Brasil",
         "qtld": "64C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.353803,
+          -18.976231
+        ]
+      },
+      "properties": {
+        "codigo": "EO031",
+        "endereco": "Rua Maura Pereira Rodrigues, 161, Monte Hebron, Uberlândia - MG, Brasil",
+        "qtld": "60B 161",
         "imovel": "Res."
       }
     },
@@ -7910,6 +10870,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3619564,
+          -18.9709191
+        ]
+      },
+      "properties": {
+        "codigo": "EO043",
+        "endereco": "Rua Mary Dalva França Tavares, 755, Residenciaal Lago Azul, Uberlândia - MG, Brasil",
+        "qtld": "22B 755 casa2",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.360965,
+          -18.971802
+        ]
+      },
+      "properties": {
+        "codigo": "EO044",
+        "endereco": "Rua Walter França, 154, Residenciaal Lago Azul, Uberlândia - MG, Brasil",
+        "qtld": "22C 154",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3603374,
+          -18.9725776
+        ]
+      },
+      "properties": {
+        "codigo": "EO045",
+        "endereco": "Rua Walter França, 266, Residenciaal Lago Azul, Uberlândia - MG, Brasil",
+        "qtld": "22C 266",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3598247,
           -18.973748
         ]
@@ -7918,6 +10926,38 @@
         "codigo": "EO046",
         "endereco": "Rua Adjar França, 411, Residenciaal Lago Azul, Uberlândia - MG, Brasil",
         "qtld": "23D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3596898,
+          -18.9731358
+        ]
+      },
+      "properties": {
+        "codigo": "EO047",
+        "endereco": "Rua Walter França, 356, Residenciaal Lago Azul, Uberlândia - MG, Brasil",
+        "qtld": "23B 356",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3593558,
+          -18.9736751
+        ]
+      },
+      "properties": {
+        "codigo": "EO048",
+        "endereco": "Rua Walter França, 420, Residenciaal Lago Azul, Uberlândia - MG, Brasil",
+        "qtld": "23B",
         "imovel": "Res."
       }
     },
@@ -8030,6 +11070,22 @@
         "codigo": "EO056",
         "endereco": "Rua das Sempre-Vivas, 330, Panorama, Uberlândia - MG, Brasil",
         "qtld": "37C 330",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3447644,
+          -18.9533329
+        ]
+      },
+      "properties": {
+        "codigo": "EO057",
+        "endereco": "Ruas das Primulas, 130, Panorama, Uberlândia - MG, Brasil",
+        "qtld": "39D",
         "imovel": "Res."
       }
     },
@@ -8438,6 +11494,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3862695,
+          -18.9925722
+        ]
+      },
+      "properties": {
+        "codigo": "EO096",
+        "endereco": "Rua Paranaiba, 20, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "159A 20",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.38923519999999,
+          -18.9834379
+        ]
+      },
+      "properties": {
+        "codigo": "EO097",
+        "endereco": "Rua Paranaíba, 1108, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "159A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3904612,
+          -18.9797797
+        ]
+      },
+      "properties": {
+        "codigo": "EO098",
+        "endereco": "Rua Paranaiba, 1374, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "159A 1374",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3684515,
           -18.9844971
         ]
@@ -8486,6 +11590,86 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3818487,
+          -19.0010229
+        ]
+      },
+      "properties": {
+        "codigo": "EO104",
+        "endereco": "Rua Maria Moraes de Rezende, 1098, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "139C 1098",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.38882659999999,
+          -18.9912735
+        ]
+      },
+      "properties": {
+        "codigo": "EO112",
+        "endereco": "Rua Uberabinha, 262, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "160B 262",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3922207,
+          -18.9811543
+        ]
+      },
+      "properties": {
+        "codigo": "EO113",
+        "endereco": "Rua Uberabinha, 1500, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "160B 1500",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3922207,
+          -18.9811543
+        ]
+      },
+      "properties": {
+        "codigo": "EO115",
+        "endereco": "Rua Uberabinha, 1600, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "163B 1600",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3885953,
+          -18.9919167
+        ]
+      },
+      "properties": {
+        "codigo": "EO116",
+        "endereco": "Rua Uberabinha, 170, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "163B 170",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3938304,
           -18.9818264
         ]
@@ -8518,6 +11702,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3906152,
+          -18.9798385
+        ]
+      },
+      "properties": {
+        "codigo": "EO119",
+        "endereco": "Rua Paranaiba, 1375, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "160D 1375",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3510002,
           -18.9605583
         ]
@@ -8542,6 +11742,22 @@
         "codigo": "EO121",
         "endereco": "Rua das Rosas, 839, Panorama, Uberlândia - MG, Brasil",
         "qtld": "50B 839",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3515301,
+          -18.9586342
+        ]
+      },
+      "properties": {
+        "codigo": "EO122",
+        "endereco": "Rua Sbipiruna, 980, Panorama, Uberlândia - MG, Brasil",
+        "qtld": "50C 980",
         "imovel": "Res."
       }
     },
@@ -8726,6 +11942,118 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3931096,
+          -18.9796765
+        ]
+      },
+      "properties": {
+        "codigo": "EO147",
+        "endereco": "Rua do Cateto, 150, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "80B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3912238,
+          -18.9785543
+        ]
+      },
+      "properties": {
+        "codigo": "EO149",
+        "endereco": "Rua da Jaguatirica, 1130, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "74B 1130",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3928358,
+          -18.9789478
+        ]
+      },
+      "properties": {
+        "codigo": "EO150",
+        "endereco": "Rua da Jaguarundi, 1171, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "74D 1171",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3928618,
+          -18.9789625
+        ]
+      },
+      "properties": {
+        "codigo": "EO151",
+        "endereco": "Rua da Jaguarundi, 1340, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "75B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.389809,
+          -18.9788788
+        ]
+      },
+      "properties": {
+        "codigo": "EO153",
+        "endereco": "Rua Graxaim do Campo, 280, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "72A 280",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3913029,
+          -18.9793291
+        ]
+      },
+      "properties": {
+        "codigo": "EO155",
+        "endereco": "Rua da Onça-Pintada, 1180, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "73B 1180",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3922112,
+          -18.9794777
+        ]
+      },
+      "properties": {
+        "codigo": "EO156",
+        "endereco": "Rua Jaguatirica, 1301, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "73D 1301",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3919439,
           -18.9776027
         ]
@@ -8735,6 +12063,182 @@
         "endereco": "Rua do Gato Palheiro, 1200, Residencial Pequis, Uberlândia - MG, Brasil",
         "qtld": "76B",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3859185,
+          -18.9751464
+        ]
+      },
+      "properties": {
+        "codigo": "EO168",
+        "endereco": "Rua do Gato-Palheiro, 410, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "55D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.387866,
+          -18.975521
+        ]
+      },
+      "properties": {
+        "codigo": "EO170",
+        "endereco": "Rua Raposa-do-Campo, 371, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "54A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.386292,
+          -18.975682
+        ]
+      },
+      "properties": {
+        "codigo": "EO171",
+        "endereco": "Rua Do Jaguarundi, 500, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "54D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.38525449999999,
+          -18.9758036
+        ]
+      },
+      "properties": {
+        "codigo": "EO173",
+        "endereco": "Rua da Jaguarundi, 360, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "46B 360",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.38521919999999,
+          -18.9752369
+        ]
+      },
+      "properties": {
+        "codigo": "EO174",
+        "endereco": "Rua do Gato-Palheiro, 330, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "45B 330",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3844115,
+          -18.9753488
+        ]
+      },
+      "properties": {
+        "codigo": "EO175",
+        "endereco": "Rua do Gato-Palheiro, 220, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "45B 220",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3826882,
+          -18.974893
+        ]
+      },
+      "properties": {
+        "codigo": "EO176",
+        "endereco": "Av. Wilson Rodrigues da Silva, 1745, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "45D 1745",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.38375019999999,
+          -18.9757523
+        ]
+      },
+      "properties": {
+        "codigo": "EO178",
+        "endereco": "Rua do Gato-Palheiro, 151, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "46D 151",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3849989,
+          -18.9744858
+        ]
+      },
+      "properties": {
+        "codigo": "EO179",
+        "endereco": "Avenida Wilson Rodrigues da Silva, 1740, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "57D 1530",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3855262,
+          -18.9756635
+        ]
+      },
+      "properties": {
+        "codigo": "EO180",
+        "endereco": "Rua Cachorro-do-Mato, 231, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "59A 231",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3829574,
+          -18.974599
+        ]
+      },
+      "properties": {
+        "codigo": "EO181",
+        "endereco": "Av Wilson Rodrigues da Silva, 1530, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "57D 1530",
+        "imovel": "Com."
       }
     },
     {
@@ -8758,6 +12262,166 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.384453,
+          -18.971681
+        ]
+      },
+      "properties": {
+        "codigo": "EO183",
+        "endereco": "Rua do Punare, 181, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "61B 181",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.38441599999999,
+          -18.9721939
+        ]
+      },
+      "properties": {
+        "codigo": "EO184",
+        "endereco": "Rua da Paca, 190, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "61D 190",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3855687,
+          -18.9721038
+        ]
+      },
+      "properties": {
+        "codigo": "EO185",
+        "endereco": "Rua da Paca, 331, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "60B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.383375,
+          -18.972428
+        ]
+      },
+      "properties": {
+        "codigo": "EO186",
+        "endereco": "Rua da Paca, 71, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "60B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3836857,
+          -18.9728346
+        ]
+      },
+      "properties": {
+        "codigo": "EO187",
+        "endereco": "Rua do Ouriço Cacheiro, 110, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "60D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3854546,
+          -18.9728681
+        ]
+      },
+      "properties": {
+        "codigo": "EO188",
+        "endereco": "Rua do Ourico-Cacheiro, 281, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "59B 281",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.38292329999999,
+          -18.9731428
+        ]
+      },
+      "properties": {
+        "codigo": "EO189",
+        "endereco": "Rua do Ouriço-Cacheiro, 11, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "59B 11",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.385859,
+          -18.9720039
+        ]
+      },
+      "properties": {
+        "codigo": "EO190",
+        "endereco": "Rua da Paca, 380, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "61D 380",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.38587219999999,
+          -18.9733159
+        ]
+      },
+      "properties": {
+        "codigo": "EO191",
+        "endereco": "Rua Cachorro do Mato, 300, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "56D",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3845085,
+          -18.97331
+        ]
+      },
+      "properties": {
+        "codigo": "EO192",
+        "endereco": "Rua da Cutia, 180, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "59D 180",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3099307,
           -18.9207704
         ]
@@ -8766,6 +12430,22 @@
         "codigo": "EO193",
         "endereco": "Rua Aguape, 86, Chácaras Tubalina, Uberlândia - MG, Brasil",
         "qtld": "8C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3179239,
+          -18.9094887
+        ]
+      },
+      "properties": {
+        "codigo": "EO213",
+        "endereco": "Rua Piralite, 243, Dona Zulmira, Uberlândia - MG, Brasil",
+        "qtld": "43A",
         "imovel": "Res."
       }
     },
@@ -8806,6 +12486,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3189692,
+          -18.9096671
+        ]
+      },
+      "properties": {
+        "codigo": "EO216",
+        "endereco": "Rua Piralite, 344, Dona Zulmira, Uberlândia - MG, Brasil",
+        "qtld": "47B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.31505689999999,
+          -18.9095079
+        ]
+      },
+      "properties": {
+        "codigo": "EO217",
+        "endereco": "Rua Pirolusita, 137, Dona Zulmira, Uberlândia - MG, Brasil",
+        "qtld": "47D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3168745,
+          -18.9086836
+        ]
+      },
+      "properties": {
+        "codigo": "EO218",
+        "endereco": "Rua Piralite, 108, Dona Zulmira, Uberlândia - MG, Brasil",
+        "qtld": "46C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3161053,
           -18.9089792
         ]
@@ -8814,6 +12542,22 @@
         "codigo": "EO219",
         "endereco": "Rua Eurita, 76, Dona Zulmira, Uberlândia - MG, Brasil",
         "qtld": "44E",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.317094,
+          -18.9086804
+        ]
+      },
+      "properties": {
+        "codigo": "EO220",
+        "endereco": "Rua Opala, 125, Dona Zulmira, Uberlândia - MG, Brasil",
+        "qtld": "44A",
         "imovel": "Res."
       }
     },
@@ -8918,6 +12662,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3249637,
+          -18.9093124
+        ]
+      },
+      "properties": {
+        "codigo": "EO230",
+        "endereco": "Rua ortoclasio, 165, Jardim Patricia, Uberlândia - MG, Brasil",
+        "qtld": "67A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3237458,
           -18.9083396
         ]
@@ -9014,6 +12774,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3659517,
+          -18.9717746
+        ]
+      },
+      "properties": {
+        "codigo": "EO259",
+        "endereco": "Rua Suiriri, 184, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "21B",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3682594,
           -18.9719065
         ]
@@ -9087,6 +12863,22 @@
         "endereco": "Rua do Azulao, 105, Residencial Pequis, Uberlândia - MG, Brasil",
         "qtld": "25D",
         "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3673729,
+          -18.973617
+        ]
+      },
+      "properties": {
+        "codigo": "EO265",
+        "endereco": "Rua. do Sovi, 114, Residencial Pequis, Uberlândia - MG, Brasil",
+        "qtld": "34A",
+        "imovel": "Res."
       }
     },
     {
@@ -9190,6 +12982,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.37800619999999,
+          -18.9996494
+        ]
+      },
+      "properties": {
+        "codigo": "EO274",
+        "endereco": "Rua Maria Moraes de Rezende, 612, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "141C 612",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.382374,
           -19.0000886
         ]
@@ -9197,6 +13005,38 @@
       "properties": {
         "codigo": "EO275",
         "endereco": "Rua Ancila Valentine Gosuen, 1056, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "143A 1056",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3820627,
+          -19.0011061
+        ]
+      },
+      "properties": {
+        "codigo": "EO277",
+        "endereco": "Rua Maria Morais de Resende, 1124, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "140B 1124",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.37871149999999,
+          -19.0001681
+        ]
+      },
+      "properties": {
+        "codigo": "EO278",
+        "endereco": "Rua Maria Moraes de Rezende, 753, Morada Nova, Uberlândia - MG, Brasil",
         "qtld": "143A 1056",
         "imovel": "Res."
       }
@@ -9231,6 +13071,54 @@
         "endereco": "Rua Ancila Valentini Gosuen, 525, Morada Nova, Uberlândia - MG, Brasil",
         "qtld": "109D 525",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.376242,
+          -18.999006
+        ]
+      },
+      "properties": {
+        "codigo": "EO281",
+        "endereco": "Rua Maria Moraes de Resende, 422, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "109B 422",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3766861,
+          -18.9992684
+        ]
+      },
+      "properties": {
+        "codigo": "EO282",
+        "endereco": "Rua Maria Moraes de Resende, 521, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "137C 521",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.32600679999999,
+          -18.9343012
+        ]
+      },
+      "properties": {
+        "codigo": "EO283",
+        "endereco": "Rua Sudepe, 1410, Chácaras Tubalina, Uberlândia - MG, Brasil",
+        "qtld": "61B 1410",
+        "imovel": "Out."
       }
     },
     {
@@ -9311,6 +13199,22 @@
         "endereco": "Avenida do Pinho, 735, Chácaras Tubalina, Uberlândia - MG, Brasil",
         "qtld": "1E 735",
         "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.32600679999999,
+          -18.9343012
+        ]
+      },
+      "properties": {
+        "codigo": "EO290",
+        "endereco": "Rua Sudepe, 1410, Chácaras Tubalina, Uberlândia - MG, Brasil",
+        "qtld": "61B 1410",
+        "imovel": "Out."
       }
     },
     {
@@ -9526,6 +13430,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.30842800000001,
+          -18.9596669
+        ]
+      },
+      "properties": {
+        "codigo": "EO306",
+        "endereco": "Rua Sebastião Lourenço da Rocha, 191, Jardim Holanda, Uberlândia - MG, Brasil",
+        "qtld": "27D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3100007,
           -18.9601167
         ]
@@ -9534,6 +13454,22 @@
         "codigo": "EO307",
         "endereco": "Alameda Sebastião Fernandes Vasconcelos, 181, Jardim Holanda, Uberlândia - MG, Brasil",
         "qtld": "31C 181",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.30901919999999,
+          -18.9585912
+        ]
+      },
+      "properties": {
+        "codigo": "EO308",
+        "endereco": "Rua Sebastião Lourenço da Rocha, 61, Jardim Holanda, Uberlândia - MG, Brasil",
+        "qtld": "27D",
         "imovel": "Res."
       }
     },
@@ -9582,6 +13518,22 @@
         "codigo": "EO311",
         "endereco": "Rua Francisca Garcia de Souza, 61, Taiamam, Uberlândia - MG, Brasil",
         "qtld": "44C 61",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3182623,
+          -18.8941924
+        ]
+      },
+      "properties": {
+        "codigo": "EO312",
+        "endereco": "Rua Olinda Maria de Jesus, 22, Taiamam, Uberlândia - MG, Brasil",
+        "qtld": "43C 22",
         "imovel": "Res."
       }
     },
@@ -9654,6 +13606,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3184391,
+          -18.8946203
+        ]
+      },
+      "properties": {
+        "codigo": "EO319",
+        "endereco": "Rua Olinda Maria de Jesus, 61, Taiamam, Uberlândia - MG, Brasil",
+        "qtld": "42B 61",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3190665,
           -18.8963513
         ]
@@ -9710,6 +13678,22 @@
         "codigo": "EO325",
         "endereco": "Arianos Francisco da Silva, 117, Distrito Miraporanga, Uberlândia - MG, Brasil",
         "qtld": "5B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.42763189999999,
+          -19.253745
+        ]
+      },
+      "properties": {
+        "codigo": "EO326",
+        "endereco": "Rua XV de Novembro, 221, Distrito Miraporanga, Uberlândia - MG, Brasil",
+        "qtld": "5D",
         "imovel": "Res."
       }
     },
@@ -9990,6 +13974,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.427239,
+          -19.254665
+        ]
+      },
+      "properties": {
+        "codigo": "EO345",
+        "endereco": "Rua XV de novembro, 287, Distrito Miraporanga, Uberlândia - MG, Brasil",
+        "qtld": "12A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2801502,
           -18.913034
         ]
@@ -10086,6 +14086,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.427977,
+          -19.257025
+        ]
+      },
+      "properties": {
+        "codigo": "EO353",
+        "endereco": "Rua Municipal, 270, Distrito Miraporanga, Uberlândia - MG, Brasil",
+        "qtld": "16C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4280651,
+          -19.2569612
+        ]
+      },
+      "properties": {
+        "codigo": "EO354",
+        "endereco": "Rua Municipal, 260, Distrito Miraporanga, Uberlândia - MG, Brasil",
+        "qtld": "17A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.4277645,
           -19.2561783
         ]
@@ -10150,6 +14182,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3263755,
+          -18.8916301
+        ]
+      },
+      "properties": {
+        "codigo": "EO359",
+        "endereco": "Rua Rancheira, 448, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "31B 448",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3291554,
           -18.8901443
         ]
@@ -10190,6 +14238,22 @@
         "codigo": "EO362",
         "endereco": "Av. Clássica, 415, Guarani, Uberlândia - MG, Brasil",
         "qtld": "32B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.32997599999999,
+          -18.8891449
+        ]
+      },
+      "properties": {
+        "codigo": "EO363",
+        "endereco": "Rua Rancheira, 580, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "32C",
         "imovel": "Res."
       }
     },
@@ -10430,6 +14494,38 @@
         "codigo": "EO379",
         "endereco": "Rua da Rumba, 111, Guarani, Uberlândia - MG, Brasil",
         "qtld": "14A 111",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3263461,
+          -18.8918026
+        ]
+      },
+      "properties": {
+        "codigo": "EO380",
+        "endereco": "Rua Rancheira, 123, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "17B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3270863,
+          -18.8914417
+        ]
+      },
+      "properties": {
+        "codigo": "EO381",
+        "endereco": "Rua Rancheira, 205, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "16B",
         "imovel": "Res."
       }
     },
@@ -10822,6 +14918,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3302557,
+          -18.8944117
+        ]
+      },
+      "properties": {
+        "codigo": "EO407",
+        "endereco": "Rua Maracatu, 178, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "39A 178",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3290811,
           -18.8932408
         ]
@@ -10894,6 +15006,22 @@
         "codigo": "EO412",
         "endereco": "Rua da Mazurka, 514, Guarani, Uberlândia - MG, Brasil",
         "qtld": "63B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.33253029999999,
+          -18.8922942
+        ]
+      },
+      "properties": {
+        "codigo": "EO413",
+        "endereco": "Rua Serenatas, 463, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "46A",
         "imovel": "Res."
       }
     },
@@ -11022,6 +15150,38 @@
         "codigo": "EO423",
         "endereco": "Rua Bolero, 247, Guarani, Uberlândia - MG, Brasil",
         "qtld": "19A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.326177,
+          -18.8916863
+        ]
+      },
+      "properties": {
+        "codigo": "EO424",
+        "endereco": "Rua Rancheira, 114, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "18C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.32553129999999,
+          -18.8914688
+        ]
+      },
+      "properties": {
+        "codigo": "EO425",
+        "endereco": "Rua Do Bolero, 86, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "21D",
         "imovel": "Res."
       }
     },
@@ -11462,6 +15622,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.33062049999999,
+          -18.8945203
+        ]
+      },
+      "properties": {
+        "codigo": "EO457",
+        "endereco": "Rua Maracatu, 165, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "48D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3303785,
           -18.8916218
         ]
@@ -11526,6 +15702,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3291007,
+          -18.8945365
+        ]
+      },
+      "properties": {
+        "codigo": "EO463",
+        "endereco": "Rua Serenatas, 39, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "7A 39",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3302515,
           -18.8947112
         ]
@@ -11558,6 +15750,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3314457,
+          -18.8877656
+        ]
+      },
+      "properties": {
+        "codigo": "EO466",
+        "endereco": "Rua do Bolero, 1107, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "82C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3330563,
           -18.8877782
         ]
@@ -11574,6 +15782,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3322819,
+          -18.8879843
+        ]
+      },
+      "properties": {
+        "codigo": "EO468",
+        "endereco": "Rua Rancheira, 843, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "76B 843",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3344461,
           -18.8868922
         ]
@@ -11582,6 +15806,22 @@
         "codigo": "EO469",
         "endereco": "Rua da Rumba, 1074, Guarani, Uberlândia - MG, Brasil",
         "qtld": "83A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3338462,
+          -18.8869886
+        ]
+      },
+      "properties": {
+        "codigo": "EO470",
+        "endereco": "Rua Rancheira, 1035, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "83C 1035",
         "imovel": "Res."
       }
     },
@@ -11775,6 +16015,22 @@
         "endereco": "Alameda Emiliano Borges Silva, 351, Jardim Holanda, Uberlândia - MG, Brasil",
         "qtld": "71D 351",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3607136,
+          -18.9738427
+        ]
+      },
+      "properties": {
+        "codigo": "EO483",
+        "endereco": "Rua Margarida Genário, 533, Residenciaal Lago Azul, Uberlândia - MG, Brasil",
+        "qtld": "24 D",
+        "imovel": "Com."
       }
     },
     {
@@ -12159,6 +16415,102 @@
         "endereco": "Av Taylor Silva, 1, Guarani, Uberlândia - MG, Brasil",
         "qtld": "94C",
         "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3240378,
+          -18.8913364
+        ]
+      },
+      "properties": {
+        "codigo": "EO511",
+        "endereco": "Rua Vaneirao, 1, Guarani, Uberlândia - MG, Brasil",
+        "qtld": "23A",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3616821,
+          -18.9795657
+        ]
+      },
+      "properties": {
+        "codigo": "EO514",
+        "endereco": "Rua ruy Moreira rocha, 786, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "13 C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3679558,
+          -18.9771389
+        ]
+      },
+      "properties": {
+        "codigo": "EO515",
+        "endereco": "Rua radialista expedito Alves Amaral, 764, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "14 D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.361232,
+          -18.980826
+        ]
+      },
+      "properties": {
+        "codigo": "EO516",
+        "endereco": "Rua ruy Barbosa de souza, 2050, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "15 A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3648208,
+          -18.9788591
+        ]
+      },
+      "properties": {
+        "codigo": "EO517",
+        "endereco": "Rua radialista expedito Amaral, 2005, Morada Nova, Uberlândia - MG, Brasil",
+        "qtld": "12 A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.9358108,
+          -19.1403547
+        ]
+      },
+      "properties": {
+        "codigo": "ES 286",
+        "endereco": "Avenida José Pedro Abalem, 576, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "qtld": "2 C",
+        "imovel": "Res."
       }
     },
     {
@@ -12566,6 +16918,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2383078,
+          -18.9604522
+        ]
+      },
+      "properties": {
+        "codigo": "ES027",
+        "endereco": "Rua Senado, 238, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": 154,
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2362725,
           -18.9597655
         ]
@@ -12590,6 +16958,86 @@
         "codigo": "ES031",
         "endereco": "Rua Concresso, 66, Laranjeiras, Uberlândia - MG, Brasil",
         "qtld": "96C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2366468,
+          -18.9606946
+        ]
+      },
+      "properties": {
+        "codigo": "ES032",
+        "endereco": "Rua Royalties, 69, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "94A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2364414,
+          -18.9603691
+        ]
+      },
+      "properties": {
+        "codigo": "ES033",
+        "endereco": "Rua Royalties, 58, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "95D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2368856,
+          -18.960738
+        ]
+      },
+      "properties": {
+        "codigo": "ES034",
+        "endereco": "Rua Royalties, 98, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "95D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.237395,
+          -18.961001
+        ]
+      },
+      "properties": {
+        "codigo": "ES035",
+        "endereco": "Rua Royalties, 179, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "94A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2378042,
+          -18.9610957
+        ]
+      },
+      "properties": {
+        "codigo": "ES036",
+        "endereco": "Rua Royalties, 218, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "95D",
         "imovel": "Res."
       }
     },
@@ -12623,6 +17071,38 @@
         "endereco": "Rua Antônio Bernardes Costa, 28, Laranjeiras, Uberlândia - MG, Brasil",
         "qtld": "38C",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2347687,
+          -18.9590438
+        ]
+      },
+      "properties": {
+        "codigo": "ES040",
+        "endereco": "Rua Wilson Cunha, 21, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "40B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2362804,
+          -18.9597409
+        ]
+      },
+      "properties": {
+        "codigo": "ES041",
+        "endereco": "Rua Toledo, 220, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "96B",
+        "imovel": "Out."
       }
     },
     {
@@ -12678,6 +17158,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2374108,
+          -18.9582769
+        ]
+      },
+      "properties": {
+        "codigo": "ES047",
+        "endereco": "Rua Parlamento, 60, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "99D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2352073,
           -18.9569943
         ]
@@ -12719,6 +17215,54 @@
         "endereco": "Avenida Silvio rugani, 16, Tubalina, Uberlândia - MG, Brasil",
         "qtld": "139C",
         "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.25282230000001,
+          -18.930538
+        ]
+      },
+      "properties": {
+        "codigo": "ES051",
+        "endereco": "Rua São Judas Tadeu, 320, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "54B",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.25282230000001,
+          -18.930538
+        ]
+      },
+      "properties": {
+        "codigo": "ES052",
+        "endereco": "Rua São Judas Tadeu, 320, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "54B",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.25282230000001,
+          -18.930538
+        ]
+      },
+      "properties": {
+        "codigo": "ES053",
+        "endereco": "RUA SÃO JUDAS TADEU, 320, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "54B",
+        "imovel": "Com."
       }
     },
     {
@@ -12966,6 +17510,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.3035527,
+          -18.9369605
+        ]
+      },
+      "properties": {
+        "codigo": "ES075",
+        "endereco": "Rua São José, 253, Tubalina, Uberlândia - MG, Brasil",
+        "qtld": "84C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3035401,
           -18.936092
         ]
@@ -12998,6 +17558,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2501071,
+          -18.9325591
+        ]
+      },
+      "properties": {
+        "codigo": "ES078",
+        "endereco": "RUA Teotônio Rocha Figueira, 46, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "21A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2500553,
+          -18.9324292
+        ]
+      },
+      "properties": {
+        "codigo": "ES079",
+        "endereco": "Teotônio Rocha Figueira, 76, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "21A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.249569,
+          -18.932872
+        ]
+      },
+      "properties": {
+        "codigo": "ES080",
+        "endereco": "Rua Teotônio Rocha Figueira, 111, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "22D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.3032887,
           -18.9373312
         ]
@@ -13006,6 +17614,134 @@
         "codigo": "ES082",
         "endereco": "RUA Castro Alves, 795, Tubalina, Uberlândia - MG, Brasil",
         "qtld": "95C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3038659,
+          -18.9371544
+        ]
+      },
+      "properties": {
+        "codigo": "ES083",
+        "endereco": "RUA SÃO JOSÉ, 264, Tubalina, Uberlândia - MG, Brasil",
+        "qtld": "87B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3039816,
+          -18.9366071
+        ]
+      },
+      "properties": {
+        "codigo": "ES084",
+        "endereco": "São José, 218, Tubalina, Uberlândia - MG, Brasil",
+        "qtld": "87B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2499237,
+          -18.9326253
+        ]
+      },
+      "properties": {
+        "codigo": "ES085",
+        "endereco": "TEOTÔNIO ROCHA Figueira, 106, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "21A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2494127,
+          -18.9327534
+        ]
+      },
+      "properties": {
+        "codigo": "ES086",
+        "endereco": "Rua Teotônio Rocha Figueira, 131, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "22D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2493067,
+          -18.9331868
+        ]
+      },
+      "properties": {
+        "codigo": "ES087",
+        "endereco": "Rua Teotônio Rocha Figueira, 186, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "21A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.24911669999999,
+          -18.9330421
+        ]
+      },
+      "properties": {
+        "codigo": "ES088",
+        "endereco": "Teotônio Rocha Figueira, 187, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "22D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.248777,
+          -18.9336831
+        ]
+      },
+      "properties": {
+        "codigo": "ES089",
+        "endereco": "Rua Teotônio Rocha Figueira, 250, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "21A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2483167,
+          -18.9336792
+        ]
+      },
+      "properties": {
+        "codigo": "ES090",
+        "endereco": "Rua Teotônio Rocha Figueira, 293, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "20B",
         "imovel": "Res."
       }
     },
@@ -13150,6 +17886,22 @@
         "codigo": "ES103",
         "endereco": "Rua das ipomeias, 70, Cidade Jardim, Uberlândia - MG, Brasil",
         "qtld": "112D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.3036155,
+          -18.9493671
+        ]
+      },
+      "properties": {
+        "codigo": "ES104",
+        "endereco": "Rua Tulipas, 382, Cidade Jardim, Uberlândia - MG, Brasil",
+        "qtld": "120D",
         "imovel": "Res."
       }
     },
@@ -13334,6 +18086,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2879297,
+          -18.9367047
+        ]
+      },
+      "properties": {
+        "codigo": "ES118",
+        "endereco": "RUA Penha, 61, Patrimonio, Uberlândia - MG, Brasil",
+        "qtld": "52C",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2890598,
+          -18.9349343
+        ]
+      },
+      "properties": {
+        "codigo": "ES119",
+        "endereco": "Rua Tenente Rafael de Freitas, 604, Patrimonio, Uberlândia - MG, Brasil",
+        "qtld": "50B",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2880414,
           -18.9356204
         ]
@@ -13350,6 +18134,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2878561,
+          -18.9357823
+        ]
+      },
+      "properties": {
+        "codigo": "ES121",
+        "endereco": "Rua Urca, 280, Patrimonio, Uberlândia - MG, Brasil",
+        "qtld": "31A",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2875585,
           -18.9361518
         ]
@@ -13359,6 +18159,22 @@
         "endereco": "Rua da Carioca, 713, Patrimonio, Uberlândia - MG, Brasil",
         "qtld": "30C",
         "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2877967,
+          -18.9364924
+        ]
+      },
+      "properties": {
+        "codigo": "ES123",
+        "endereco": "Rua Penha, 19, Patrimonio, Uberlândia - MG, Brasil",
+        "qtld": "52C",
+        "imovel": "Res."
       }
     },
     {
@@ -13438,6 +18254,22 @@
         "codigo": "ES128",
         "endereco": "Rua Barão de Penedo, 628, Pampulha, Uberlândia - MG, Brasil",
         "qtld": "26B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2413165,
+          -18.9309416
+        ]
+      },
+      "properties": {
+        "codigo": "ES129",
+        "endereco": "Rua Saldanha Marinho, 60, Pampulha, Uberlândia - MG, Brasil",
+        "qtld": "23A",
         "imovel": "Res."
       }
     },
@@ -14102,6 +18934,70 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2398045,
+          -18.9637708
+        ]
+      },
+      "properties": {
+        "codigo": "ES177",
+        "endereco": "Rua Soberania, 505, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "164 D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.240176,
+          -18.9638398
+        ]
+      },
+      "properties": {
+        "codigo": "ES178",
+        "endereco": "Rua Soberania, 545, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "164D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.240994,
+          -18.9639145
+        ]
+      },
+      "properties": {
+        "codigo": "ES179",
+        "endereco": "Rua Soberania, 624, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "162A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2411849,
+          -18.9642202
+        ]
+      },
+      "properties": {
+        "codigo": "ES180",
+        "endereco": "RUA Soberania, 665, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "164 D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.241391,
           -18.9640444
         ]
@@ -14246,6 +19142,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2417701,
+          -18.9604954
+        ]
+      },
+      "properties": {
+        "codigo": "ES193",
+        "endereco": "Rua Tribuna, 576, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "150B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2410757,
+          -18.9602339
+        ]
+      },
+      "properties": {
+        "codigo": "ES194",
+        "endereco": "Rua Tribuna, 496, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "150B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2408756,
+          -18.960199
+        ]
+      },
+      "properties": {
+        "codigo": "ES195",
+        "endereco": "Rua Tribuna, 476, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "150B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2407352,
           -18.9610303
         ]
@@ -14278,6 +19222,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2421319,
+          -18.9608766
+        ]
+      },
+      "properties": {
+        "codigo": "ES198",
+        "endereco": "Rua Tribuna, 637, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "152C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2410095,
+          -18.9604611
+        ]
+      },
+      "properties": {
+        "codigo": "ES199",
+        "endereco": "Rua Tribuna, 507, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "152C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2346565,
+          -18.9598221
+        ]
+      },
+      "properties": {
+        "codigo": "ES201",
+        "endereco": "Rua Wilson Cunha, 10, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "31C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2313679,
           -18.959826
         ]
@@ -14302,6 +19294,22 @@
         "codigo": "ES203",
         "endereco": "Rua Cora Coralina, 13, São Jorge, Uberlândia - MG, Brasil",
         "qtld": "84A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2318386,
+          -18.9589467
+        ]
+      },
+      "properties": {
+        "codigo": "ES204",
+        "endereco": "Rua Wilson Cunha, 326, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "32A",
         "imovel": "Res."
       }
     },
@@ -14438,6 +19446,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2497538,
+          -18.9312015
+        ]
+      },
+      "properties": {
+        "codigo": "ES214",
+        "endereco": "Rua Pampulha, 382, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "46E",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2495514,
           -18.9308049
         ]
@@ -14486,6 +19510,54 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2498393,
+          -18.9311505
+        ]
+      },
+      "properties": {
+        "codigo": "ES218",
+        "endereco": "Rua Pampulha, 372, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "46E",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2438021,
+          -18.9630497
+        ]
+      },
+      "properties": {
+        "codigo": "ES219",
+        "endereco": "Rua Royalties, 884, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "182D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2474472,
+          -18.9318903
+        ]
+      },
+      "properties": {
+        "codigo": "ES220",
+        "endereco": "Rua Porangaba, 850, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "28C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2486316,
           -18.9305708
         ]
@@ -14494,6 +19566,134 @@
         "codigo": "ES222",
         "endereco": "RUA GALILEU, 228, Carajas, Uberlândia - MG, Brasil",
         "qtld": "27C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2487238,
+          -18.93141
+        ]
+      },
+      "properties": {
+        "codigo": "ES223",
+        "endereco": "Rua São Bernardo, 776, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "24A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2489008,
+          -18.9313525
+        ]
+      },
+      "properties": {
+        "codigo": "ES224",
+        "endereco": "Rua São Bernardo, 756, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "24A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2491552,
+          -18.9314999
+        ]
+      },
+      "properties": {
+        "codigo": "ES225",
+        "endereco": "Rua São Bernardo, 726, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "24A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2437783,
+          -18.9633616
+        ]
+      },
+      "properties": {
+        "codigo": "ES226",
+        "endereco": "RUA Royalites, 895, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "181A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2431654,
+          -18.9631297
+        ]
+      },
+      "properties": {
+        "codigo": "ES227",
+        "endereco": "RUA Royalites, 825, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "181A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2422994,
+          -18.9627145
+        ]
+      },
+      "properties": {
+        "codigo": "ES228",
+        "endereco": "RUA Royalites, 725, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "181A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2425721,
+          -18.9625882
+        ]
+      },
+      "properties": {
+        "codigo": "ES229",
+        "endereco": "Rua Royalties, 744, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "182D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2423833,
+          -18.9625258
+        ]
+      },
+      "properties": {
+        "codigo": "ES230",
+        "endereco": "Rua Royalties, 724, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "182D",
         "imovel": "Res."
       }
     },
@@ -14598,6 +19798,182 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.28564069999999,
+          -18.9467646
+        ]
+      },
+      "properties": {
+        "codigo": "ES249",
+        "endereco": "RV08, 218, Condomínio Reserva do Vale, Uberlândia - MG, Brasil",
+        "qtld": "7A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28564069999999,
+          -18.9467646
+        ]
+      },
+      "properties": {
+        "codigo": "ES250",
+        "endereco": "RV08, 406, Condomínio Reserva do Vale, Uberlândia - MG, Brasil",
+        "qtld": "7A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28564069999999,
+          -18.9467646
+        ]
+      },
+      "properties": {
+        "codigo": "ES251",
+        "endereco": "Rua RV 07, 763, Condomínio Reserva do Vale, Uberlândia - MG, Brasil",
+        "qtld": "7C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28564069999999,
+          -18.9467646
+        ]
+      },
+      "properties": {
+        "codigo": "ES252",
+        "endereco": "Rua RV 07, 651, Condomínio Reserva do Vale, Uberlândia - MG, Brasil",
+        "qtld": "7C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28564069999999,
+          -18.9467646
+        ]
+      },
+      "properties": {
+        "codigo": "ES253",
+        "endereco": "Rua RV 07, 575, Condomínio Reserva do Vale, Uberlândia - MG, Brasil",
+        "qtld": "7C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.28564069999999,
+          -18.9467646
+        ]
+      },
+      "properties": {
+        "codigo": "ES255",
+        "endereco": "RV08, 403, Condomínio Reserva do Vale, Uberlândia - MG, Brasil",
+        "qtld": "6 C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2845149,
+          -18.9467412
+        ]
+      },
+      "properties": {
+        "codigo": "ES256",
+        "endereco": "Rua RV 01, 40, Condomínio Reserva do Vale, Uberlândia - MG, Brasil",
+        "qtld": "4A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23584779999999,
+          -18.9185794
+        ]
+      },
+      "properties": {
+        "codigo": "ES270",
+        "endereco": "Rua Rangel, 367, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "qtld": "13 B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2355927,
+          -18.9175858
+        ]
+      },
+      "properties": {
+        "codigo": "ES272",
+        "endereco": "Rua Rangel, 257, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "qtld": "12 B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.9354525,
+          -19.1421196
+        ]
+      },
+      "properties": {
+        "codigo": "ES280",
+        "endereco": "Avenida José Pedro Abalem, 746, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "qtld": "7 A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.9366093,
+          -19.1398769
+        ]
+      },
+      "properties": {
+        "codigo": "ES282",
+        "endereco": "Rua Joaquim Pereira do Nascimento, 93, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "qtld": "2 B",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.23473,
           -18.9150412
         ]
@@ -14607,6 +19983,22 @@
         "endereco": "Av José Pedro, 356, Distrito Tapuirama, Uberlândia - MG, Brasil",
         "qtld": "1 A",
         "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.93809280000001,
+          -19.1461709
+        ]
+      },
+      "properties": {
+        "codigo": "ES294",
+        "endereco": "Rua Melo Montes, 260, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "qtld": "23 A",
+        "imovel": "Res."
       }
     },
     {
@@ -14646,6 +20038,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -47.9363419,
+          -19.1456862
+        ]
+      },
+      "properties": {
+        "codigo": "ES299",
+        "endereco": "Rua Melo Montes, 295, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "qtld": "31 D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -47.9352742,
           -19.1467183
         ]
@@ -14654,6 +20062,22 @@
         "codigo": "ES302",
         "endereco": "Avenida Adolfo Fonseca, 1201, Distrito Tapuirama, Uberlândia - MG, Brasil",
         "qtld": "33 A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23284810000001,
+          -18.9413892
+        ]
+      },
+      "properties": {
+        "codigo": "ES303",
+        "endereco": "Rua Medeiros, 225, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "qtld": "33 B",
         "imovel": "Res."
       }
     },
@@ -14716,7 +20140,7 @@
       },
       "properties": {
         "codigo": "ES308",
-        "endereco": "Avenida Herculino da Rocha, 1305, Distrito Tapuirama, Uberlândia - MG, Brasil",
+        "endereco": "Avenida Herculino da rocha, 1305, Distrito Tapuirama, Uberlândia - MG, Brasil",
         "qtld": "44 A",
         "imovel": "Res."
       }
@@ -14886,6 +20310,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.2431628,
+          -18.9316062
+        ]
+      },
+      "properties": {
+        "codigo": "ES328",
+        "endereco": "Rua Barão de Ouro Preto, 420, Pampulha, Uberlândia - MG, Brasil",
+        "qtld": "15-A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2944596,
+          -18.9345801
+        ]
+      },
+      "properties": {
+        "codigo": "ES329",
+        "endereco": "Rua Pedro Gustin, 1, Tubalina, Uberlândia - MG, Brasil",
+        "qtld": "7C",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -48.2954356,
           -18.9287365
         ]
@@ -14991,6 +20447,22 @@
         "endereco": "Rua humaita, 404, Tubalina, Uberlândia - MG, Brasil",
         "qtld": "02C",
         "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2947523,
+          -18.9313655
+        ]
+      },
+      "properties": {
+        "codigo": "ES338",
+        "endereco": "Silvio Rugani, 207, Tubalina, Uberlândia - MG, Brasil",
+        "qtld": "1B",
+        "imovel": "Com."
       }
     },
     {
@@ -15199,6 +20671,198 @@
         "endereco": "Rua Hélio S Santa Cecília, 1, Morada da Colina, Uberlândia - MG, Brasil",
         "qtld": "71C",
         "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2330332,
+          -18.9647741
+        ]
+      },
+      "properties": {
+        "codigo": "ES372",
+        "endereco": "Rua Santa Albertina, 317, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "52D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23323,
+          -18.9646515
+        ]
+      },
+      "properties": {
+        "codigo": "ES373",
+        "endereco": "Rua Santa Albertina, 306, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "53A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2330542,
+          -18.9645751
+        ]
+      },
+      "properties": {
+        "codigo": "ES374",
+        "endereco": "Rua Santa Albertina, 297, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "52D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2329193,
+          -18.9660714
+        ]
+      },
+      "properties": {
+        "codigo": "ES375",
+        "endereco": "Rua Santa Albertina, 467, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "52D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2332703,
+          -18.9649718
+        ]
+      },
+      "properties": {
+        "codigo": "ES376",
+        "endereco": "Santa Albertina, 356, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "53A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2335485,
+          -18.9659397
+        ]
+      },
+      "properties": {
+        "codigo": "ES377",
+        "endereco": "Rua Sampaio, 445, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "53C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2331084,
+          -18.9662983
+        ]
+      },
+      "properties": {
+        "codigo": "ES378",
+        "endereco": "RUA Santa Albertina, 486, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "53A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2333743,
+          -18.9666035
+        ]
+      },
+      "properties": {
+        "codigo": "ES379",
+        "endereco": "Rua Sampaio, 515, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "53C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2337835,
+          -18.9655838
+        ]
+      },
+      "properties": {
+        "codigo": "ES380",
+        "endereco": "Rua Sampaio, 404, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "54B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2334849,
+          -18.965541
+        ]
+      },
+      "properties": {
+        "codigo": "ES381",
+        "endereco": "Rua Sampaio, 405, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "53C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23385039999999,
+          -18.9649783
+        ]
+      },
+      "properties": {
+        "codigo": "ES382",
+        "endereco": "Rua Sampaio, 324, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "54B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2335884,
+          -18.9647135
+        ]
+      },
+      "properties": {
+        "codigo": "ES383",
+        "endereco": "Rua Sampaio, 305, Laranjeiras, Uberlândia - MG, Brasil",
+        "qtld": "53 C",
+        "imovel": "Res."
       }
     },
     {
@@ -15422,6 +21086,214 @@
         "codigo": "ES419",
         "endereco": "BR365 Km 78/A, 9999, UFU Campus Glória, Uberlândia - MG, Brasil",
         "qtld": "BR365 Km 78/A",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2356041,
+          -18.9355861
+        ]
+      },
+      "properties": {
+        "codigo": "ES421",
+        "endereco": "Rua Oliveira Lima, 1234, Pampulha, Uberlândia - MG, Brasil",
+        "qtld": "70-B",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23664609999999,
+          -18.9351672
+        ]
+      },
+      "properties": {
+        "codigo": "ES423",
+        "endereco": "Rua Oliveira Lima, 1123, Pampulha, Uberlândia - MG, Brasil",
+        "qtld": "65-D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2353434,
+          -18.9343252
+        ]
+      },
+      "properties": {
+        "codigo": "ES424",
+        "endereco": "Rua Bernardo de Vasconcelos, 1220, Pampulha, Uberlândia - MG, Brasil",
+        "qtld": "72-C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2364526,
+          -18.9349451
+        ]
+      },
+      "properties": {
+        "codigo": "ES426",
+        "endereco": "Rua Leopoldo de Bulhões, 1133, Pampulha, Uberlândia - MG, Brasil",
+        "qtld": "63-C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2440429,
+          -18.9301128
+        ]
+      },
+      "properties": {
+        "codigo": "ES429",
+        "endereco": "Rua professor Inácio Castilho, 296, Pampulha, Uberlândia - MG, Brasil",
+        "qtld": "18-D",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2442951,
+          -18.9314369
+        ]
+      },
+      "properties": {
+        "codigo": "ES431",
+        "endereco": "Rua Barão de Ouro Preto, 298, Pampulha, Uberlândia - MG, Brasil",
+        "qtld": "14-A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.246254,
+          -18.93114
+        ]
+      },
+      "properties": {
+        "codigo": "ES434",
+        "endereco": "Rua Barão de Ouro Preto, 102, Carajas, Uberlândia - MG, Brasil",
+        "qtld": "4-A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.23391100000001,
+          -18.944978
+        ]
+      },
+      "properties": {
+        "codigo": "ES435",
+        "endereco": "Rua Antônio Bento Rodrigues, 435, Santa Luzia, Uberlândia - MG, Brasil",
+        "qtld": "26-A",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2326278,
+          -18.9451895
+        ]
+      },
+      "properties": {
+        "codigo": "ES436",
+        "endereco": "Avenida Petronilha Rodrigues de Queiroz, 134, Santa Luzia, Uberlândia - MG, Brasil",
+        "qtld": "29-D",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2340105,
+          -18.9437216
+        ]
+      },
+      "properties": {
+        "codigo": "ES437",
+        "endereco": "Rua Jaime de Barros, 365, Santa Luzia, Uberlândia - MG, Brasil",
+        "qtld": "24-A",
+        "imovel": "Com."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.232554,
+          -18.944908
+        ]
+      },
+      "properties": {
+        "codigo": "ES439",
+        "endereco": "Rua Antônio Bento Rodrigues, 305, Santa Luzia, Uberlândia - MG, Brasil",
+        "qtld": "28-C",
+        "imovel": "Res."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2334518,
+          -18.9442825
+        ]
+      },
+      "properties": {
+        "codigo": "ES440",
+        "endereco": "Rua professor Juci Carmo Garcia, 65, Santa Luzia, Uberlândia - MG, Brasil",
+        "qtld": "25-A",
+        "imovel": "Out."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2334518,
+          -18.9442825
+        ]
+      },
+      "properties": {
+        "codigo": "ES441",
+        "endereco": "Rua Professor Juci Carmo Garcia, 65, Santa Luzia, Uberlândia - MG, Brasil",
+        "qtld": "25-A",
         "imovel": "Out."
       }
     },
