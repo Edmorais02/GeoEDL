@@ -151,9 +151,9 @@ function criarCamadaEDLs(data) {
             return L.circleMarker(latlng, {
 
                 radius: 6,
-                color: "#c58f00",
+                color: "#e67e22",
                 weight: 2,
-                fillColor: "#ffd000",
+                fillColor: "#f1c40f",
                 fillOpacity: 1
 
             });
@@ -168,7 +168,7 @@ function criarCamadaEDLs(data) {
 
                     e.target.setStyle({
                         radius: 9,
-                        color: "#ff0000",
+                        color: "#ff8c00",
                         weight: 3
                     });
 
@@ -178,7 +178,7 @@ function criarCamadaEDLs(data) {
 
                     e.target.setStyle({
                         radius: 6,
-                        color: "#c58f00",
+                        color: "#e67e22",
                         weight: 2
                     });
 
@@ -268,9 +268,9 @@ function criarCamadaOvitrampas(data) {
             return L.circleMarker(latlng, {
 
                 radius: 6,
-                color: "#38761d",
+                color: "#5b2c83",
                 weight: 2,
-                fillColor: "#6aa84f",
+                fillColor: "#7e57c2",
                 fillOpacity: 1
 
             });
@@ -285,7 +285,7 @@ function criarCamadaOvitrampas(data) {
 
                     e.target.setStyle({
                         radius: 9,
-                        color: "#134f5c",
+                        color: "#3949ab",
                         weight: 3
                     });
 
@@ -295,7 +295,7 @@ function criarCamadaOvitrampas(data) {
 
                     e.target.setStyle({
                         radius: 6,
-                        color: "#38761d",
+                        color: "#5b2c83",
                         weight: 2
                     });
 
