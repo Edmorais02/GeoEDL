@@ -1,133 +1,165 @@
 // =======================================================
 // GeoEDL Uberlândia
 // BUSCA
-// Versão 3.1
+// Versão 4.0
 // =======================================================
 
-console.log("Busca v3.1 carregada");
+console.log("Busca v4.0 carregada");
+
 
 // =======================================================
 // COMPONENTES
 // =======================================================
 
-const txtBuscaEDL = document.getElementById("txtBuscaEDL");
-const btnBuscarEDL = document.getElementById("btnBuscarEDL");
+const txtBuscaEDL =
+    document.getElementById("txtBuscaEDL");
+
+const btnBuscarEDL =
+    document.getElementById("btnBuscarEDL");
+
 
 // =======================================================
 // ESTADO DA PESQUISA
 // =======================================================
 
-// Lista com todos os resultados encontrados
 let resultadosPesquisa = [];
 
-// Índice do resultado atualmente exibido
 let indiceResultado = 0;
 
-// Guarda a última pesquisa executada
 let ultimaPesquisa = "";
 
-// Guarda o último tipo de pesquisa
 let ultimoTipoPesquisa = "";
+
 
 // =======================================================
 // EVENTOS
 // =======================================================
 
-btnBuscarEDL.addEventListener("click", pesquisar);
+btnBuscarEDL.addEventListener(
+    "click",
+    pesquisar
+);
 
-txtBuscaEDL.addEventListener("keydown", function(e){
+txtBuscaEDL.addEventListener(
+    "keydown",
+    function(e) {
 
-    if(e.key === "Enter"){
-
-        pesquisar();
+        if (e.key === "Enter") {
+            pesquisar();
+        }
 
     }
+);
 
-});
+txtBuscaEDL.addEventListener(
+    "input",
+    function() {
+        limparPesquisa();
+    }
+);
 
-// Sempre que alterar o texto,
-// uma nova pesquisa será iniciada.
-
-txtBuscaEDL.addEventListener("input", function(){
-
-    limparPesquisa();
-
-});
 
 // =======================================================
 // OBTÉM O TIPO DE PESQUISA
 // =======================================================
 
-function obterTipoBusca(){
+function obterTipoBusca() {
 
-    const radio = document.querySelector(
-        'input[name="tipoBusca"]:checked'
-    );
+    const radio =
+        document.querySelector(
+            'input[name="tipoBusca"]:checked'
+        );
 
-    if(!radio){
-
-        return "codigo";
-
+    if (!radio) {
+        return "edl";
     }
 
     return radio.value;
 
 }
 
+
 // =======================================================
-// NORMALIZA O CÓDIGO
+// NORMALIZA CÓDIGO
 // =======================================================
 
-function normalizarCodigo(valor){
+function normalizarCodigo(valor) {
 
-    valor = valor
-        .toString()
-        .trim()
-        .toUpperCase();
+    valor =
+        valor
+            .toString()
+            .trim()
+            .toUpperCase();
 
-    if(valor === "") return "";
-
-    // Ex.: EL184, EO015, ES201...
-
-    if(/^[A-Z]{2}\d+$/.test(valor)){
-
-        return valor;
-
+    if (valor === "") {
+        return "";
     }
 
-    // Ex.: 184
+    // Código numérico de EDL
+    // Exemplo: 486 → EL486
 
-    if(/^\d+$/.test(valor)){
-
+    if (/^\d+$/.test(valor)) {
         return "EL" + valor;
-
     }
 
     return valor;
 
 }
 
+
 // =======================================================
 // NORMALIZA TEXTO
-// Remove acentos e diferenças de maiúsculas
 // =======================================================
 
-function normalizarTexto(texto){
+function normalizarTexto(texto) {
 
     return (texto || "")
         .toString()
         .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g,"")
+        .replace(
+            /[\u0300-\u036f]/g,
+            ""
+        )
         .trim()
         .toUpperCase();
 
 }
 
+
 // =======================================================
-// LIMPA A PESQUISA
+// OBTÉM PROPRIEDADE
 // =======================================================
 
-function limparPesquisa(){
+function obterPropriedade(
+    props,
+    nomes
+) {
+
+    for (const nome of nomes) {
+
+        if (
+            props &&
+            props[nome] !== undefined &&
+            props[nome] !== null &&
+            props[nome] !== ""
+        ) {
+
+            return props[nome];
+
+        }
+
+    }
+
+    return "";
+
+}
+
+
+// =======================================================
+// LIMPA PESQUISA
+// =======================================================
+
+function limparPesquisa() {
 
     resultadosPesquisa = [];
 
@@ -137,32 +169,38 @@ function limparPesquisa(){
 
     ultimoTipoPesquisa = "";
 
-    btnBuscarEDL.textContent = "Localizar";
+    btnBuscarEDL.textContent =
+        "Localizar";
 
     const contador =
-        document.getElementById("contadorResultados");
+        document.getElementById(
+            "contadorResultados"
+        );
 
-    if(contador){
-
+    if (contador) {
         contador.style.display = "none";
-
     }
 
 }
+
 
 // =======================================================
 // PESQUISAR
 // =======================================================
 
-function pesquisar(){
+function pesquisar() {
 
-    const tipo = obterTipoBusca();
+    const tipo =
+        obterTipoBusca();
 
-    let valor = txtBuscaEDL.value.trim();
+    let valor =
+        txtBuscaEDL.value.trim();
 
-    if(valor === ""){
+    if (valor === "") {
 
-        alert("Digite uma pesquisa.");
+        alert(
+            "Digite uma pesquisa."
+        );
 
         txtBuscaEDL.focus();
 
@@ -170,27 +208,21 @@ function pesquisar(){
 
     }
 
-    // ==========================================
-    // NORMALIZA VALOR DA PESQUISA
-    // ==========================================
 
-    const valorOriginal = valor;
+    const valorOriginal =
+        valor;
 
-    if(tipo === "codigo"){
 
-        valor = normalizarCodigo(valor);
+    // ---------------------------------------------------
+    // EVITA NOVA PESQUISA
+    // E AVANÇA PARA O PRÓXIMO RESULTADO
+    // ---------------------------------------------------
 
-    }
-
-    // ==========================================
-    // MESMA PESQUISA
-    // ==========================================
-
-    if(
+    if (
         valor === ultimaPesquisa &&
         tipo === ultimoTipoPesquisa &&
         resultadosPesquisa.length > 0
-    ){
+    ) {
 
         proximoResultado();
 
@@ -198,144 +230,77 @@ function pesquisar(){
 
     }
 
-    // ==========================================
-    // NOVA PESQUISA
-    // ==========================================
 
     resultadosPesquisa = [];
 
     indiceResultado = 0;
 
-    // ==========================================
-    // VERIFICA CAMADA
-    // ==========================================
 
-    if(!camadaEDLs){
+    // ---------------------------------------------------
+    // EDL
+    // ---------------------------------------------------
 
-        alert("A camada de EDLs ainda não foi carregada.");
+    if (tipo === "edl") {
 
-        return;
+        pesquisarEDLs(
+            normalizarCodigo(valor)
+        );
 
     }
 
-    // ==========================================
-    // PERCORRE AS EDLs
-    // ==========================================
 
-    camadaEDLs.eachLayer(function(layer){
+    // ---------------------------------------------------
+    // OVITRAMPA
+    // ---------------------------------------------------
 
-        const props =
-            layer.feature &&
-            layer.feature.properties
-                ? layer.feature.properties
-                : {};
+    if (tipo === "ovitrampa") {
 
-        // ======================================
-        // CÓDIGO
-        // ======================================
+        pesquisarOvitrampas(
+            valor
+        );
 
-        const codigo =
-            normalizarTexto(
-                props["codigo"] ??
-                props["Cód."] ??
-                props["Cod"] ??
-                props["Codigo"] ??
-                ""
-            );
+    }
 
-        // ======================================
-        // ENDEREÇO
-        // ======================================
 
-        const endereco =
-            normalizarTexto(
-                props["endereco"] ??
-                props["Endereço"] ??
-                props["Endereço completo"] ??
-                ""
-            );
+    // ---------------------------------------------------
+    // ENDEREÇO
+    // ---------------------------------------------------
 
-        // ======================================
-        // QTLD
-        // ======================================
+    if (tipo === "endereco") {
 
-        const qt =
-            normalizarTexto(
-                props["qtld"] ??
-                props["QTLD"] ??
-                props["QT"] ??
-                ""
-            );
+        pesquisarPorEndereco(
+            valor
+        );
 
-        let encontrou = false;
+    }
 
-        // ==========================================
-        // BUSCA POR EDL / CÓDIGO
-        // ==========================================
 
-        if(tipo === "codigo"){
+    // ---------------------------------------------------
+    // QT
+    // ---------------------------------------------------
 
-            const codigoPesquisado =
-                normalizarTexto(valor);
+    if (tipo === "qt") {
 
-            encontrou =
-                codigo === codigoPesquisado;
+        pesquisarPorQT(
+            valor
+        );
 
-        }
+    }
 
-        // ==========================================
-        // BUSCA POR ENDEREÇO
-        // ==========================================
 
-        if(tipo === "endereco"){
+    ultimaPesquisa =
+        valor;
 
-            encontrou =
-                endereco.includes(
-                    normalizarTexto(valorOriginal)
-                );
+    ultimoTipoPesquisa =
+        tipo;
 
-        }
 
-        // ==========================================
-        // BUSCA POR QT
-        // ==========================================
-
-        if(tipo === "qt"){
-
-            encontrou =
-                qt ===
-                normalizarTexto(valorOriginal);
-
-        }
-
-        // ==========================================
-        // ADICIONA RESULTADO
-        // ==========================================
-
-        if(encontrou){
-
-            resultadosPesquisa.push(layer);
-
-        }
-
-    });
-
-    // ==========================================
-    // GUARDA PESQUISA
-    // ==========================================
-
-    ultimaPesquisa = valor;
-
-    ultimoTipoPesquisa = tipo;
-
-    // ==========================================
-    // NENHUM RESULTADO
-    // ==========================================
-
-    if(resultadosPesquisa.length === 0){
+    if (
+        resultadosPesquisa.length === 0
+    ) {
 
         alert(
-            "Nenhuma EDL encontrada para: " +
+            "Nenhum resultado encontrado para: " +
             valorOriginal
         );
 
@@ -345,37 +310,389 @@ function pesquisar(){
 
     }
 
-    // ==========================================
-    // VÁRIOS RESULTADOS
-    // ==========================================
 
-    if(resultadosPesquisa.length > 1){
+    if (
+        resultadosPesquisa.length > 1
+    ) {
 
         btnBuscarEDL.textContent =
             "Próximo ▶";
 
     }
 
-    // ==========================================
-    // MOSTRA RESULTADO
-    // ==========================================
 
     mostrarResultado();
 
 }
 
+
+// =======================================================
+// PESQUISA DE EDL
+// =======================================================
+
+function pesquisarEDLs(
+    codigoPesquisado
+) {
+
+    if (!camadaEDLs) {
+
+        alert(
+            "A camada de EDLs ainda não foi carregada."
+        );
+
+        return;
+
+    }
+
+
+    camadaEDLs.eachLayer(
+        function(layer) {
+
+            const props =
+                layer.feature &&
+                layer.feature.properties
+                    ? layer.feature.properties
+                    : {};
+
+
+            const codigo =
+                normalizarTexto(
+                    obterPropriedade(
+                        props,
+                        [
+                            "codigo",
+                            "Cód.",
+                            "Cod",
+                            "Codigo"
+                        ]
+                    )
+                );
+
+
+            if (
+                codigo ===
+                normalizarTexto(
+                    codigoPesquisado
+                )
+            ) {
+
+                resultadosPesquisa.push({
+                    tipo: "edl",
+                    layer: layer
+                });
+
+            }
+
+        }
+    );
+
+}
+
+
+// =======================================================
+// PESQUISA DE OVITRAMPAS
+// =======================================================
+
+function pesquisarOvitrampas(
+    codigoPesquisado
+) {
+
+    if (!camadaOvitrampas) {
+
+        alert(
+            "A camada de Ovitrampas ainda não foi carregada."
+        );
+
+        return;
+
+    }
+
+
+    const codigoBusca =
+        normalizarTexto(
+            codigoPesquisado
+        );
+
+
+    camadaOvitrampas.eachLayer(
+        function(layer) {
+
+            const props =
+                layer.feature &&
+                layer.feature.properties
+                    ? layer.feature.properties
+                    : {};
+
+
+            const codigo =
+                normalizarTexto(
+                    obterPropriedade(
+                        props,
+                        [
+                            "codigo",
+                            "Cód.",
+                            "Cod",
+                            "Codigo"
+                        ]
+                    )
+                );
+
+
+            if (
+                codigo === codigoBusca
+            ) {
+
+                resultadosPesquisa.push({
+                    tipo: "ovitrampa",
+                    layer: layer
+                });
+
+            }
+
+        }
+    );
+
+}
+
+
+// =======================================================
+// PESQUISA POR ENDEREÇO
+// EDLs + OVITRAMPAS
+// =======================================================
+
+function pesquisarPorEndereco(
+    enderecoPesquisado
+) {
+
+    const enderecoBusca =
+        normalizarTexto(
+            enderecoPesquisado
+        );
+
+
+    // ---------------------------------------------------
+    // EDLs
+    // ---------------------------------------------------
+
+    if (camadaEDLs) {
+
+        camadaEDLs.eachLayer(
+            function(layer) {
+
+                const props =
+                    layer.feature &&
+                    layer.feature.properties
+                        ? layer.feature.properties
+                        : {};
+
+
+                const endereco =
+                    normalizarTexto(
+                        obterPropriedade(
+                            props,
+                            [
+                                "endereco",
+                                "Endereço",
+                                "Endereço completo"
+                            ]
+                        )
+                    );
+
+
+                if (
+                    endereco.includes(
+                        enderecoBusca
+                    )
+                ) {
+
+                    resultadosPesquisa.push({
+                        tipo: "edl",
+                        layer: layer
+                    });
+
+                }
+
+            }
+        );
+
+    }
+
+
+    // ---------------------------------------------------
+    // OVITRAMPAS
+    // ---------------------------------------------------
+
+    if (camadaOvitrampas) {
+
+        camadaOvitrampas.eachLayer(
+            function(layer) {
+
+                const props =
+                    layer.feature &&
+                    layer.feature.properties
+                        ? layer.feature.properties
+                        : {};
+
+
+                const endereco =
+                    normalizarTexto(
+                        obterPropriedade(
+                            props,
+                            [
+                                "endereco",
+                                "Endereço",
+                                "Endereço completo"
+                            ]
+                        )
+                    );
+
+
+                if (
+                    endereco.includes(
+                        enderecoBusca
+                    )
+                ) {
+
+                    resultadosPesquisa.push({
+                        tipo: "ovitrampa",
+                        layer: layer
+                    });
+
+                }
+
+            }
+        );
+
+    }
+
+}
+
+
+// =======================================================
+// PESQUISA POR QT
+// EDLs + OVITRAMPAS
+// =======================================================
+
+function pesquisarPorQT(
+    qtPesquisado
+) {
+
+    const qtBusca =
+        normalizarTexto(
+            qtPesquisado
+        );
+
+
+    // ---------------------------------------------------
+    // EDLs
+    // ---------------------------------------------------
+
+    if (camadaEDLs) {
+
+        camadaEDLs.eachLayer(
+            function(layer) {
+
+                const props =
+                    layer.feature &&
+                    layer.feature.properties
+                        ? layer.feature.properties
+                        : {};
+
+
+                const qt =
+                    normalizarTexto(
+                        obterPropriedade(
+                            props,
+                            [
+                                "qtld",
+                                "QTLD",
+                                "QT"
+                            ]
+                        )
+                    );
+
+
+                if (
+                    qt.startsWith(
+                        qtBusca
+                    )
+                ) {
+
+                    resultadosPesquisa.push({
+                        tipo: "edl",
+                        layer: layer
+                    });
+
+                }
+
+            }
+        );
+
+    }
+
+
+    // ---------------------------------------------------
+    // OVITRAMPAS
+    // ---------------------------------------------------
+
+    if (camadaOvitrampas) {
+
+        camadaOvitrampas.eachLayer(
+            function(layer) {
+
+                const props =
+                    layer.feature &&
+                    layer.feature.properties
+                        ? layer.feature.properties
+                        : {};
+
+
+                const qt =
+                    normalizarTexto(
+                        obterPropriedade(
+                            props,
+                            [
+                                "qtld",
+                                "QTLD",
+                                "QT"
+                            ]
+                        )
+                    );
+
+
+                if (
+                    qt.startsWith(
+                        qtBusca
+                    )
+                ) {
+
+                    resultadosPesquisa.push({
+                        tipo: "ovitrampa",
+                        layer: layer
+                    });
+
+                }
+
+            }
+        );
+
+    }
+
+}
+
+
 // =======================================================
 // PRÓXIMO RESULTADO
 // =======================================================
 
-function proximoResultado(){
+function proximoResultado() {
 
     indiceResultado++;
 
-    if(
+    if (
         indiceResultado >=
         resultadosPesquisa.length
-    ){
+    ) {
 
         indiceResultado = 0;
 
@@ -385,155 +702,372 @@ function proximoResultado(){
 
 }
 
+
 // =======================================================
 // MOSTRAR RESULTADO
 // =======================================================
 
-function mostrarResultado(){
+function mostrarResultado() {
 
-    destacarEDL(
-        resultadosPesquisa[indiceResultado]
-    );
+    const resultado =
+        resultadosPesquisa[
+            indiceResultado
+        ];
+
+    if (!resultado) {
+        return;
+    }
+
+
+    if (
+        resultado.tipo === "edl"
+    ) {
+
+        destacarEDL(
+            resultado.layer
+        );
+
+    }
+
+
+    if (
+        resultado.tipo === "ovitrampa"
+    ) {
+
+        destacarOvitrampa(
+            resultado.layer
+        );
+
+    }
+
 
     atualizarContador();
 
 }
 
+
 // =======================================================
-// ATUALIZA O PAINEL
+// ATUALIZA PAINEL
 // =======================================================
 
-function atualizarPainelEDL(layer){
+function atualizarPainelResultado(
+    layer,
+    tipo
+) {
 
     const props =
-        layer.feature.properties || {};
+        layer.feature &&
+        layer.feature.properties
+            ? layer.feature.properties
+            : {};
+
 
     const latlng =
         layer.getLatLng();
 
-    // ==========================================
-    // CÓDIGO
-    // ==========================================
 
-    document.getElementById("infoCodigo").textContent =
-        props["codigo"] ??
-        props["Cód."] ??
-        props["Cod"] ??
-        props["Codigo"] ??
-        "";
+    const codigo =
+        obterPropriedade(
+            props,
+            [
+                "codigo",
+                "Cód.",
+                "Cod",
+                "Codigo"
+            ]
+        );
 
-    // ==========================================
-    // QTLD
-    // ==========================================
 
-    document.getElementById("infoQT").textContent =
-        props["qtld"] ??
-        props["QTLD"] ??
-        props["QT"] ??
-        "";
+    const qt =
+        obterPropriedade(
+            props,
+            [
+                "qtld",
+                "QTLD",
+                "QT"
+            ]
+        );
 
-    // ==========================================
-    // IMÓVEL
-    // ==========================================
 
-    document.getElementById("infoImovel").textContent =
-        props["imovel"] ??
-        props["Imóvel"] ??
-        "";
+    const endereco =
+        obterPropriedade(
+            props,
+            [
+                "endereco",
+                "Endereço",
+                "Endereço completo"
+            ]
+        );
 
-    // ==========================================
-    // ENDEREÇO
-    // ==========================================
 
-    document.getElementById("infoEndereco").textContent =
-        props["endereco"] ??
-        props["Endereço"] ??
-        props["Endereço completo"] ??
-        "";
+    const elementoCodigo =
+        document.getElementById(
+            "infoCodigo"
+        );
 
-    // ==========================================
-    // COORDENADAS
-    // ==========================================
+    const elementoQT =
+        document.getElementById(
+            "infoQT"
+        );
 
-    document.getElementById("infoLatitude").textContent =
-        latlng.lat.toFixed(6);
+    const elementoImovel =
+        document.getElementById(
+            "infoImovel"
+        );
 
-    document.getElementById("infoLongitude").textContent =
-        latlng.lng.toFixed(6);
+    const elementoEndereco =
+        document.getElementById(
+            "infoEndereco"
+        );
+
+    const elementoLatitude =
+        document.getElementById(
+            "infoLatitude"
+        );
+
+    const elementoLongitude =
+        document.getElementById(
+            "infoLongitude"
+        );
+
+
+    if (elementoCodigo) {
+
+        elementoCodigo.textContent =
+            codigo;
+
+    }
+
+
+    if (elementoQT) {
+
+        elementoQT.textContent =
+            qt;
+
+    }
+
+
+    if (elementoImovel) {
+
+        if (tipo === "edl") {
+
+            elementoImovel.textContent =
+                obterPropriedade(
+                    props,
+                    [
+                        "imovel",
+                        "Imóvel"
+                    ]
+                );
+
+        } else {
+
+            elementoImovel.textContent =
+                "";
+
+        }
+
+    }
+
+
+    if (elementoEndereco) {
+
+        elementoEndereco.textContent =
+            endereco;
+
+    }
+
+
+    if (elementoLatitude) {
+
+        elementoLatitude.textContent =
+            latlng.lat.toFixed(6);
+
+    }
+
+
+    if (elementoLongitude) {
+
+        elementoLongitude.textContent =
+            latlng.lng.toFixed(6);
+
+    }
 
 }
 
+
 // =======================================================
-// DESTACA A EDL
+// DESTACA EDL
 // =======================================================
 
-function destacarEDL(layer){
+function destacarEDL(layer) {
 
     map.flyTo(
         layer.getLatLng(),
         18,
         {
-            animate:true,
-            duration:1.5
+            animate: true,
+            duration: 1.5
         }
     );
 
-    atualizarPainelEDL(layer);
+
+    atualizarPainelResultado(
+        layer,
+        "edl"
+    );
+
 
     layer.openPopup();
 
+
     const estiloOriginal = {
 
-        radius:6,
-        color:"#c58f00",
-        weight:2,
-        fillColor:"#ffd000",
-        fillOpacity:1
+        radius: 6,
+
+        color: "#e67e22",
+
+        weight: 2,
+
+        fillColor: "#f1c40f",
+
+        fillOpacity: 1
 
     };
 
+
     layer.setStyle({
 
-        radius:12,
-        color:"#ff0000",
-        weight:4,
-        fillColor:"#ffff00",
-        fillOpacity:1
+        radius: 12,
+
+        color: "#ff8c00",
+
+        weight: 4,
+
+        fillColor: "#ffff00",
+
+        fillOpacity: 1
 
     });
 
-    setTimeout(function(){
 
-        layer.setStyle(estiloOriginal);
+    setTimeout(
+        function() {
 
-    },2500);
+            layer.setStyle(
+                estiloOriginal
+            );
+
+        },
+        2500
+    );
 
 }
+
+
+// =======================================================
+// DESTACA OVITRAMPA
+// =======================================================
+
+function destacarOvitrampa(
+    layer
+) {
+
+    map.flyTo(
+        layer.getLatLng(),
+        18,
+        {
+            animate: true,
+            duration: 1.5
+        }
+    );
+
+
+    atualizarPainelResultado(
+        layer,
+        "ovitrampa"
+    );
+
+
+    layer.openPopup();
+
+
+    const estiloOriginal = {
+
+        radius: 6,
+
+        color: "#5b2c83",
+
+        weight: 2,
+
+        fillColor: "#7e57c2",
+
+        fillOpacity: 1
+
+    };
+
+
+    layer.setStyle({
+
+        radius: 12,
+
+        color: "#3949ab",
+
+        weight: 4,
+
+        fillColor: "#b39ddb",
+
+        fillOpacity: 1
+
+    });
+
+
+    setTimeout(
+        function() {
+
+            layer.setStyle(
+                estiloOriginal
+            );
+
+        },
+        2500
+    );
+
+}
+
 
 // =======================================================
 // CONTADOR DE RESULTADOS
 // =======================================================
 
-function atualizarContador(){
+function atualizarContador() {
 
     const contador =
-        document.getElementById("contadorResultados");
+        document.getElementById(
+            "contadorResultados"
+        );
 
-    if(!contador){
+
+    if (!contador) {
+        return;
+    }
+
+
+    if (
+        resultadosPesquisa.length <= 1
+    ) {
+
+        contador.style.display =
+            "none";
 
         return;
 
     }
 
-    if(resultadosPesquisa.length <= 1){
 
-        contador.style.display = "none";
+    contador.style.display =
+        "block";
 
-        return;
-
-    }
-
-    contador.style.display = "block";
 
     contador.textContent =
         "Resultado " +
