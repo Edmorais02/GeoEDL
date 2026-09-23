@@ -291,21 +291,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.2551925,
-          -18.894505
-        ]
-      },
-      "properties": {
-        "codigo": "C-116",
-        "endereco": "Rua Feliciano De Morais, 1977, Brasil, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "44 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.2585641,
           -18.8947783
         ]
@@ -487,12 +472,12 @@
         "type": "Point",
         "coordinates": [
           -48.2616313,
-          -188886700
+          -18.88867
         ]
       },
       "properties": {
         "codigo": "C-128",
-        "endereco": "Avenida Professor Jose Inacio De Souza, 1913, Brasil, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Professor Jose Inacio De Souza, 19,13, Brasil, Uberlândia, Minas Gerais, Brasil",
         "qtld": "26 B"
       }
     },
@@ -629,21 +614,6 @@
         "codigo": "C-18",
         "endereco": "Rua Adelino Franco, 45, Cazeca, Uberlândia, Minas Gerais, Brasil",
         "qtld": "20 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.26686412,
-          -18.9186187
-        ]
-      },
-      "properties": {
-        "codigo": "C-19",
-        "endereco": "Rua Joaquim Cordeiro, 1, Cazeca, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "6 D"
       }
     },
     {
@@ -1362,7 +1332,7 @@
       },
       "properties": {
         "codigo": "C-62",
-        "endereco": "Avenida Araguari, 1915, Osvaldo Rezende, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Araguari, 19,15, Osvaldo Rezende, Uberlândia, Minas Gerais, Brasil",
         "qtld": "125 C"
       }
     },
@@ -1506,21 +1476,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.29439343,
-          -18.9187016
-        ]
-      },
-      "properties": {
-        "codigo": "C-71",
-        "endereco": "Rua Lambari, 385, Osvaldo Rezende, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "74 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.29410217,
           -18.92163343
         ]
@@ -1634,36 +1589,6 @@
         "codigo": "C-79",
         "endereco": "Avenida Fernando Vilela, 1125, Martins, Uberlândia, Minas Gerais, Brasil",
         "qtld": "92 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.27635216,
-          -18.91876014
-        ]
-      },
-      "properties": {
-        "codigo": "C-8",
-        "endereco": "Avenida Floriano Peixoto, 515, Centro, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "70 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.28575192,
-          -18.90958726
-        ]
-      },
-      "properties": {
-        "codigo": "C-80",
-        "endereco": "Praca Nicolau Feres, Praça, Martins, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "88 C"
       }
     },
     {
@@ -1971,23 +1896,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.37161478,
-          -1873207058
-        ]
-      },
-      "properties": {
-        "codigo": "D-1",
-        "endereco": "Rua Domingues Tavares, 60, Distrito Cruzeiro dos Peixotos, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "4 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -47.93313983,
-          -1914548842
+          -19.14548842
         ]
       },
       "properties": {
@@ -2002,7 +1912,7 @@
         "type": "Point",
         "coordinates": [
           -47.93522717,
-          -191481419
+          -19.1481419
         ]
       },
       "properties": {
@@ -2017,7 +1927,7 @@
         "type": "Point",
         "coordinates": [
           -47.9360949,
-          -1914597731
+          -19.14597731
         ]
       },
       "properties": {
@@ -2032,7 +1942,7 @@
         "type": "Point",
         "coordinates": [
           -48.38496049,
-          -1874489788
+          -18.74489788
         ]
       },
       "properties": {
@@ -2047,7 +1957,7 @@
         "type": "Point",
         "coordinates": [
           -48.38640609,
-          -1874801808
+          -18.74801808
         ]
       },
       "properties": {
@@ -2062,7 +1972,7 @@
         "type": "Point",
         "coordinates": [
           -48.38982215,
-          -1875198125
+          -18.75198125
         ]
       },
       "properties": {
@@ -2077,7 +1987,7 @@
         "type": "Point",
         "coordinates": [
           -48.39362281,
-          -1875651723
+          -18.75651723
         ]
       },
       "properties": {
@@ -2091,8 +2001,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.39513256,
-          -1876056586
+          -48.3839426364991,
+          -18.748154596
         ]
       },
       "properties": {
@@ -2107,7 +2017,7 @@
         "type": "Point",
         "coordinates": [
           -47.93026142,
-          -1914957893
+          -19.14957893
         ]
       },
       "properties": {
@@ -2121,8 +2031,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -484285178,
-          -1925363198
+          -48.4285178,
+          -19.25363198
         ]
       },
       "properties": {
@@ -2136,8 +2046,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48428888,
-          -1925610355
+          -48.428888,
+          -19.25610355
         ]
       },
       "properties": {
@@ -2151,8 +2061,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4842588999,
-          -192538133
+          -48.42588999,
+          -19.2538133
         ]
       },
       "properties": {
@@ -2166,113 +2076,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4840029427,
-          -1872925202
-        ]
-      },
-      "properties": {
-        "codigo": "D-185",
-        "endereco": "Rod. Neuza Rezende, 310, Ranchão, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "3A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.36925237,
-          -1873034228
-        ]
-      },
-      "properties": {
-        "codigo": "D-2",
-        "endereco": "Avenida Sol Nascente, 298, Distrito Cruzeiro dos Peixotos, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "15 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.36865936,
-          -1872753927
-        ]
-      },
-      "properties": {
-        "codigo": "D-3",
-        "endereco": "Rua da Educacao, 115, Distrito Cruzeiro dos Peixotos, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "20 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4841920775,
-          -1874417881
-        ]
-      },
-      "properties": {
-        "codigo": "D-4",
-        "endereco": "Avenida dos Direitos, 287, Distrito Martinesia, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "3 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4841847617,
-          -1874806235
-        ]
-      },
-      "properties": {
-        "codigo": "D-5",
-        "endereco": "Avenida Central, 139, Distrito Martinesia, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "12 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4842141655,
-          -1874993424
-        ]
-      },
-      "properties": {
-        "codigo": "D-6",
-        "endereco": "Avenida Central, 498, Distrito Martinesia, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "20 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.38351338,
-          -1874276603
-        ]
-      },
-      "properties": {
-        "codigo": "D-7",
-        "endereco": "Rua Alvorada, 43, Comunidade Paraíso, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "1 E"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -47.93581159,
-          -1913998688
+          -19.13998688
         ]
       },
       "properties": {
@@ -2287,7 +2092,7 @@
         "type": "Point",
         "coordinates": [
           -47.93572703,
-          -1914266778
+          -19.14266778
         ]
       },
       "properties": {
@@ -2562,7 +2367,7 @@
       },
       "properties": {
         "codigo": "L-117",
-        "endereco": "Rua Ronan Manoel Pereira, 191, Segismundo Pereira, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Rua Ronan Manoel Pereira, 19,1, Segismundo Pereira, Uberlândia, Minas Gerais, Brasil",
         "qtld": "15 B"
       }
     },
@@ -2609,21 +2414,6 @@
         "codigo": "L-120",
         "endereco": "Rua Domingos de Freitas, 365, Segismundo Pereira, Uberlândia, Minas Gerais, Brasil",
         "qtld": "18 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2286191,
-          -18.91860965
-        ]
-      },
-      "properties": {
-        "codigo": "L-121",
-        "endereco": "Praça Helvio Cardoso, Praça, Segismundo Pereira, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "29 A"
       }
     },
     {
@@ -2909,21 +2699,6 @@
         "codigo": "L-139",
         "endereco": "Rua Joao Caetano de Rezende, 235, Segismundo Pereira, Uberlândia, Minas Gerais, Brasil",
         "qtld": "173 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.25265192,
-          -18.89762101
-        ]
-      },
-      "properties": {
-        "codigo": "L-14",
-        "endereco": "Rua Guatemala, 450, Tibery, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "138 D"
       }
     },
     {
@@ -3431,7 +3206,7 @@
         ]
       },
       "properties": {
-        "codigo": "L-187",
+        "codigo": "L-18,7",
         "endereco": "Avenida Palmeira Real, 1, Novo Mundo, Uberlândia, Minas Gerais, Brasil",
         "qtld": "104 D"
       }
@@ -3446,7 +3221,7 @@
         ]
       },
       "properties": {
-        "codigo": "L-188",
+        "codigo": "L-18,8",
         "endereco": "Avenida Palmeira Real, 1, Novo Mundo, Uberlândia, Minas Gerais, Brasil",
         "qtld": "103 B"
       }
@@ -3461,7 +3236,7 @@
         ]
       },
       "properties": {
-        "codigo": "L-189",
+        "codigo": "L-18,9",
         "endereco": "Avenida Yuri Resende Miranda, 1, Novo Mundo, Uberlândia, Minas Gerais, Brasil",
         "qtld": "51 D"
       }
@@ -3506,7 +3281,7 @@
         ]
       },
       "properties": {
-        "codigo": "L-191",
+        "codigo": "L-19,1",
         "endereco": "Avenida Dario Fagundes da Costa, 1, Novo Mundo, Uberlândia, Minas Gerais, Brasil",
         "qtld": "39 C"
       }
@@ -3606,21 +3381,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.19933427,
-          -18.92519174
-        ]
-      },
-      "properties": {
-        "codigo": "L-205",
-        "endereco": "Avenida Edgar de Oliveira Castro, 18, Novo Mundo, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "131 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.24991295,
           -18.90953358
         ]
@@ -3666,68 +3426,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.19272813,
-          -18.92141686
-        ]
-      },
-      "properties": {
-        "codigo": "L-213",
-        "endereco": "Rua Arruda, 524, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "15 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.19279936,
-          -18.92442874
-        ]
-      },
-      "properties": {
-        "codigo": "L-214",
-        "endereco": "Rua José Maria Ribeiro, 5, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "28 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.18967676,
-          -18.92457752
-        ]
-      },
-      "properties": {
-        "codigo": "L-217",
-        "endereco": "Rua Das Borboletas, 233, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "37 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.187306,
-          -18923851
-        ]
-      },
-      "properties": {
-        "codigo": "L-218",
-        "endereco": "Avenida Doutor Enodes de Oliveira, 1, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "40 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.184208,
-          -18921769
+          -18.921769
         ]
       },
       "properties": {
@@ -3749,21 +3449,6 @@
         "codigo": "L-22",
         "endereco": "Avenida Africa, 462, Tibery, Uberlândia, Minas Gerais, Brasil",
         "qtld": "99 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.18035656,
-          -18.91875203
-        ]
-      },
-      "properties": {
-        "codigo": "L-220",
-        "endereco": "Avenida Doutor Enodes de Oliveira, 1375, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "229 A"
       }
     },
     {
@@ -3802,7 +3487,7 @@
         "type": "Point",
         "coordinates": [
           -48.174581,
-          -18912548
+          -18.912548
         ]
       },
       "properties": {
@@ -3847,7 +3532,7 @@
         "type": "Point",
         "coordinates": [
           -48.181505,
-          -18907147
+          -18.907147
         ]
       },
       "properties": {
@@ -3907,7 +3592,7 @@
         "type": "Point",
         "coordinates": [
           -48.177845,
-          -18912508
+          -18.912508
         ]
       },
       "properties": {
@@ -4086,96 +3771,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.18748423,
-          -18.91835053
-        ]
-      },
-      "properties": {
-        "codigo": "L-241",
-        "endereco": "Rua Sao Sebastiao, 520, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "79 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.18723944,
-          -18921794
-        ]
-      },
-      "properties": {
-        "codigo": "L-242",
-        "endereco": "Rua Camaleao, 640, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "82 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.1894772,
-          -18.92149761
-        ]
-      },
-      "properties": {
-        "codigo": "L-243",
-        "endereco": "Rua Lontra, 1, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "145 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.18960619,
-          -18.9183816
-        ]
-      },
-      "properties": {
-        "codigo": "L-244",
-        "endereco": "Rua Oratorio, 239, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "75 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.18973324,
-          -18.91552004
-        ]
-      },
-      "properties": {
-        "codigo": "L-245",
-        "endereco": "Rua Cincerro, 525, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "92 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.1898079,
-          -18.91259572
-        ]
-      },
-      "properties": {
-        "codigo": "L-246",
-        "endereco": "Rua Engenho, 182, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "105 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.19012983,
           -18.9096258
         ]
@@ -4184,36 +3779,6 @@
         "codigo": "L-247",
         "endereco": "Rua dos Tropeiros, 220, Morumbi, Uberlândia, Minas Gerais, Brasil",
         "qtld": "151 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.19292166,
-          -18.91244037
-        ]
-      },
-      "properties": {
-        "codigo": "L-248",
-        "endereco": "Avenida Jeronimo Jose Alves, 2120, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "101 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.19242775,
-          -18.91559484
-        ]
-      },
-      "properties": {
-        "codigo": "L-249",
-        "endereco": "1/ frente 370, 1, Morumbi, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "68 C"
       }
     },
     {
@@ -4364,21 +3929,6 @@
         "codigo": "L-26",
         "endereco": "Avenida Espanha, 975, Tibery, Uberlândia, Minas Gerais, Brasil",
         "qtld": "60 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.19280388,
-          -18.90586552
-        ]
-      },
-      "properties": {
-        "codigo": "L-261",
-        "endereco": "Rua Murici, 18, Residencial Integração, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "178 B"
       }
     },
     {
@@ -5437,7 +4987,7 @@
         "type": "Point",
         "coordinates": [
           -48.220079,
-          -18891652
+          -18.891652
         ]
       },
       "properties": {
@@ -5706,21 +5256,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.21927745,
-          -18.87688531
-        ]
-      },
-      "properties": {
-        "codigo": "L-368",
-        "endereco": "Rua Oriental, 1, Jardim Ipanema, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "9 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.24054115,
           -18.90678859
         ]
@@ -5774,21 +5309,6 @@
         "codigo": "L-398",
         "endereco": "Rua Sebastiao Assis Campos, 39, Morada dos Passaros, Uberlândia, Minas Gerais, Brasil",
         "qtld": "30 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2166763,
-          -18.86187223
-        ]
-      },
-      "properties": {
-        "codigo": "L-399",
-        "endereco": "Rua Adevanir Alvarenga da Silva, 1, Morada dos Passaros, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "26 B"
       }
     },
     {
@@ -6082,7 +5602,7 @@
         "type": "Point",
         "coordinates": [
           -48.2345626,
-          -18885469
+          -18.885469
         ]
       },
       "properties": {
@@ -6132,7 +5652,7 @@
       },
       "properties": {
         "codigo": "L-426",
-        "endereco": "Rua Mario Faria, 1189, Aclimação, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Rua Mario Faria, 118,9, Aclimação, Uberlândia, Minas Gerais, Brasil",
         "qtld": "26 C"
       }
     },
@@ -6322,7 +5842,7 @@
         "type": "Point",
         "coordinates": [
           -48.237573,
-          -18885586
+          -18.885586
         ]
       },
       "properties": {
@@ -6671,7 +6191,7 @@
         ]
       },
       "properties": {
-        "codigo": "L-484",
+        "codigo": "L-48,4",
         "endereco": "Rua 4, 36, Cond. Casas Alto Paradiso, Uberlândia, Minas Gerais, Brasil",
         "qtld": "2A"
       }
@@ -6704,21 +6224,6 @@
         "codigo": "L-490",
         "endereco": "Rua Livorno, 151, Cond. Terras Alpha, Uberlândia, Minas Gerais, Brasil",
         "qtld": "13 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.24349187,
-          -18.85878077
-        ]
-      },
-      "properties": {
-        "codigo": "L-497",
-        "endereco": "Rua Benevento, 1, Condominio Terras Alpha, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "2 C"
       }
     },
     {
@@ -8031,36 +7536,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.25276867,
-          -18.91872874
-        ]
-      },
-      "properties": {
-        "codigo": "L-80",
-        "endereco": "Rua Maria das Dores Dias, 967, Santa Monica, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "351 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.25556812,
-          -18.91870016
-        ]
-      },
-      "properties": {
-        "codigo": "L-81",
-        "endereco": "Avenida Joao Naves de Ávila, 2121, UFU Santa Mônica, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "8A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.25856223,
           -18.91852765
         ]
@@ -8187,7 +7662,7 @@
       },
       "properties": {
         "codigo": "L-90",
-        "endereco": "Avenida Ana Godoy de Sousa, 1187, Santa Monica, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Ana Godoy de Sousa, 118,7, Santa Monica, Uberlândia, Minas Gerais, Brasil",
         "qtld": "262 A"
       }
     },
@@ -8332,28 +7807,13 @@
         "type": "Point",
         "coordinates": [
           -48.2732383,
-          -18897655
+          -18.897655
         ]
       },
       "properties": {
         "codigo": "N-1",
         "endereco": "Rua Rubens Chaves, 20, Presidente Roosevelt, Uberlândia, Minas Gerais, Brasil",
         "qtld": "17 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.282689,
-          -18.89189938
-        ]
-      },
-      "properties": {
-        "codigo": "N-10",
-        "endereco": "Avenida Cesario Crosara, 4328, Presidente Roosevelt, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "190 A"
       }
     },
     {
@@ -8422,7 +7882,7 @@
         "type": "Point",
         "coordinates": [
           -48.2821152,
-          -18883023
+          -18.883023
         ]
       },
       "properties": {
@@ -8727,7 +8187,7 @@
       },
       "properties": {
         "codigo": "N-122",
-        "endereco": "Rua Alagoas, 1923, Marta Helena, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Rua Alagoas, 19,23, Marta Helena, Uberlândia, Minas Gerais, Brasil",
         "qtld": "108 D"
       }
     },
@@ -8832,7 +8292,7 @@
       },
       "properties": {
         "codigo": "N-129",
-        "endereco": "Avenida Comendador Alexandrino Garcia, 1890, Marta Helena, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Comendador Alexandrino Garcia, 18,90, Marta Helena, Uberlândia, Minas Gerais, Brasil",
         "qtld": "132 D"
       }
     },
@@ -9656,7 +9116,7 @@
         ]
       },
       "properties": {
-        "codigo": "N-187",
+        "codigo": "N-18,7",
         "endereco": "Avenida Airton Borges da Silva, 1530, Minas Gerais, Uberlândia, Minas Gerais, Brasil",
         "qtld": "152 B"
       }
@@ -9671,7 +9131,7 @@
         ]
       },
       "properties": {
-        "codigo": "N-188",
+        "codigo": "N-18,8",
         "endereco": "Avenida Jose Andraus Gassani, 299, Industrial, Uberlândia, Minas Gerais, Brasil",
         "qtld": "1 B"
       }
@@ -9686,7 +9146,7 @@
         ]
       },
       "properties": {
-        "codigo": "N-189",
+        "codigo": "N-18,9",
         "endereco": "Avenida Jose Andraus Gassani, 1003, Industrial, Uberlândia, Minas Gerais, Brasil",
         "qtld": "2 B"
       }
@@ -9716,7 +9176,7 @@
         ]
       },
       "properties": {
-        "codigo": "N-191",
+        "codigo": "N-19,1",
         "endereco": "Avenida Jose Andraus Gassani, 1, Industrial, Uberlândia, Minas Gerais, Brasil",
         "qtld": "2 B"
       }
@@ -9732,7 +9192,7 @@
       },
       "properties": {
         "codigo": "N-193",
-        "endereco": "Avenida Jose Andraus Gassani, 1898, Industrial, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Jose Andraus Gassani, 18,98, Industrial, Uberlândia, Minas Gerais, Brasil",
         "qtld": "5 E"
       }
     },
@@ -10116,21 +9576,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.2951927,
-          -18.8541693
-        ]
-      },
-      "properties": {
-        "codigo": "N-281",
-        "endereco": "Rua Edwards Manuel da Silva, 175, Industrial, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "39 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.2912177,
           -18.8505714
         ]
@@ -10199,21 +9644,6 @@
         "codigo": "N-290",
         "endereco": "Rua Laide Virginia Costa, 1, Industrial, Uberlândia, Minas Gerais, Brasil",
         "qtld": "40 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2993793,
-          -18.8501898
-        ]
-      },
-      "properties": {
-        "codigo": "N-292",
-        "endereco": "Rua Joaquim Pedro Gonçalves, 190, Industrial, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "34 C"
       }
     },
     {
@@ -10371,36 +9801,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.31106760000001,
-          -18.8982189
-        ]
-      },
-      "properties": {
-        "codigo": "N-36",
-        "endereco": "Avenida Coronel Jose Teofilo Carneiro, 1001, Sao Jose, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "7 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.31106760000001,
-          -18.8982189
-        ]
-      },
-      "properties": {
-        "codigo": "N-38",
-        "endereco": "Avenida Coronel Jose Teofilo Carneiro, 1001, Sao Jose, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "7 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3106569,
           -18.9051954
         ]
@@ -10541,7 +9941,7 @@
         ]
       },
       "properties": {
-        "codigo": "N-484",
+        "codigo": "N-48,4",
         "endereco": "Rua Camburiu, 200, Chacaras Vale do Sol, Uberlândia, Minas Gerais, Brasil",
         "qtld": "7 D"
       }
@@ -10551,8 +9951,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4830623616421330,
-          -18834893832860700
+          -48.3062361642133,
+          -18.8348938328607
         ]
       },
       "properties": {
@@ -10611,21 +10011,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.312162,
-          -18.891928
-        ]
-      },
-      "properties": {
-        "codigo": "N-51",
-        "endereco": "Rua Joao Alves Rodrigues, 22, Jardim Brasília, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "187 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3093126,
           -18.8919877
         ]
@@ -10648,7 +10033,7 @@
       "properties": {
         "codigo": "N-53",
         "endereco": "Rua dos Tropicos, 1, Jardim Brasília, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "191 B"
+        "qtld": "19,1 B"
       }
     },
     {
@@ -10677,7 +10062,7 @@
       },
       "properties": {
         "codigo": "N-538",
-        "endereco": "Rua Ademir Martis Costa, 191, Chacaras Val Paraiso, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Rua Ademir Martis Costa, 19,1, Chacaras Val Paraiso, Uberlândia, Minas Gerais, Brasil",
         "qtld": "09A"
       }
     },
@@ -11467,7 +10852,7 @@
         "type": "Point",
         "coordinates": [
           -48.32771962,
-          -18924174
+          -18.924174
         ]
       },
       "properties": {
@@ -11631,21 +11016,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.3337018,
-          -18.9187422
-        ]
-      },
-      "properties": {
-        "codigo": "O-110",
-        "endereco": "Rua Matheus Vaz, 865, Luizote de Freitas, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "98 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.33324572,
           -18.9157105
         ]
@@ -11714,21 +11084,6 @@
         "codigo": "O-115",
         "endereco": "Rua Luiz Jose Alves, 1, Luizote de Freitas, Uberlândia, Minas Gerais, Brasil",
         "qtld": "152 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.3363415,
-          -18.9189217
-        ]
-      },
-      "properties": {
-        "codigo": "O-116",
-        "endereco": "Rua Fábio Araújo, 47, Luizote de Freitas, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "89 C"
       }
     },
     {
@@ -12156,21 +11511,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.3272121,
-          -18.891921
-        ]
-      },
-      "properties": {
-        "codigo": "O-148",
-        "endereco": "Rumba, 173, Guarani, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "15 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3240378,
           -18.8913364
         ]
@@ -12516,21 +11856,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.3361187,
-          -18.8947486
-        ]
-      },
-      "properties": {
-        "codigo": "O-181",
-        "endereco": "Rua Garibalde Vieira, 285, Tocantins, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "31 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3333645,
           -18.8975264
         ]
@@ -12581,7 +11906,7 @@
         ]
       },
       "properties": {
-        "codigo": "O-188",
+        "codigo": "O-18,8",
         "endereco": "R. João Silvestre Da Luz, 11, Tocantins, Uberlândia, Minas Gerais, Brasil",
         "qtld": "51 C"
       }
@@ -12614,21 +11939,6 @@
         "codigo": "O-2",
         "endereco": "Avenida Sibipiruna, 158, Jaraguá, Uberlândia, Minas Gerais, Brasil",
         "qtld": "15 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.3121912,
-          -18.9396354
-        ]
-      },
-      "properties": {
-        "codigo": "O-20",
-        "endereco": "Rua do Bancario, 819, Planalto, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "82 D"
       }
     },
     {
@@ -12674,21 +11984,6 @@
         "codigo": "O-23",
         "endereco": "Rua Da Costureira, 729, Planalto, Uberlândia, Minas Gerais, Brasil",
         "qtld": "98"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.31155934,
-          -18.93954192
-        ]
-      },
-      "properties": {
-        "codigo": "O-24",
-        "endereco": "Rua Do Carpinteiro, 428, Planalto, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "68"
       }
     },
     {
@@ -12981,21 +12276,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.33997189999999,
-          -18.9367191
-        ]
-      },
-      "properties": {
-        "codigo": "O-279",
-        "endereco": "Rua Pedro Amancio Moraes, 170, Jardim Europa, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "82 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.31527719,
           -18.93341778
         ]
@@ -13131,21 +12411,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.3485192,
-          -18.9427092
-        ]
-      },
-      "properties": {
-        "codigo": "O-289",
-        "endereco": "Rua Jota Ferreira, 171, Jardim Europa, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "107 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3182476,
           -18.9334206
         ]
@@ -13197,7 +12462,7 @@
       },
       "properties": {
         "codigo": "O-293",
-        "endereco": "Rua Munique, 191, Jardim Europa, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Rua Munique, 19,1, Jardim Europa, Uberlândia, Minas Gerais, Brasil",
         "qtld": "30 D"
       }
     },
@@ -13476,21 +12741,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.3518912,
-          -18.9549546
-        ]
-      },
-      "properties": {
-        "codigo": "O-321",
-        "endereco": "Rua Sibipiruna, 1460, Panorama, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "51 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.35414859999999,
           -18.9545931
         ]
@@ -13752,7 +13002,7 @@
       },
       "properties": {
         "codigo": "O-340",
-        "endereco": "Avenida Aldo Borges Leão, 1910, Panorama, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Aldo Borges Leão, 19,10, Panorama, Uberlândia, Minas Gerais, Brasil",
         "qtld": "86 D"
       }
     },
@@ -14061,21 +13311,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.3151187,
-          -18.9455246
-        ]
-      },
-      "properties": {
-        "codigo": "O-396",
-        "endereco": "Rua do Advogado, 408, Jardim das Palmeiras, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "65 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3183194,
           -18.9454882
         ]
@@ -14369,21 +13604,6 @@
         "codigo": "O-413",
         "endereco": "Alameda Paulo Cesar Santana, 885, Jardim Holanda, Uberlândia, Minas Gerais, Brasil",
         "qtld": "19 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.31870199999999,
-          -18.9561653
-        ]
-      },
-      "properties": {
-        "codigo": "O-414",
-        "endereco": "Alameda Jose de Oliveira Guimaraes, 700, Jardim Holanda, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "19 B"
       }
     },
     {
@@ -14707,7 +13927,7 @@
         "type": "Point",
         "coordinates": [
           -48.324546,
-          -18960626
+          -18.960626
         ]
       },
       "properties": {
@@ -14782,7 +14002,7 @@
         "type": "Point",
         "coordinates": [
           -48.3243,
-          -18969453
+          -18.969453
         ]
       },
       "properties": {
@@ -14797,7 +14017,7 @@
         "type": "Point",
         "coordinates": [
           -48.324271,
-          -18972022
+          -18.972022
         ]
       },
       "properties": {
@@ -15006,21 +14226,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.33331192,
-          -18.96650035
-        ]
-      },
-      "properties": {
-        "codigo": "O-469",
-        "endereco": "Rua Eduardo Luis Vieira, 320, Jardim Canaã, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "178"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3243331,
           -18.9366239
         ]
@@ -15044,21 +14249,6 @@
         "codigo": "O-470",
         "endereco": "Rua Adriano Almeidaguimaraes, 1, Jardim Canaã, Uberlândia, Minas Gerais, Brasil",
         "qtld": "172"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.33319202,
-          -18.96052275
-        ]
-      },
-      "properties": {
-        "codigo": "O-471",
-        "endereco": "Rua Libina, 1042, Jardim Canaã, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "94"
       }
     },
     {
@@ -15636,21 +14826,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.3240257,
-          -18.9250189
-        ]
-      },
-      "properties": {
-        "codigo": "O-55",
-        "endereco": "Rua Padre Humberto Araujo Braga, 145, Chacaras Tubalina, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "29 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3750384,
           -18.9884858
         ]
@@ -15996,21 +15171,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.38192590000001,
-          -19.0025206
-        ]
-      },
-      "properties": {
-        "codigo": "O-578",
-        "endereco": "Rua Tenente Mardomio Silva, 1139, Morada Nova, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "134 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3150956,
           -18.9244558
         ]
@@ -16349,21 +15509,6 @@
         "codigo": "O-623",
         "endereco": "Rua da Suçuarana, 1, Residencial Pequis, Uberlândia, Minas Gerais, Brasil",
         "qtld": "80 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.3901895,
-          -18.9782573
-        ]
-      },
-      "properties": {
-        "codigo": "O-624",
-        "endereco": "Rua Graxaim do Campo, 210, Residencial Pequis, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "73 A"
       }
     },
     {
@@ -16971,21 +16116,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.3486032,
-          -18.9187548
-        ]
-      },
-      "properties": {
-        "codigo": "O-706",
-        "endereco": "Rua Debraim Fonseca Arantes, 48, Luizote IV, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "27 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.3479798,
           -18.9215347
         ]
@@ -17457,7 +16587,7 @@
       },
       "properties": {
         "codigo": "O-88",
-        "endereco": "Avenida Jose Fonseca e Silva, 1189, Jardim Patricia, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Jose Fonseca e Silva, 118,9, Jardim Patricia, Uberlândia, Minas Gerais, Brasil",
         "qtld": "28 B"
       }
     },
@@ -17549,21 +16679,6 @@
         "codigo": "O-93",
         "endereco": "Rua Aristides Rodrigues da Silva, 173, Jardim Patricia, Uberlândia, Minas Gerais, Brasil",
         "qtld": "11A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.319973,
-          -18.919118
-        ]
-      },
-      "properties": {
-        "codigo": "O-95",
-        "endereco": "Rua Eduardo Segadaes, 1, Jardim Patricia, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "41 A"
       }
     },
     {
@@ -18186,21 +17301,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.2704187,
-          -18.9522875
-        ]
-      },
-      "properties": {
-        "codigo": "S-139",
-        "endereco": "Rua José Elias, 71, Jardim Karaiba, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "63 E"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.2555667,
           -18.9305537
         ]
@@ -18479,21 +17579,6 @@
         "codigo": "S-157",
         "endereco": "Rua Pirapua, 181, Jardim Karaiba, Uberlândia, Minas Gerais, Brasil",
         "qtld": "74 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2614735,
-          -18.9513191
-        ]
-      },
-      "properties": {
-        "codigo": "S-158",
-        "endereco": "Avenida Seme Simão (Rua Maria Bonita - out), 3735, Condominio Bosque Karaiba, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "11 C"
       }
     },
     {
@@ -18896,7 +17981,7 @@
         ]
       },
       "properties": {
-        "codigo": "S-187",
+        "codigo": "S-18,7",
         "endereco": "Avenida Joaquim Ribeiro, 124, Santa Luzia, Uberlândia, Minas Gerais, Brasil",
         "qtld": "51 D"
       }
@@ -18911,7 +17996,7 @@
         ]
       },
       "properties": {
-        "codigo": "S-188",
+        "codigo": "S-18,8",
         "endereco": "Rua Paschoal Bruno, 555, Santa Luzia, Uberlândia, Minas Gerais, Brasil",
         "qtld": "64 D"
       }
@@ -18926,7 +18011,7 @@
         ]
       },
       "properties": {
-        "codigo": "S-189",
+        "codigo": "S-18,9",
         "endereco": "Rua Marcos Alves Barbosa, 115, Santa Luzia, Uberlândia, Minas Gerais, Brasil",
         "qtld": "88 A"
       }
@@ -18971,7 +18056,7 @@
         ]
       },
       "properties": {
-        "codigo": "S-191",
+        "codigo": "S-19,1",
         "endereco": "Avenida Joao Naves de Avila, 1, Santa Luzia, Uberlândia, Minas Gerais, Brasil",
         "qtld": "98 C"
       }
@@ -18986,7 +18071,7 @@
         ]
       },
       "properties": {
-        "codigo": "S-192",
+        "codigo": "S-19,2",
         "endereco": "Rua Realina Maria da Silva, 209, Santa Luzia, Uberlândia, Minas Gerais, Brasil",
         "qtld": "13 C"
       }
@@ -19139,21 +18224,6 @@
         "codigo": "S-204",
         "endereco": "Rua Maria Lemes De Souza, 21, Granada, Uberlândia, Minas Gerais, Brasil",
         "qtld": "13"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2411398,
-          -18.9519238
-        ]
-      },
-      "properties": {
-        "codigo": "S-205",
-        "endereco": "Avenida Seme Simao, 1377, Granada, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "35 B"
       }
     },
     {
@@ -19439,21 +18509,6 @@
         "codigo": "S-222",
         "endereco": "Rua Charqueada, 601, Granada, Uberlândia, Minas Gerais, Brasil",
         "qtld": "113"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.251921,
-          -18948442
-        ]
-      },
-      "properties": {
-        "codigo": "S-223",
-        "endereco": "Avenida Vereador Carlito Cordeiro, 1, Granada, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "135"
       }
     },
     {
@@ -20002,13 +19057,13 @@
         "type": "Point",
         "coordinates": [
           -48.21670188,
-          -18966438
+          -18.966438
         ]
       },
       "properties": {
         "codigo": "S-264",
         "endereco": "Rua Serra Do Tabuleiro, 345, São Jorge, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "189"
+        "qtld": "18.9"
       }
     },
     {
@@ -20152,7 +19207,7 @@
         "type": "Point",
         "coordinates": [
           -48.2286987,
-          -18972331
+          -18.972331
         ]
       },
       "properties": {
@@ -20526,21 +19581,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.2641468,
-          -18.9187571
-        ]
-      },
-      "properties": {
-        "codigo": "S-3",
-        "endereco": "Rua Jose Zacarias Junqueira, 190, Saraiva, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "33 A"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.2731122,
           -18.9324067
         ]
@@ -20819,21 +19859,6 @@
         "codigo": "S-322",
         "endereco": "Rua 10 / Avenida Vereador Carlito Cordeiro, 80, Condominio Splendido, Uberlândia, Minas Gerais, Brasil",
         "qtld": "8 B"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2541929,
-          -18.9454584
-        ]
-      },
-      "properties": {
-        "codigo": "S-323",
-        "endereco": "Rua 4 / Avenida Vereador Carlito Cordeiro, 384, Condominio Splendido, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "4A"
       }
     },
     {
@@ -21186,21 +20211,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -48.2741638,
-          -18.955189
-        ]
-      },
-      "properties": {
-        "codigo": "S-351",
-        "endereco": "Avenida Lidormira Borges do Nascimento, 11, Shopping Park, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "6 C"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -48.282844,
           -18.9750878
         ]
@@ -21493,7 +20503,7 @@
       "properties": {
         "codigo": "S-376",
         "endereco": "Rua Orestes Mendes Ferreira, 40, Shopping Park, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "192 A"
+        "qtld": "19,2 A"
       }
     },
     {
@@ -21567,7 +20577,7 @@
       },
       "properties": {
         "codigo": "S-381",
-        "endereco": "Avenida Jose Abdulmassih, 1192, Shopping Park, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Jose Abdulmassih, 119,2, Shopping Park, Uberlândia, Minas Gerais, Brasil",
         "qtld": "169 A"
       }
     },
@@ -21779,21 +20789,6 @@
         "codigo": "S-397",
         "endereco": "Rua Alan Kardec De Avelar, 80, Shopping Park, Uberlândia, Minas Gerais, Brasil",
         "qtld": "111 D"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2618176,
-          -18.9187268
-        ]
-      },
-      "properties": {
-        "codigo": "S-4",
-        "endereco": "Avenida Joao Naves de Avila, 2236, Saraiva, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "27 C"
       }
     },
     {
@@ -22137,7 +21132,7 @@
       },
       "properties": {
         "codigo": "S-452",
-        "endereco": "Avenida Landscape(Alameda Village Lane, 60), 1870, Jardim Sul, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Landscape(Alameda Village Lane, 60), 18,70, Jardim Sul, Uberlândia, Minas Gerais, Brasil",
         "qtld": "6 C"
       }
     },
@@ -22272,7 +21267,7 @@
       },
       "properties": {
         "codigo": "S-463",
-        "endereco": "Avenida Landscape (Alameda Village Drive, 176), 1870, Condominio Golden Village, Uberlândia, Minas Gerais, Brasil",
+        "endereco": "Avenida Landscape (Alameda Village Drive, 176), 18,70, Condominio Golden Village, Uberlândia, Minas Gerais, Brasil",
         "qtld": "2 B"
       }
     },
@@ -23234,21 +22229,6 @@
         "codigo": "S-93",
         "endereco": "Rua Guerra Junqueira, 210, Tubalina, Uberlândia, Minas Gerais, Brasil",
         "qtld": "150 G"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -48.2918792,
-          -18.9233571
-        ]
-      },
-      "properties": {
-        "codigo": "S-94",
-        "endereco": "Avenida Getulio Vargas, 1, Tubalina, Uberlândia, Minas Gerais, Brasil",
-        "qtld": "144 C"
       }
     },
     {
