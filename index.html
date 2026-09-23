@@ -10,25 +10,33 @@
 
     <title>GeoEDL Uberlândia</title>
 
-    <!-- Leaflet -->
+    <!-- ===================================== -->
+    <!-- LEAFLET -->
+    <!-- ===================================== -->
 
     <link rel="stylesheet"
           href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
-    <!-- CSS do Projeto -->
+    <!-- ===================================== -->
+    <!-- CSS DO PROJETO -->
+    <!-- ===================================== -->
 
     <link rel="stylesheet"
           href="css/style.css">
 
 </head>
 
-<input
-    type="file"
-    id="inputGeoJSON"
-    accept=".geojson,.json"
-    style="display:none">
-
 <body>
+
+    <!-- ===================================== -->
+    <!-- ARQUIVO GEOJSON -->
+    <!-- ===================================== -->
+
+    <input
+        type="file"
+        id="inputGeoJSON"
+        accept=".geojson,.json"
+        style="display:none">
 
     <!-- ===================================== -->
     <!-- MAPA -->
@@ -42,33 +50,39 @@
 
     <div id="toolbar">
 
-        <button id="btnCamadas"
-                title="Camadas">
+        <button
+            id="btnCamadas"
+            title="Camadas">
             📂
         </button>
 
-        <button id="btnMedir"
-                title="Medição">
+        <button
+            id="btnMedir"
+            title="Medição">
             📏
         </button>
 
-        <button id="btnBuscar"
-                title="Pesquisar">
+        <button
+            id="btnBuscar"
+            title="Pesquisar">
             🔍
         </button>
 
-        <button id="btnAtualizar"
-        title="Atualizar EDLs">
-    🔄
+        <button
+            id="btnAtualizar"
+            title="Atualizar EDLs">
+            🔄
         </button>
 
-        <button id="btnImprimir"
-                title="Exportar">
+        <button
+            id="btnImprimir"
+            title="Exportar">
             🖨
         </button>
 
-        <button id="btnConfig"
-                title="Configurações">
+        <button
+            id="btnConfig"
+            title="Configurações">
             ⚙
         </button>
 
@@ -78,8 +92,9 @@
     <!-- PAINEL CAMADAS -->
     <!-- ===================================== -->
 
-    <div id="painelLateral"
-         class="painel-fechado">
+    <div
+        id="painelLateral"
+        class="painel-fechado">
 
         <div class="painel-titulo">
 
@@ -89,41 +104,54 @@
 
         <div class="painel-conteudo">
 
-    <h3>Camadas</h3>
+            <h3>Camadas</h3>
 
-     <input type="checkbox" id="chkLimite">
-    Limite Municipal
-  </label>
+            <label>
+                <input
+                    type="checkbox"
+                    id="chkLimite">
+                Limite Municipal
+            </label>
 
-  <label>
-    <input type="checkbox" id="chkBairros">
-    Novos Bairros com Wolbachia
-  </label>
+            <label>
+                <input
+                    type="checkbox"
+                    id="chkBairros">
+                Novos Bairros com Wolbachia
+            </label>
 
-  <label>
-    <input type="checkbox" id="chkAreas">
-    Bairros com Wolbachia
-  </label>
+            <label>
+                <input
+                    type="checkbox"
+                    id="chkAreas">
+                Bairros com Wolbachia
+            </label>
 
-  <label>
-    <input type="checkbox" id="chkEDLs">
-    EDLs
-  </label>
+            <label>
+                <input
+                    type="checkbox"
+                    id="chkEDLs">
+                EDLs
+            </label>
 
-  <label>
-    <input type="checkbox" id="chkOvitrampas">
-    Ovitrampas
-  </label>
+            <label>
+                <input
+                    type="checkbox"
+                    id="chkOvitrampas">
+                Ovitrampas
+            </label>
 
-</div>
+        </div>
+
     </div>
 
     <!-- ===================================== -->
     <!-- PAINEL BUSCA -->
     <!-- ===================================== -->
 
-    <div id="painelBusca"
-         class="painel-fechado">
+    <div
+        id="painelBusca"
+        class="painel-fechado">
 
         <div class="painel-titulo">
 
@@ -133,84 +161,121 @@
 
         <div class="painel-conteudo">
 
-    <h3>Pesquisar por</h3>
+            <h3>Pesquisar por</h3>
 
-<label>
-  <input type="radio" name="tipoBusca" value="edl" checked>
-  EDL
-</label>
+            <!-- EDL -->
 
-<label>
-  <input type="radio" name="tipoBusca" value="ovitrampa">
-  Ovitrampa
-</label>
+            <label>
+                <input
+                    type="radio"
+                    name="tipoBusca"
+                    value="edl"
+                    checked>
+                EDL
+            </label>
 
-<label>
-  <input type="radio" name="tipoBusca" value="endereco">
-  Endereço
-</label>
+            <!-- OVITRAMPA -->
 
-<label>
-  <input type="radio" name="tipoBusca" value="qt">
-  QT
-</label>
-            
-     <hr>
+            <label>
+                <input
+                    type="radio"
+                    name="tipoBusca"
+                    value="ovitrampa">
+                Ovitrampa
+            </label>
 
-    <input
-        id="txtBuscaEDL"
-        type="text"
-        placeholder="Digite sua pesquisa">
+            <!-- ENDEREÇO -->
 
-    <button id="btnBuscarEDL">
-        Localizar
-    </button>
+            <label>
+                <input
+                    type="radio"
+                    name="tipoBusca"
+                    value="endereco">
+                Endereço
+            </label>
 
-    <p id="contadorResultados"
-   style="margin-top:10px;
-          color:#0b5394;
-          font-weight:600;
-          display:none;">
-</p>
+            <!-- QT -->
 
-    <hr>
+            <label>
+                <input
+                    type="radio"
+                    name="tipoBusca"
+                    value="qt">
+                QT
+            </label>
 
-    <h3>Informações da EDL</h3>
+            <hr>
 
-<p>
-    <strong>Código</strong><br>
-    <span id="infoCodigo">-</span>
-</p>
+            <!-- CAMPO DE PESQUISA -->
 
-<p>
-    <strong>QT</strong><br>
-    <span id="infoQT">-</span>
-</p>
+            <input
+                id="txtBuscaEDL"
+                type="text"
+                placeholder="Digite sua pesquisa"
+                autocomplete="off">
 
-<p>
-    <strong>Imóvel</strong><br>
-    <span id="infoImovel">-</span>
-</p>
+            <button
+                id="btnBuscarEDL"
+                type="button">
+                Localizar
+            </button>
 
-<p>
-    <strong>Endereço</strong><br>
-    <span id="infoEndereco">-</span>
-</p>
+            <!-- CONTADOR -->
 
-<p>
-    <strong>Latitude</strong><br>
-    <span id="infoLatitude">-</span>
-</p>
+            <p
+                id="contadorResultados"
+                style="
+                    margin-top:10px;
+                    color:#0b5394;
+                    font-weight:600;
+                    display:none;
+                ">
+            </p>
 
-<p>
-    <strong>Longitude</strong><br>
-    <span id="infoLongitude">-</span>
-</p>
+            <hr>
 
-<p>
-    <strong>Sistema</strong><br>
-    EPSG:4326
-</p>
+            <!-- ===================================== -->
+            <!-- INFORMAÇÕES -->
+            <!-- ===================================== -->
+
+            <h3>Informações da EDL</h3>
+
+            <p>
+                <strong>Código</strong><br>
+                <span id="infoCodigo">-</span>
+            </p>
+
+            <p>
+                <strong>QT</strong><br>
+                <span id="infoQT">-</span>
+            </p>
+
+            <p>
+                <strong>Imóvel</strong><br>
+                <span id="infoImovel">-</span>
+            </p>
+
+            <p>
+                <strong>Endereço</strong><br>
+                <span id="infoEndereco">-</span>
+            </p>
+
+            <p>
+                <strong>Latitude</strong><br>
+                <span id="infoLatitude">-</span>
+            </p>
+
+            <p>
+                <strong>Longitude</strong><br>
+                <span id="infoLongitude">-</span>
+            </p>
+
+            <p>
+                <strong>Sistema</strong><br>
+                EPSG:4326
+            </p>
+
+        </div>
 
     </div>
 
@@ -218,16 +283,22 @@
     <!-- LEAFLET -->
     <!-- ===================================== -->
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
 
     <!-- ===================================== -->
-    <!-- MÓDULOS -->
+    <!-- MÓDULOS DO GEOEDL -->
     <!-- ===================================== -->
 
     <script src="js/mapa.js"></script>
+
     <script src="js/painel.js"></script>
+
     <script src="js/busca.js"></script>
+
     <script src="js/regua.js"></script>
+
     <script src="js/atualizar.js"></script>
 
 </body>
