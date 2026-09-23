@@ -2076,6 +2076,51 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -48.40029427,
+          -18.72925202
+        ]
+      },
+      "properties": {
+        "codigo": "D-185",
+        "endereco": "Rod. Neuza Rezende, 310, Ranchão, Uberlândia, Minas Gerais, Brasil",
+        "qtld": "3A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.36925237,
+          -18.73034228
+        ]
+      },
+      "properties": {
+        "codigo": "D-2",
+        "endereco": "Avenida Sol Nascente, 298, Distrito Cruzeiro dos Peixotos, Uberlândia, Minas Gerais, Brasil",
+        "qtld": "15 D"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.36865936,
+          -18.72753927
+        ]
+      },
+      "properties": {
+        "codigo": "D-3",
+        "endereco": "Rua da Educacao, 115, Distrito Cruzeiro dos Peixotos, Uberlândia, Minas Gerais, Brasil",
+        "qtld": "20 B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -47.93581159,
           -19.13998688
         ]
