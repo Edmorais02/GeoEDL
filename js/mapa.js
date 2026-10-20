@@ -396,10 +396,10 @@ carregarGeoJSON(
     "data/Novos_bairros.geojson",
     {
         style: {
-            color: "#005eff",
+            color: "#7e57c2",
             weight: 2,
-            fillColor: "#4da3ff",
-            fillOpacity: 0.35
+            fillColor: "b39ddb",
+            fillOpacity: 0.45
         }
     }
 )
