@@ -396,9 +396,9 @@ carregarGeoJSON(
     "data/Novos_bairros.geojson",
     {
         style: {
-            color: "#7e57c2",
+            color: "#EDE7F6",
             weight: 2,
-            fillColor: "b39ddb",
+            fillColor: "#7651A8",
             fillOpacity: 0.45
         }
     }
@@ -435,9 +435,9 @@ carregarGeoJSON(
     "data/Areas_implantadas.geojson",
     {
         style: {
-            color: "#e6d98a",
+            color: "#D7EFEB",
             weight: 2,
-            fillColor: "#fff9c4",
+            fillColor: "#176B63",
             fillOpacity: 0.65
         }
     }
