@@ -1,90 +1,45 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>GeoEDL Uberlândia</title>
 
-    <!-- ===================================== -->
-    <!-- LEAFLET -->
-    <!-- ===================================== -->
+    <!-- Leaflet -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
 
-    <link rel="stylesheet"
-          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-
-    <!-- ===================================== -->
-    <!-- CSS DO PROJETO -->
-    <!-- ===================================== -->
-
-    <link rel="stylesheet"
-          href="css/style.css">
-
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- ===================================== -->
-    <!-- ARQUIVO GEOJSON -->
-    <!-- ===================================== -->
-
+    <!-- Arquivo GeoJSON -->
     <input
         type="file"
         id="inputGeoJSON"
         accept=".geojson,.json"
-        style="display:none">
+        style="display:none"
+    >
 
-    <!-- ===================================== -->
-    <!-- MAPA -->
-    <!-- ===================================== -->
-
+    <!-- Mapa -->
     <div id="map"></div>
 
-    <!-- ===================================== -->
-    <!-- TOOLBAR -->
-    <!-- ===================================== -->
-
+    <!-- Barra de ferramentas -->
     <div id="toolbar">
 
-        <button
-            id="btnCamadas"
-            title="Camadas">
-            📂
-        </button>
-
-        <button
-            id="btnMedir"
-            title="Medição">
-            📏
-        </button>
-
-        <button
-            id="btnBuscar"
-            title="Pesquisar">
-            🔍
-        </button>
-
-        <button
-            id="btnAtualizar"
-            title="Atualizar EDLs">
-            🔄
-        </button>
-
-        <button
-            id="btnImprimir"
-            title="Exportar">
-            🖨
-        </button>
-
-        <button
-            id="btnConfig"
-            title="Configurações">
-            ⚙
-        </button>
+        <button id="btnCamadas" title="Camadas">📂</button>
+        <button id="btnMedir" title="Medição">📏</button>
+        <button id="btnBuscar" title="Pesquisar">🔍</button>
+        <button id="btnAtualizar" title="Atualizar EDLs">🔄</button>
+        <button id="btnImprimir" title="Exportar">🖨</button>
+        <button id="btnConfig" title="Configurações">⚙</button>
 
     </div>
 
@@ -92,14 +47,10 @@
     <!-- PAINEL CAMADAS -->
     <!-- ===================================== -->
 
-    <div
-        id="painelLateral"
-        class="painel-fechado">
+    <div id="painelLateral" class="painel-fechado">
 
         <div class="painel-titulo">
-
             <h2>GeoEDL Uberlândia</h2>
-
         </div>
 
         <div class="painel-conteudo">
@@ -107,120 +58,96 @@
             <h3>Camadas</h3>
 
             <label>
-                <input
-                    type="checkbox"
-                    id="chkLimite">
+                <input type="checkbox" id="chkLimite">
                 Limite Municipal
             </label>
 
             <label>
-                <input
-                    type="checkbox"
-                    id="chkBairros">
+                <input type="checkbox" id="chkBairros">
                 Novos Bairros com Wolbachia
             </label>
 
             <label>
-                <input
-                    type="checkbox"
-                    id="chkAreas">
+                <input type="checkbox" id="chkAreas">
                 Bairros com Wolbachia
             </label>
 
             <label>
-                <input
-                    type="checkbox"
-                    id="chkEDLs">
+                <input type="checkbox" id="chkEDLs">
                 EDLs
             </label>
 
             <label>
-                <input
-                    type="checkbox"
-                    id="chkOvitrampas">
+                <input type="checkbox" id="chkOvitrampas">
                 Ovitrampas
             </label>
 
         </div>
-
     </div>
 
     <!-- ===================================== -->
     <!-- PAINEL BUSCA -->
     <!-- ===================================== -->
 
-    <div
-        id="painelBusca"
-        class="painel-fechado">
+    <div id="painelBusca" class="painel-fechado">
 
         <div class="painel-titulo">
-
             <h2>Pesquisar</h2>
-
         </div>
 
         <div class="painel-conteudo">
 
             <h3>Pesquisar por</h3>
 
-            <!-- EDL -->
-
             <label>
                 <input
                     type="radio"
                     name="tipoBusca"
                     value="edl"
-                    checked>
+                    checked
+                >
                 EDL
             </label>
 
-            <!-- OVITRAMPA -->
-
             <label>
                 <input
                     type="radio"
                     name="tipoBusca"
-                    value="ovitrampa">
+                    value="ovitrampa"
+                >
                 Ovitrampa
             </label>
 
-            <!-- ENDEREÇO -->
-
             <label>
                 <input
                     type="radio"
                     name="tipoBusca"
-                    value="endereco">
+                    value="endereco"
+                >
                 Endereço
             </label>
 
-            <!-- QT -->
-
             <label>
                 <input
                     type="radio"
                     name="tipoBusca"
-                    value="qt">
+                    value="qt"
+                >
                 QT
             </label>
 
             <hr>
 
-            <!-- CAMPO DE PESQUISA -->
-
             <input
                 id="txtBuscaEDL"
                 type="text"
                 placeholder="Digite sua pesquisa"
-                autocomplete="off">
+                autocomplete="off"
+            >
 
-            <button
-                id="btnBuscarEDL"
-                type="button">
+            <button id="btnBuscarEDL" type="button">
                 Localizar
             </button>
-
-            <!-- CONTADOR -->
 
             <p
                 id="contadorResultados"
@@ -229,90 +156,12 @@
                     color:#0b5394;
                     font-weight:600;
                     display:none;
-                ">
-            </p>
+                "
+            ></p>
 
             <hr>
-      </div>
- </div>
-            
-<!-- ===================================== -->
-<!-- PAINEL EXPORTAÇÃO -->
-<!-- ===================================== -->
 
-<div id="painelExportacao" class="painel-fechado">
-
-    <div class="painel-titulo">
-        <h2>Exportar mapa</h2>
-    </div>
-
-    <div class="painel-conteudo">
-
-        <h3>Formato de saída</h3>
-
-        <button id="btnExportarPDF" class="btn-exportar">
-            Exportar mapa em PDF
-        </button>
-
-        <hr>
-
-        <h3>Camadas vetoriais</h3>
-
-        <label>
-            <input type="checkbox" id="expTodas" checked>
-            Todas as camadas
-        </label>
-
-        <div id="listaCamadasExportacao">
-
-            <label>
-                <input type="checkbox" class="expCamada" value="limite" checked>
-                Limite Municipal
-            </label>
-
-            <label>
-                <input type="checkbox" class="expCamada" value="bairros" checked>
-                Novos Bairros com Wolbachia
-            </label>
-
-            <label>
-                <input type="checkbox" class="expCamada" value="areas" checked>
-                Bairros com Wolbachia
-            </label>
-
-            <label>
-                <input type="checkbox" class="expCamada" value="edls" checked>
-                EDLs
-            </label>
-
-            <label>
-                <input type="checkbox" class="expCamada" value="ovitrampas" checked>
-                Ovitrampas
-            </label>
-
-        </div>
-
-        <button id="btnExportarGeoJSON" class="btn-exportar">
-            Baixar camadas para QGIS (.zip)
-        </button>
-
-        <p class="texto-exportacao">
-            O ZIP contém um arquivo GeoJSON para cada camada selecionada.
-            No QGIS, extraia o ZIP e adicione os arquivos GeoJSON ao projeto.
-        </p>
-
-        <button id="btnFecharExportacao" class="btn-secundario">
-            Fechar
-        </button>
-
-    </div>
-
-</div>
-
-
-            <!-- ===================================== -->
-            <!-- INFORMAÇÕES -->
-            <!-- ===================================== -->
+            <!-- Informações da EDL -->
 
             <h3>Informações da EDL</h3>
 
@@ -352,35 +201,144 @@
             </p>
 
         </div>
-
     </div>
 
     <!-- ===================================== -->
-    <!-- LEAFLET -->
+    <!-- PAINEL EXPORTAÇÃO -->
     <!-- ===================================== -->
 
-    <script
-        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
-    </script>
+    <div id="painelExportacao" class="painel-fechado">
+
+        <div class="painel-titulo">
+            <h2>Exportar mapa</h2>
+        </div>
+
+        <div class="painel-conteudo">
+
+            <h3>Formato de saída</h3>
+
+            <button
+                id="btnExportarPDF"
+                class="btn-exportar"
+                type="button"
+            >
+                Exportar mapa em PDF
+            </button>
+
+            <hr>
+
+            <h3>Camadas vetoriais</h3>
+
+            <label>
+                <input
+                    type="checkbox"
+                    id="expTodas"
+                    checked
+                >
+                Todas as camadas
+            </label>
+
+            <div id="listaCamadasExportacao">
+
+                <label>
+                    <input
+                        type="checkbox"
+                        class="expCamada"
+                        value="limite"
+                        checked
+                    >
+                    Limite Municipal
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        class="expCamada"
+                        value="bairros"
+                        checked
+                    >
+                    Novos Bairros com Wolbachia
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        class="expCamada"
+                        value="areas"
+                        checked
+                    >
+                    Bairros com Wolbachia
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        class="expCamada"
+                        value="edls"
+                        checked
+                    >
+                    EDLs
+                </label>
+
+                <label>
+                    <input
+                        type="checkbox"
+                        class="expCamada"
+                        value="ovitrampas"
+                        checked
+                    >
+                    Ovitrampas
+                </label>
+
+            </div>
+
+            <button
+                id="btnExportarGeoJSON"
+                class="btn-exportar"
+                type="button"
+            >
+                Baixar camadas para QGIS (.zip)
+            </button>
+
+            <p class="texto-exportacao">
+                O ZIP contém um arquivo GeoJSON para cada camada
+                selecionada. No QGIS, extraia o ZIP e adicione
+                os arquivos GeoJSON ao projeto.
+            </p>
+
+            <button
+                id="btnFecharExportacao"
+                class="btn-secundario"
+                type="button"
+            >
+                Fechar
+            </button>
+
+        </div>
+    </div>
+
+    <!-- ===================================== -->
+    <!-- BIBLIOTECAS -->
+    <!-- ===================================== -->
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
     <!-- ===================================== -->
     <!-- MÓDULOS DO GEOEDL -->
     <!-- ===================================== -->
 
     <script src="js/mapa.js"></script>
-
     <script src="js/painel.js"></script>
-
     <script src="js/busca.js"></script>
-
     <script src="js/regua.js"></script>
-
     <script src="js/atualizar.js"></script>
 
+    <!-- Biblioteca para compactar os arquivos QGIS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
-    
+
+    <!-- Exportação -->
     <script src="js/exportar.js"></script>
 
 </body>
-
 </html>
+```
