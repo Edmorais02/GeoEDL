@@ -522,6 +522,49 @@ input[type=text]:focus{
     border-radius: 10px;
 }
 
+   
+/* ======================================================
+   GeoEDL — Correção de fundo do painel de exportação
+====================================================== */
+
+#painelExportacao {
+    background-color: #ffffff !important;
+    opacity: 1 !important;
+    isolation: isolate;
+    box-sizing: border-box;
+}
+
+#painelExportacao .painel-titulo {
+    background-color: #0b5394 !important;
+    color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+#painelExportacao .painel-conteudo {
+    background-color: #ffffff !important;
+    color: #263238;
+    opacity: 1 !important;
+}
+
+/* Impede que os elementos internos herdem transparência */
+#painelExportacao h3,
+#painelExportacao label,
+#painelExportacao p,
+#painelExportacao #listaCamadasExportacao {
+    background-color: #ffffff;
+}
+
+/* Preserva a cor dos botões */
+#painelExportacao .btn-exportar {
+    background-color: #0b5394 !important;
+    color: #ffffff !important;
+}
+
+#painelExportacao .btn-secundario {
+    background-color: #edf0f3 !important;
+    color: #263238 !important;
+}
+
 /* Ajuste para telas menores */
 @media (max-width: 768px) {
     #painelExportacao {
