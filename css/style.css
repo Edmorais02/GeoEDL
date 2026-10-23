@@ -375,7 +375,129 @@ input[type=text]:focus{
         width:92%;
 
         left:4%;
+       
+/* ======================================================
+   GeoEDL — Painel de exportação
+====================================================== */
 
+#painelExportacao {
+    position: absolute;
+    top: 68px;
+    left: 14px;
+    width: 320px;
+    max-height: calc(100vh - 90px);
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, .22);
+    transition: .35s;
+    z-index: 1999;
+}
+
+.btn-exportar,
+.btn-secundario {
+    width: 100%;
+    padding: 11px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-exportar {
+    color: #fff;
+    background: #176B63;
+}
+
+.btn-exportar:hover {
+    background: #10534d;
+}
+
+.btn-exportar:disabled {
+    opacity: .65;
+    cursor: wait;
+}
+
+.btn-secundario {
+    background: #edf0f3;
+    color: #263238;
+}
+
+.texto-exportacao {
+    margin-top: 12px;
+    color: #555;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* ======================================================
+   Impressão / PDF
+====================================================== */
+
+#cabecalhoImpressao {
+    display: none;
+}
+
+@media print {
+    @page {
+        size: landscape;
+        margin: 8mm;
     }
 
+    html,
+    body {
+        width: 100% !important;
+        height: 100% !important;
+        overflow: visible !important;
+        background: white !important;
+    }
+
+    #toolbar,
+    #painelLateral,
+    #painelBusca,
+    #painelExportacao,
+    .leaflet-control-zoom,
+    .leaflet-control-attribution,
+    .leaflet-control-container {
+        display: none !important;
+    }
+
+    #map {
+        position: fixed !important;
+        top: 15mm !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 175mm !important;
+    }
+
+    #cabecalhoImpressao {
+        display: block !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        color: #263238;
+    }
+
+    #cabecalhoImpressao h2 {
+        font-size: 16pt;
+        margin-bottom: 2mm;
+    }
+
+    #cabecalhoImpressao p {
+        font-size: 9pt;
+    }
+
+    .leaflet-pane,
+    .leaflet-tile,
+    .leaflet-marker-icon,
+    .leaflet-marker-shadow,
+    .leaflet-image-layer,
+    .leaflet-tile-container {
+        visibility: visible !important;
+        print-color-adjust: exact !important;
+        -webkit-print-color-adjust: exact !important;
+    }
 }
