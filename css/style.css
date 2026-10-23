@@ -379,6 +379,7 @@ input[type=text]:focus{
        }
    }
        
+
 /* ======================================================
    GeoEDL — Painel de exportação
 ====================================================== */
@@ -388,6 +389,7 @@ input[type=text]:focus{
     top: 68px !important;
     left: 14px !important;
     width: 320px;
+    max-width: 92vw;
     max-height: calc(100vh - 90px);
     overflow-y: auto;
     background: #fff;
@@ -395,43 +397,6 @@ input[type=text]:focus{
     box-shadow: 0 10px 35px rgba(0, 0, 0, .22);
     transition: .35s;
     z-index: 3000;
-}
-
-.btn-exportar,
-.btn-secundario {
-    width: 100%;
-    padding: 11px;
-    margin-top: 10px;
-    border: 0;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 14px;
-}
-
-.btn-exportar {
-    color: #fff;
-    background: #176B63;
-}
-
-.btn-exportar:hover {
-    background: #10534d;
-}
-
-.btn-exportar:disabled {
-    opacity: .65;
-    cursor: wait;
-}
-
-.btn-secundario {
-    background: #edf0f3;
-    color: #263238;
-}
-
-.texto-exportacao {
-    margin-top: 12px;
-    color: #555;
-    font-size: 12px;
-    line-height: 1.5;
 }
 
 @media (max-width: 768px) {
