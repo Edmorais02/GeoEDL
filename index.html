@@ -234,6 +234,81 @@
 
             <hr>
 
+            
+<!-- ===================================== -->
+<!-- PAINEL EXPORTAÇÃO -->
+<!-- ===================================== -->
+
+<div id="painelExportacao" class="painel-fechado">
+
+    <div class="painel-titulo">
+        <h2>Exportar mapa</h2>
+    </div>
+
+    <div class="painel-conteudo">
+
+        <h3>Formato de saída</h3>
+
+        <button id="btnExportarPDF" class="btn-exportar">
+            Exportar mapa em PDF
+        </button>
+
+        <hr>
+
+        <h3>Camadas vetoriais</h3>
+
+        <label>
+            <input type="checkbox" id="expTodas" checked>
+            Todas as camadas
+        </label>
+
+        <div id="listaCamadasExportacao">
+
+            <label>
+                <input type="checkbox" class="expCamada" value="limite" checked>
+                Limite Municipal
+            </label>
+
+            <label>
+                <input type="checkbox" class="expCamada" value="bairros" checked>
+                Novos Bairros com Wolbachia
+            </label>
+
+            <label>
+                <input type="checkbox" class="expCamada" value="areas" checked>
+                Bairros com Wolbachia
+            </label>
+
+            <label>
+                <input type="checkbox" class="expCamada" value="edls" checked>
+                EDLs
+            </label>
+
+            <label>
+                <input type="checkbox" class="expCamada" value="ovitrampas" checked>
+                Ovitrampas
+            </label>
+
+        </div>
+
+        <button id="btnExportarGeoJSON" class="btn-exportar">
+            Baixar camadas para QGIS (.zip)
+        </button>
+
+        <p class="texto-exportacao">
+            O ZIP contém um arquivo GeoJSON para cada camada selecionada.
+            No QGIS, extraia o ZIP e adicione os arquivos GeoJSON ao projeto.
+        </p>
+
+        <button id="btnFecharExportacao" class="btn-secundario">
+            Fechar
+        </button>
+
+    </div>
+
+</div>
+
+
             <!-- ===================================== -->
             <!-- INFORMAÇÕES -->
             <!-- ===================================== -->
@@ -300,6 +375,10 @@
     <script src="js/regua.js"></script>
 
     <script src="js/atualizar.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    
+    <script src="js/exportar.js"></script>
 
 </body>
 
