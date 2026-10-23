@@ -384,9 +384,9 @@ input[type=text]:focus{
 ====================================================== */
 
 #painelExportacao {
-    position: absolute;
-    top: 68px;
-    left: 14px;
+    position: absolute !important;
+    top: 68px !important;
+    left: 14px !important;
     width: 320px;
     max-height: calc(100vh - 90px);
     overflow-y: auto;
@@ -394,7 +394,7 @@ input[type=text]:focus{
     border-radius: 16px;
     box-shadow: 0 10px 35px rgba(0, 0, 0, .22);
     transition: .35s;
-    z-index: 1999;
+    z-index: 3000;
 }
 
 .btn-exportar,
@@ -432,6 +432,13 @@ input[type=text]:focus{
     color: #555;
     font-size: 12px;
     line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    #painelExportacao {
+        width: 92%;
+        left: 4% !important;
+    }
 }
 
 /* ======================================================
