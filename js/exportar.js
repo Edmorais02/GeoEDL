@@ -1,24 +1,60 @@
 
 /* ======================================================
    GeoEDL — Exportação
-   PDF para impressão e GeoJSON para QGIS
+   Painel, impressão PDF e exportação ZIP para QGIS
 ====================================================== */
 
-(function () {
+(() => {
     "use strict";
 
-    const btnExportar = document.getElementById("btnImprimir");
-    const painel = document.getElementById("painelExportacao");
-    const btnFechar = document.getElementById("btnFecharExportacao");
-    const btnPDF = document.getElementById("btnExportarPDF");
-    const btnGeoJSON = document.getElementById("btnExportarGeoJSON");
-    const chkTodas = document.getElementById("expTodas");
+    console.log("[GeoEDL Exportação] Inicializando módulo...");
 
-    if (!btnExportar || !painel) {
-        console.error("Painel de exportação não encontrado.");
+    const $ = (id) => document.getElementById(id);
+
+    const painel = $("painelExportacao");
+    const btnPainel = $("btnImprimir");
+    const btnFechar = $("btnFecharExportacao");
+    const btnPDF = $("btnExportarPDF");
+    const btnZIP = $("btnExportarGeoJSON");
+    const chkTodas = $("expTodas");
+
+    const checkboxes = () =>
+        Array.from(document.querySelectorAll(".expCamada"));
+
+    // Verificação dos elementos necessários
+    if (!painel || !btnPainel || !btnFechar || !btnPDF || !btnZIP || !chkTodas) {
+        console.error(
+            "[GeoEDL Exportação] Faltam elementos no HTML.",
+            {
+                painel: !!painel,
+                btnPainel: !!btnPainel,
+                btnFechar: !!btnFechar,
+                btnPDF: !!btnPDF,
+                btnZIP: !!btnZIP,
+                chkTodas: !!chkTodas
+            }
+        );
         return;
     }
 
+    // Posicionamento explícito do painel
+    Object.assign(painel.style, {
+        position: "absolute",
+        top: "68px",
+        left: "14px",
+        width: "320px",
+        maxWidth: "92vw",
+        maxHeight: "calc(100vh - 90px)",
+        overflowY: "auto",
+        zIndex: "3000"
+    });
+
+    if (window.innerWidth <= 768) {
+        painel.style.left = "4%";
+        painel.style.width = "92%";
+    }
+
+    // Camadas disponíveis no mapa
     const definicoes = {
         limite: {
             nome: "Limite_Municipal",
@@ -42,173 +78,211 @@
         }
     };
 
-    function abrirPainelExportacao() {
-        if (typeof fecharTodos === "function") {
-            fecharTodos();
-        }
-
+    function abrirPainel() {
         painel.classList.remove("painel-fechado");
         painel.classList.add("painel-aberto");
+        painel.style.display = "block";
+
+        console.log("[GeoEDL Exportação] Painel aberto.");
     }
 
-    function fecharPainelExportacao() {
+    function fecharPainel() {
         painel.classList.remove("painel-aberto");
         painel.classList.add("painel-fechado");
+
+        console.log("[GeoEDL Exportação] Painel fechado.");
     }
 
-    btnExportar.addEventListener("click", abrirPainelExportacao);
+    function alternarPainel() {
+        if (painel.classList.contains("painel-aberto")) {
+            fecharPainel();
+        } else {
+            abrirPainel();
+        }
+    }
 
-    btnFechar.addEventListener("click", fecharPainelExportacao);
+    // Seleção de camadas
+    function sincronizarSelecao() {
+        const itens = checkboxes();
 
-    chkTodas.addEventListener("change", function () {
-        document.querySelectorAll(".expCamada").forEach(function (item) {
+        chkTodas.checked =
+            itens.length > 0 && itens.every((item) => item.checked);
+
+        chkTodas.indeterminate =
+            itens.some((item) => item.checked) && !chkTodas.checked;
+    }
+
+    chkTodas.addEventListener("change", () => {
+        checkboxes().forEach((item) => {
             item.checked = chkTodas.checked;
         });
+
+        chkTodas.indeterminate = false;
     });
 
-    document.querySelectorAll(".expCamada").forEach(function (item) {
-        item.addEventListener("change", function () {
-            const todos = Array.from(
-                document.querySelectorAll(".expCamada")
+    checkboxes().forEach((item) => {
+        item.addEventListener("change", sincronizarSelecao);
+    });
+
+    function obterSelecionadas() {
+        return checkboxes()
+            .filter((item) => item.checked)
+            .map((item) => ({
+                id: item.value,
+                definicao: definicoes[item.value]
+            }))
+            .filter((item) => item.definicao);
+    }
+
+    function obterCamada(item) {
+        try {
+            return item.definicao.obter();
+        } catch (erro) {
+            console.error(
+                "[GeoEDL Exportação] Erro ao acessar a camada:",
+                item.id,
+                erro
             );
-
-            chkTodas.checked = todos.every(function (c) {
-                return c.checked;
-            });
-        });
-    });
-
-    function obterCamadasSelecionadas() {
-        const selecionadas = Array.from(
-            document.querySelectorAll(".expCamada:checked")
-        );
-
-        return selecionadas.map(function (checkbox) {
-            return {
-                id: checkbox.value,
-                definicao: definicoes[checkbox.value]
-            };
-        }).filter(function (item) {
-            return Boolean(item.definicao);
-        });
-    }
-
-    function converterCamadaParaGeoJSON(camada) {
-        if (!camada) {
             return null;
         }
-
-        const geojson = camada.toGeoJSON();
-
-        if (!geojson || !Array.isArray(geojson.features)) {
-            return null;
-        }
-
-        return geojson;
     }
 
-    function baixarBlob(blob, nomeArquivo) {
+    function baixarArquivo(blob, nome) {
         const url = URL.createObjectURL(blob);
         const link = document.createElement("a");
 
         link.href = url;
-        link.download = nomeArquivo;
+        link.download = nome;
+        link.style.display = "none";
 
         document.body.appendChild(link);
         link.click();
         link.remove();
 
-        setTimeout(function () {
-            URL.revokeObjectURL(url);
-        }, 1500);
+        setTimeout(() => URL.revokeObjectURL(url), 3000);
     }
 
     // ==================================================
-    // EXPORTAÇÃO GEOJSON EM ZIP
+    // EXPORTAR CAMADAS PARA QGIS
     // ==================================================
 
-    btnGeoJSON.addEventListener("click", async function () {
-        const selecionadas = obterCamadasSelecionadas();
+    btnZIP.addEventListener("click", async (evento) => {
+        evento.preventDefault();
+
+        console.log("[GeoEDL Exportação] Clique em baixar ZIP.");
+
+        const selecionadas = obterSelecionadas();
 
         if (selecionadas.length === 0) {
-            alert("Selecione pelo menos uma camada.");
+            alert("Selecione pelo menos uma camada para exportar.");
             return;
         }
 
         if (typeof JSZip === "undefined") {
-            alert("A biblioteca de compactação não foi carregada.");
+            alert(
+                "A biblioteca JSZip não foi carregada. " +
+                "Verifique sua conexão e recarregue a página."
+            );
+            console.error("[GeoEDL Exportação] JSZip indisponível.");
             return;
         }
 
-        btnGeoJSON.disabled = true;
-        btnGeoJSON.textContent = "Preparando arquivos...";
+        const estadoOriginal = btnZIP.textContent;
+        btnZIP.disabled = true;
+        btnZIP.textContent = "Preparando arquivos...";
 
         try {
             const zip = new JSZip();
-            const manifesto = [];
-            let totalFeatures = 0;
-            let camadasExportadas = 0;
+            const relatorio = [];
+            let totalFeicoes = 0;
+            let totalCamadas = 0;
 
             for (const item of selecionadas) {
-                const camada = item.definicao.obter();
+                console.log(
+                    "[GeoEDL Exportação] Processando camada:",
+                    item.id
+                );
+
+                const camada = obterCamada(item);
 
                 if (!camada) {
-                    manifesto.push(
-                        item.definicao.nome +
-                        ": camada ainda não carregada."
+                    relatorio.push(
+                        item.definicao.nome + ": camada indisponível."
+                    );
+                    console.warn(
+                        "[GeoEDL Exportação] Camada indisponível:",
+                        item.id
                     );
                     continue;
                 }
 
-                const geojson = converterCamadaParaGeoJSON(camada);
-
-                if (!geojson) {
-                    manifesto.push(
-                        item.definicao.nome +
-                        ": não foi possível converter."
+                if (typeof camada.toGeoJSON !== "function") {
+                    relatorio.push(
+                        item.definicao.nome + ": formato não suportado."
+                    );
+                    console.warn(
+                        "[GeoEDL Exportação] toGeoJSON indisponível:",
+                        item.id
                     );
                     continue;
                 }
 
-                const nome = item.definicao.nome + ".geojson";
+                const geojson = camada.toGeoJSON();
+
+                if (!geojson || !Array.isArray(geojson.features)) {
+                    relatorio.push(
+                        item.definicao.nome + ": GeoJSON inválido."
+                    );
+                    console.warn(
+                        "[GeoEDL Exportação] GeoJSON inválido:",
+                        item.id
+                    );
+                    continue;
+                }
+
+                const nomeArquivo = item.definicao.nome + ".geojson";
 
                 zip.file(
-                    nome,
+                    nomeArquivo,
                     JSON.stringify(geojson, null, 2)
                 );
 
-                totalFeatures += geojson.features.length;
-                camadasExportadas++;
+                totalFeicoes += geojson.features.length;
+                totalCamadas++;
 
-                manifesto.push(
+                relatorio.push(
                     item.definicao.nome +
                     ": " + geojson.features.length + " feições."
                 );
             }
 
-            if (camadasExportadas === 0) {
+            if (totalCamadas === 0) {
                 throw new Error(
-                    "Nenhuma das camadas selecionadas está disponível."
+                    "Nenhuma camada selecionada pôde ser exportada. " +
+                    "Consulte o Console para ver os detalhes."
                 );
             }
 
             zip.file(
                 "LEIA-ME.txt",
                 [
-                    "GeoEDL Uberlândia",
-                    "Exportação de dados vetoriais para QGIS",
+                    "GeoEDL — Uberlândia, MG",
+                    "Arquivos vetoriais para utilização no QGIS",
                     "",
-                    "Sistema de coordenadas: EPSG:4326",
                     "Formato: GeoJSON",
+                    "Sistema de coordenadas: EPSG:4326 (WGS 84)",
                     "",
-                    "Camadas incluídas:",
-                    ...manifesto,
+                    "Camadas exportadas:",
+                    ...relatorio,
                     "",
-                    "Total de feições exportadas: " + totalFeatures,
-                    "",
-                    "Nota: os arquivos contêm as feições e atributos",
-                    "disponíveis nas camadas carregadas no mapa."
-                ].join("\n")
+                    "Total de camadas: " + totalCamadas,
+                    "Total de feições: " + totalFeicoes
+                ].join("\r\n")
+            );
+
+            console.log(
+                "[GeoEDL Exportação] Gerando ZIP...",
+                { totalCamadas, totalFeicoes }
             );
 
             const blob = await zip.generateAsync({
@@ -217,91 +291,120 @@
                 compressionOptions: { level: 6 }
             });
 
-            baixarBlob(blob, "GeoEDL_Camadas_QGIS.zip");
+            if (!blob || blob.size === 0) {
+                throw new Error("O arquivo ZIP foi gerado vazio.");
+            }
+
+            baixarArquivo(blob, "GeoEDL_Camadas_QGIS.zip");
+
+            console.log(
+                "[GeoEDL Exportação] ZIP gerado.",
+                { bytes: blob.size, totalCamadas, totalFeicoes }
+            );
 
             alert(
-                "Exportação concluída.\n\n" +
-                "Camadas: " + camadasExportadas + "\n" +
-                "Feições: " + totalFeatures
+                "Arquivo ZIP preparado!\n\n" +
+                "Camadas exportadas: " + totalCamadas + "\n" +
+                "Feições exportadas: " + totalFeicoes + "\n\n" +
+                "Se o download não começar, verifique se o navegador " +
+                "bloqueou o download."
             );
 
         } catch (erro) {
-            console.error("Erro ao exportar GeoJSON:", erro);
-            alert("Falha na exportação: " + erro.message);
+            console.error(
+                "[GeoEDL Exportação] Falha no download ZIP:",
+                erro
+            );
+
+            alert(
+                "Não foi possível exportar as camadas.\n\n" +
+                erro.message +
+                "\n\nAbra o Console do navegador (F12) para detalhes."
+            );
 
         } finally {
-            btnGeoJSON.disabled = false;
-            btnGeoJSON.textContent = "Baixar camadas para QGIS (.zip)";
+            btnZIP.disabled = false;
+            btnZIP.textContent = estadoOriginal;
         }
     });
 
     // ==================================================
-    // IMPRESSÃO DO MAPA / SALVAR COMO PDF
+    // IMPRIMIR MAPA / SALVAR COMO PDF
     // ==================================================
 
-    btnPDF.addEventListener("click", function () {
-        const selecionadas = obterCamadasSelecionadas();
+    btnPDF.addEventListener("click", (evento) => {
+        evento.preventDefault();
+
+        if (typeof map === "undefined") {
+            alert("O mapa ainda não está disponível.");
+            return;
+        }
+
+        const selecionadas = obterSelecionadas();
 
         if (selecionadas.length === 0) {
             alert("Selecione pelo menos uma camada para o PDF.");
             return;
         }
 
-        const camadasIndisponiveis = selecionadas.filter(function (item) {
-            return !item.definicao.obter();
-        });
+        const camadas = Object.keys(definicoes).map((id) => ({
+            id,
+            camada: obterCamada({ id, definicao: definicoes[id] })
+        }));
 
-        if (camadasIndisponiveis.length > 0) {
+        const indisponiveis = selecionadas.filter(
+            (item) => !obterCamada(item)
+        );
+
+        if (indisponiveis.length > 0) {
             alert(
-                "Algumas camadas ainda não foram carregadas. " +
-                "Aguarde o carregamento e tente novamente."
+                "Uma ou mais camadas selecionadas ainda não estão disponíveis."
             );
             return;
         }
 
-        const visibilidadeOriginal = {};
+        const visibilidadeOriginal = new Map();
 
-        Object.keys(definicoes).forEach(function (id) {
-            const camada = definicoes[id].obter();
-
+        camadas.forEach(({ camada }) => {
             if (camada) {
-                visibilidadeOriginal[id] = map.hasLayer(camada);
+                visibilidadeOriginal.set(camada, map.hasLayer(camada));
             }
         });
 
-        const selecionadasIds = selecionadas.map(function (item) {
-            return item.id;
-        });
+        const idsSelecionados = new Set(
+            selecionadas.map((item) => item.id)
+        );
 
-        Object.keys(definicoes).forEach(function (id) {
-            const camada = definicoes[id].obter();
-
+        camadas.forEach(({ id, camada }) => {
             if (!camada) return;
 
-            const deveMostrar = selecionadasIds.includes(id);
-
-            if (deveMostrar) {
+            if (idsSelecionados.has(id)) {
                 map.addLayer(camada);
             } else {
                 map.removeLayer(camada);
             }
         });
 
-        const titulo = document.createElement("div");
-        titulo.id = "cabecalhoImpressao";
+        let titulo = $("cabecalhoImpressao");
+
+        if (!titulo) {
+            titulo = document.createElement("div");
+            titulo.id = "cabecalhoImpressao";
+            document.body.appendChild(titulo);
+        }
+
         titulo.innerHTML =
             "<h2>GeoEDL Uberlândia</h2>" +
-            "<p>Mapa de áreas e pontos selecionados</p>";
+            "<p>Mapa das camadas selecionadas</p>";
 
-        document.body.appendChild(titulo);
+        let restaurado = false;
 
         function restaurarMapa() {
-            Object.keys(definicoes).forEach(function (id) {
-                const camada = definicoes[id].obter();
+            if (restaurado) return;
+            restaurado = true;
 
-                if (!camada) return;
-
-                if (visibilidadeOriginal[id]) {
+            visibilidadeOriginal.forEach((estavaVisivel, camada) => {
+                if (estavaVisivel) {
                     map.addLayer(camada);
                 } else {
                     map.removeLayer(camada);
@@ -310,7 +413,6 @@
 
             titulo.remove();
             window.removeEventListener("afterprint", restaurarMapa);
-
             map.invalidateSize();
         }
 
@@ -318,9 +420,28 @@
 
         map.invalidateSize();
 
-        setTimeout(function () {
+        setTimeout(() => {
             window.print();
-        }, 400);
+        }, 500);
     });
 
+    // Eventos do painel
+    btnPainel.addEventListener("click", (evento) => {
+        evento.preventDefault();
+        alternarPainel();
+    });
+
+    btnFechar.addEventListener("click", (evento) => {
+        evento.preventDefault();
+        fecharPainel();
+    });
+
+    // Inicialização: o painel começa fechado
+    fecharPainel();
+    sincronizarSelecao();
+
+    console.log(
+        "[GeoEDL Exportação] Módulo carregado. " +
+        "Eventos registrados para painel, PDF e ZIP."
+    );
 })();
