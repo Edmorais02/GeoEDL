@@ -384,20 +384,159 @@ input[type=text]:focus{
    GeoEDL — Painel de exportação
 ====================================================== */
 
+
+/* ======================================================
+   GeoEDL — Painel de exportação
+   Padrão visual dos demais painéis
+====================================================== */
+
 #painelExportacao {
     position: absolute !important;
     top: 68px !important;
     left: 14px !important;
-    width: 320px;
+    width: 300px;
     max-width: 92vw;
     max-height: calc(100vh - 90px);
     overflow-y: auto;
+    overflow-x: hidden;
+
     background: #fff;
+    border: 1px solid rgba(11, 83, 148, 0.12);
     border-radius: 16px;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, .22);
-    transition: .35s;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.22);
+
+    transition: transform 0.35s, opacity 0.35s;
     z-index: 3000;
 }
+
+/* Cabeçalho igual ao painel Pesquisar */
+#painelExportacao .painel-titulo {
+    background: #0b5394;
+    color: #fff;
+    padding: 16px 18px;
+}
+
+#painelExportacao .painel-titulo h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Conteúdo */
+#painelExportacao .painel-conteudo {
+    padding: 18px;
+}
+
+#painelExportacao .painel-conteudo h3 {
+    margin: 0 0 14px;
+    color: #0b5394;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Rótulos e caixas de seleção */
+#painelExportacao .painel-conteudo label {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 12px 0;
+    color: #263238;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+}
+
+#painelExportacao input[type="checkbox"] {
+    flex: 0 0 auto;
+    width: 15px;
+    height: 15px;
+    margin: 2px 0 0;
+    accent-color: #0b5394;
+    cursor: pointer;
+}
+
+/* Separadores */
+#painelExportacao .painel-conteudo hr {
+    margin: 18px 0;
+    border: 0;
+    border-top: 1px solid #d8d8d8;
+}
+
+/* Botões padronizados */
+#painelExportacao .btn-exportar,
+#painelExportacao .btn-secundario {
+    display: block;
+    width: 100%;
+    min-height: 40px;
+    padding: 10px 12px;
+    margin-top: 12px;
+
+    border: 0;
+    border-radius: 8px;
+
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+#painelExportacao .btn-exportar {
+    background: #0b5394;
+    color: #fff;
+}
+
+#painelExportacao .btn-exportar:hover {
+    background: #083d6c;
+}
+
+#painelExportacao .btn-exportar:active {
+    transform: scale(0.99);
+}
+
+#painelExportacao .btn-exportar:disabled {
+    opacity: 0.65;
+    cursor: wait;
+}
+
+#painelExportacao .btn-secundario {
+    background: #edf0f3;
+    color: #263238;
+}
+
+#painelExportacao .btn-secundario:hover {
+    background: #dfe5eb;
+}
+
+/* Texto de orientação */
+#painelExportacao .texto-exportacao {
+    margin: 12px 0 4px;
+    color: #555;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* Barra de rolagem do painel */
+#painelExportacao::-webkit-scrollbar {
+    width: 7px;
+}
+
+#painelExportacao::-webkit-scrollbar-thumb {
+    background: #c2c2c2;
+    border-radius: 10px;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+    #painelExportacao {
+        left: 4% !important;
+        width: 92%;
+        max-width: 92%;
+    }
+}
+
 
 @media (max-width: 768px) {
     #painelExportacao {
